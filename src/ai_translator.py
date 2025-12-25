@@ -8,17 +8,17 @@ import re
 load_dotenv()
 
 class SmartChineseTranslator:
-    """Умный переводчик с обучением"""
+    """Smart Translator with Learning Capabilities"""
     
     def __init__(self):
         self.client = self._get_client()
         self.translation_cache = {}
         
     def _get_client(self):
-        """Создаем клиент для DeepSeek"""
+        """Create a client for DeepSeek"""
         api_key = os.getenv("DEEPSEEK_API_KEY")
         if not api_key:
-            raise ValueError("DeepSeek API ключ не найден в .env файле")
+            raise ValueError("DeepSeek API key not found in .env file")
         
         return OpenAI(
             api_key=api_key,
@@ -27,70 +27,70 @@ class SmartChineseTranslator:
     
     async def smart_translate(self, text: str, user_level: int = 1, learning_style: str = "visual") -> Dict:
         """
-        Умный перевод с объяснениями
+        Smart translation with explanations
         
         Args:
-            text: Текст для перевода
-            user_level: Уровень HSK пользователя
+            text: Text to translate
+            user_level: User's HSK level
             learning_style: visual, auditory, kinesthetic
         
         Returns:
-            Словарь с переводом и объяснениями
+            Dictionary with translation and explanations
         """
-        # Проверяем кэш
+        # Check cache
         cache_key = f"{text}_{user_level}_{learning_style}"
         if cache_key in self.translation_cache:
             return self.translation_cache[cache_key]
         
         try:
-            # Формируем промпт для AI
-            system_prompt = f"""Ты — эксперт по китайскому языку и педагогике. Твоя задача не просто перевести текст, а ОБУЧИТЬ.
+            # Form AI prompt
+            system_prompt = f"""You are an expert in Chinese language and pedagogy. Your task is not just to translate text, but to TEACH.
 
-Пользователь: Уровень HSK {user_level}, стиль обучения: {learning_style}
-Текст для перевода: "{text}"
+User: HSK level {user_level}, learning style: {learning_style}
+Text to translate: "{text}"
 
-Верни ответ в формате JSON с такими полями:
+Return the response in JSON format with these fields:
 {{
-    "original": оригинальный текст,
-    "translation": литературный перевод,
-    "word_by_word": дословный перевод по словам,
-    "pinyin": пиньинь текста,
-    "grammar_explanation": объяснение грамматики,
+    "original": original text,
+    "translation": literary translation,
+    "word_by_word": word-for-word translation,
+    "pinyin": text pinyin,
+    "grammar_explanation": grammar explanation,
     "key_words": [
         {{
-            "character": иероглиф,
-            "pinyin": пиньинь,
-            "translation": перевод,
-            "explanation": объяснение (этимология, мнемоника),
-            "memory_tip": совет по запоминанию,
-            "hsk_level": уровень HSK
+            "character": character,
+            "pinyin": pinyin,
+            "translation": translation,
+            "explanation": explanation (etymology, mnemonics),
+            "memory_tip": memorization tip,
+            "hsk_level": HSK level
         }}
     ],
     "example_sentences": [
         {{
-            "chinese": пример на китайском,
-            "pinyin": пиньинь примера,
-            "translation": перевод примера,
-            "explanation": почему это хороший пример
+            "chinese": example in Chinese,
+            "pinyin": example pinyin,
+            "translation": example translation,
+            "explanation": why this is a good example
         }}
     ],
-    "study_tips": советы по изучению,
-    "pronunciation_tips": советы по произношению,
-    "common_mistakes": частые ошибки,
-    "cultural_notes": культурный контекст,
-    "difficulty_score": 1-10 (сложность для ученика),
-    "next_steps": что учить дальше
+    "study_tips": study tips,
+    "pronunciation_tips": pronunciation tips,
+    "common_mistakes": common mistakes,
+    "cultural_notes": cultural context,
+    "difficulty_score": 1-10 (difficulty for student),
+    "next_steps": what to learn next
 }}
 
-Особенности для уровня HSK {user_level}:
-- Объясняй на {self._get_explanation_level(user_level)} уровне
-- Используй примеры из HSK {user_level}
-- Подчеркивай грамматические конструкции уровня {user_level}
+Features for HSK level {user_level}:
+- Explain at {self._get_explanation_level(user_level)} level
+- Use examples from HSK {user_level}
+- Emphasize grammar structures of level {user_level}
 
-Стиль обучения {learning_style}:
+Learning style {learning_style}:
 {self._get_learning_style_tips(learning_style)}
 
-Будь детальным, но понятным!"""
+Be detailed but clear!"""
             
             response = self.client.chat.completions.create(
                 model="deepseek-chat",
@@ -103,15 +103,15 @@ class SmartChineseTranslator:
                 response_format={"type": "json_object"}
             )
             
-            # Парсим JSON ответ
+            # Parse JSON response
             result = json.loads(response.choices[0].message.content)
             
-            # Добавляем дополнительные вычисления
+            # Add additional calculations
             result["characters_count"] = len([c for c in text if '\u4e00' <= c <= '\u9fff'])
             result["words_count"] = len(text.split())
             result["hsk_level_appropriate"] = user_level >= self._estimate_hsk_level(text)
             
-            # Кэшируем результат
+            # Cache the result
             self.translation_cache[cache_key] = result
             
             return result
@@ -120,44 +120,44 @@ class SmartChineseTranslator:
             return {
                 "error": str(e),
                 "original": text,
-                "translation": "Ошибка перевода",
+                "translation": "Translation error",
                 "word_by_word": "",
                 "pinyin": "",
                 "grammar_explanation": "",
                 "key_words": [],
                 "example_sentences": [],
-                "study_tips": "Попробуйте позже",
+                "study_tips": "Please try again later",
                 "pronunciation_tips": "",
                 "common_mistakes": "",
                 "cultural_notes": "",
                 "difficulty_score": 5,
-                "next_steps": "Повторите базовые слова"
+                "next_steps": "Review basic vocabulary"
             }
     
     def _get_explanation_level(self, level: int) -> str:
-        """Определяем уровень объяснений"""
+        """Determine explanation level"""
         levels = {
-            1: "очень простом, используй только базовые термины",
-            2: "простом, минимальная грамматическая терминология", 
-            3: "доступном, с простыми объяснениями грамматики",
-            4: "подробном, с грамматическими терминами",
-            5: "углубленном, с лингвистическими деталями",
-            6: "экспертном, со сложными лингвистическими концепциями"
+            1: "very simple, use only basic terms",
+            2: "simple, minimal grammar terminology", 
+            3: "accessible, with simple grammar explanations",
+            4: "detailed, with grammar terminology",
+            5: "in-depth, with linguistic details",
+            6: "expert, with complex linguistic concepts"
         }
-        return levels.get(level, "доступном")
+        return levels.get(level, "accessible")
     
     def _get_learning_style_tips(self, style: str) -> str:
-        """Советы по стилю обучения"""
+        """Learning style tips"""
         tips = {
-            "visual": "• Используй визуальные аналогии\n• Рисуй ментальные карты\n• Цветовое кодирование иероглифов",
-            "auditory": "• Фокусируйся на произношении\n• Используй ритм и рифмы\n• Придумывай песни",
-            "kinesthetic": "• Связывай слова с движениями\n• Предлагай писать иероглифы\n• Используй жесты"
+            "visual": "• Use visual analogies\n• Draw mind maps\n• Color code characters",
+            "auditory": "• Focus on pronunciation\n• Use rhythm and rhymes\n• Create songs",
+            "kinesthetic": "• Connect words with movements\n• Suggest writing characters\n• Use gestures"
         }
         return tips.get(style, "")
     
     def _estimate_hsk_level(self, text: str) -> int:
-        """Оценка уровня HSK текста"""
-        # Простая эвристика: считаем количество сложных иероглифов
+        """Estimate text's HSK level"""
+        # Simple heuristic: count complex characters
         simple_chars = set("的一是不人在有我他个大中要以会上们为子")  # HSK 1-2
         complex_chars = set(text) - simple_chars
         
@@ -171,20 +171,20 @@ class SmartChineseTranslator:
             return 1
     
     async def analyze_pronunciation(self, text: str) -> Dict:
-        """Анализ произношения текста"""
+        """Analyze text pronunciation"""
         try:
-            system_prompt = """Ты — эксперт по китайскому произношению. Проанализируй текст и дай советы по произношению.
+            system_prompt = """You are an expert in Chinese pronunciation. Analyze the text and provide pronunciation tips.
             
-            Верни JSON:
+            Return JSON:
             {
-                "text": оригинальный текст,
-                "pinyin": полная пиньинь,
-                "tones": анализ тонов,
-                "difficult_sounds": сложные звуки,
-                "pronunciation_tips": советы,
-                "common_errors": частые ошибки русскоговорящих,
-                "practice_exercises": упражнения,
-                "audio_advice": как работать с аудио
+                "text": original text,
+                "pinyin": full pinyin,
+                "tones": tone analysis,
+                "difficult_sounds": difficult sounds,
+                "pronunciation_tips": tips,
+                "common_errors": common errors for Russian speakers,
+                "practice_exercises": exercises,
+                "audio_advice": how to work with audio
             }"""
             
             response = self.client.chat.completions.create(
@@ -203,20 +203,20 @@ class SmartChineseTranslator:
             return {"error": str(e)}
     
     async def generate_exercises(self, text: str, level: int = 1) -> Dict:
-        """Генерация упражнений на основе текста"""
+        """Generate exercises based on text"""
         try:
-            system_prompt = f"""Создай упражнения для текста уровня HSK {level}.
+            system_prompt = f"""Create exercises for text at HSK level {level}.
             
-            Текст: "{text}"
+            Text: "{text}"
             
-            Верни JSON:
+            Return JSON:
             {{
-                "fill_in_blanks": упражнение на заполнение пропусков,
-                "matching": упражнение на сопоставление,
-                "word_order": упражнение на порядок слов,
-                "translation_exercise": упражнение на перевод,
-                "writing_practice": упражнение на письмо,
-                "conversation_topics": темы для разговора
+                "fill_in_blanks": fill-in-the-blank exercise,
+                "matching": matching exercise,
+                "word_order": word order exercise,
+                "translation_exercise": translation exercise,
+                "writing_practice": writing practice,
+                "conversation_topics": conversation topics
             }}"""
             
             response = self.client.chat.completions.create(
@@ -234,5 +234,5 @@ class SmartChineseTranslator:
         except Exception as e:
             return {"error": str(e)}
 
-# Глобальный экземпляр переводчика
+# Global translator instance
 translator = SmartChineseTranslator()
