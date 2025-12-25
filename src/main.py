@@ -4254,8 +4254,8 @@ if __name__ == "__main__":
     print(f"👥 Зарегистрировано пользователей: {len(users_db)}")
     print(f"🧪 Создано тестов: {len(tests_db)}")
     print("=" * 60)
-    print("🚀 Запускаю сервер на http://localhost:8000")
-    print("📚 Документация: http://localhost:8000/docs")
+    print("🚀 Запускаю сервер на https://saiyan-3s8s.onrender.com/")
+    print("📚 Документация: https://saiyan-3s8s.onrender.com/docs")
     print("🌐 Фронтенд: открой frontend.html в браузере")
     print("=" * 60)
     
