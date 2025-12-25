@@ -46,6 +46,18 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
+import os
+
+# Отдаём статические файлы (css, js, images и т.д.)
+app.mount("/static", StaticFiles(directory="."), name="static")
+
+# Главная страница — frontend.html
+@app.get("/")
+async def root():
+    return FileResponse("frontend.html")
+
 # В начале main.py
 class ChatThread(BaseModel):
     thread_id: str
