@@ -1,0 +1,2185 @@
+{
+  "test_id": "hsk4_051033",
+  "level": 4,
+  "test_format": "HSK 4 формат",
+  "total_questions": 100,
+  "time_limits": {
+    "listening": 30,
+    "reading": 40,
+    "writing": 25,
+    "total": 95
+  },
+  "passing_score": 180,
+  "sections": {
+    "listening": {
+      "section": "listening",
+      "parts": {
+        "part1": {
+          "part": "part1",
+          "format": "short_dialog_choice",
+          "description": "Короткий диалог → один вопрос → выбор ответа",
+          "questions": [
+            {
+              "id": "Q1",
+              "type": "multiple_choice",
+              "chinese": "阿姨",
+              "pinyin": "",
+              "translation": "āyí aunt",
+              "question": "Что означает '阿姨'?",
+              "options": [
+                "āyí aunt",
+                "ànshí on time",
+                "ǎi short",
+                "ān quiet"
+              ],
+              "correct_answer": 0,
+              "explanation": "'阿姨' () означает 'āyí aunt'",
+              "audio_text": "阿姨",
+              "image_description": "Изображение, связанное с: āyí aunt"
+            },
+            {
+              "id": "Q2",
+              "type": "multiple_choice",
+              "chinese": "啊",
+              "pinyin": "",
+              "translation": "a ah",
+              "question": "Что означает '啊'?",
+              "options": [
+                "ǎi short",
+                "a ah",
+                "ānzhì put",
+                "ān quiet"
+              ],
+              "correct_answer": 1,
+              "explanation": "'啊' () означает 'a ah'",
+              "audio_text": "啊",
+              "image_description": "Изображение, связанное с: a ah"
+            },
+            {
+              "id": "Q3",
+              "type": "multiple_choice",
+              "chinese": "矮",
+              "pinyin": "",
+              "translation": "ǎi short",
+              "question": "Что означает '矮'?",
+              "options": [
+                "ānzhì put",
+                "àn dark",
+                "àihù Care",
+                "ǎi short"
+              ],
+              "correct_answer": 3,
+              "explanation": "'矮' () означает 'ǎi short'",
+              "audio_text": "矮",
+              "image_description": "Изображение, связанное с: ǎi short"
+            },
+            {
+              "id": "Q4",
+              "type": "multiple_choice",
+              "chinese": "矮小",
+              "pinyin": "",
+              "translation": "ǎi xiǎo short and small",
+              "question": "Что означает '矮小'?",
+              "options": [
+                "ǎi xiǎo short and small",
+                "ànshí on time",
+                "àn dark",
+                "āyí aunt"
+              ],
+              "correct_answer": 0,
+              "explanation": "'矮小' () означает 'ǎi xiǎo short and small'",
+              "audio_text": "矮小",
+              "image_description": "Изображение, связанное с: ǎi xiǎo short and small"
+            },
+            {
+              "id": "Q5",
+              "type": "multiple_choice",
+              "chinese": "爱国",
+              "pinyin": "",
+              "translation": "ài guó love one's country",
+              "question": "Что означает '爱国'?",
+              "options": [
+                "ān quiet",
+                "ānzhì put",
+                "àihù Care",
+                "ài guó love one's country"
+              ],
+              "correct_answer": 3,
+              "explanation": "'爱国' () означает 'ài guó love one's country'",
+              "audio_text": "爱国",
+              "image_description": "Изображение, связанное с: ài guó love one's country"
+            },
+            {
+              "id": "Q6",
+              "type": "multiple_choice",
+              "chinese": "爱护",
+              "pinyin": "",
+              "translation": "àihù Care",
+              "question": "Что означает '爱护'?",
+              "options": [
+                "àn dark",
+                "ānzhì put",
+                "àihù Care",
+                "ān quiet"
+              ],
+              "correct_answer": 2,
+              "explanation": "'爱护' () означает 'àihù Care'",
+              "audio_text": "爱护",
+              "image_description": "Изображение, связанное с: àihù Care"
+            },
+            {
+              "id": "Q7",
+              "type": "multiple_choice",
+              "chinese": "安",
+              "pinyin": "",
+              "translation": "ān quiet",
+              "question": "Что означает '安'?",
+              "options": [
+                "ān quiet",
+                "a ah",
+                "ǎi xiǎo short and small",
+                "àihù Care"
+              ],
+              "correct_answer": 0,
+              "explanation": "'安' () означает 'ān quiet'",
+              "audio_text": "安",
+              "image_description": "Изображение, связанное с: ān quiet"
+            },
+            {
+              "id": "Q8",
+              "type": "multiple_choice",
+              "chinese": "安置",
+              "pinyin": "",
+              "translation": "ānzhì put",
+              "question": "Что означает '安置'?",
+              "options": [
+                "àn dark",
+                "ài guó love one's country",
+                "ānzhì put",
+                "ān quiet"
+              ],
+              "correct_answer": 2,
+              "explanation": "'安置' () означает 'ānzhì put'",
+              "audio_text": "安置",
+              "image_description": "Изображение, связанное с: ānzhì put"
+            },
+            {
+              "id": "Q9",
+              "type": "multiple_choice",
+              "chinese": "按时",
+              "pinyin": "",
+              "translation": "ànshí on time",
+              "question": "Что означает '按时'?",
+              "options": [
+                "àihù Care",
+                "àn dark",
+                "ànshí on time",
+                "a ah"
+              ],
+              "correct_answer": 2,
+              "explanation": "'按时' () означает 'ànshí on time'",
+              "audio_text": "按时",
+              "image_description": "Изображение, связанное с: ànshí on time"
+            },
+            {
+              "id": "Q10",
+              "type": "multiple_choice",
+              "chinese": "暗",
+              "pinyin": "",
+              "translation": "àn dark",
+              "question": "Что означает '暗'?",
+              "options": [
+                "ān quiet",
+                "àn dark",
+                "ǎi short",
+                "a ah"
+              ],
+              "correct_answer": 1,
+              "explanation": "'暗' () означает 'àn dark'",
+              "audio_text": "暗",
+              "image_description": "Изображение, связанное с: àn dark"
+            }
+          ],
+          "time_limit": 7
+        },
+        "part2": {
+          "part": "part2",
+          "format": "longer_dialog_choice",
+          "description": "Средний диалог → один вопрос",
+          "questions": [
+            {
+              "id": "Q1",
+              "type": "multiple_choice",
+              "chinese": "阿姨",
+              "pinyin": "",
+              "translation": "āyí aunt",
+              "question": "Что означает '阿姨'?",
+              "options": [
+                "àihù Care",
+                "āyí aunt",
+                "ānzhì put",
+                "bǎi huò department store"
+              ],
+              "correct_answer": 1,
+              "explanation": "'阿姨' () означает 'āyí aunt'",
+              "audio_text": "阿姨",
+              "image_description": "Изображение, связанное с: āyí aunt"
+            },
+            {
+              "id": "Q2",
+              "type": "multiple_choice",
+              "chinese": "啊",
+              "pinyin": "",
+              "translation": "a ah",
+              "question": "Что означает '啊'?",
+              "options": [
+                "a ah",
+                "āyí aunt",
+                "ànshí on time",
+                "bǎi pendulum"
+              ],
+              "correct_answer": 0,
+              "explanation": "'啊' () означает 'a ah'",
+              "audio_text": "啊",
+              "image_description": "Изображение, связанное с: a ah"
+            },
+            {
+              "id": "Q3",
+              "type": "multiple_choice",
+              "chinese": "矮",
+              "pinyin": "",
+              "translation": "ǎi short",
+              "question": "Что означает '矮'?",
+              "options": [
+                "bǎi huò department store",
+                "ǎi short",
+                "ǎi xiǎo short and small",
+                "ànshì suggest secretly"
+              ],
+              "correct_answer": 1,
+              "explanation": "'矮' () означает 'ǎi short'",
+              "audio_text": "矮",
+              "image_description": "Изображение, связанное с: ǎi short"
+            },
+            {
+              "id": "Q4",
+              "type": "multiple_choice",
+              "chinese": "矮小",
+              "pinyin": "",
+              "translation": "ǎi xiǎo short and small",
+              "question": "Что означает '矮小'?",
+              "options": [
+                "ǎi short",
+                "bǎi huò department store",
+                "ǎi xiǎo short and small",
+                "a ah"
+              ],
+              "correct_answer": 2,
+              "explanation": "'矮小' () означает 'ǎi xiǎo short and small'",
+              "audio_text": "矮小",
+              "image_description": "Изображение, связанное с: ǎi xiǎo short and small"
+            },
+            {
+              "id": "Q5",
+              "type": "multiple_choice",
+              "chinese": "爱国",
+              "pinyin": "",
+              "translation": "ài guó love one's country",
+              "question": "Что означает '爱国'?",
+              "options": [
+                "ānzhì put",
+                "ǎi xiǎo short and small",
+                "àihù Care",
+                "ài guó love one's country"
+              ],
+              "correct_answer": 3,
+              "explanation": "'爱国' () означает 'ài guó love one's country'",
+              "audio_text": "爱国",
+              "image_description": "Изображение, связанное с: ài guó love one's country"
+            },
+            {
+              "id": "Q6",
+              "type": "multiple_choice",
+              "chinese": "爱护",
+              "pinyin": "",
+              "translation": "àihù Care",
+              "question": "Что означает '爱护'?",
+              "options": [
+                "bǎi dòng swing",
+                "àn dark",
+                "àihù Care",
+                "bǎi huò department store"
+              ],
+              "correct_answer": 2,
+              "explanation": "'爱护' () означает 'àihù Care'",
+              "audio_text": "爱护",
+              "image_description": "Изображение, связанное с: àihù Care"
+            },
+            {
+              "id": "Q7",
+              "type": "multiple_choice",
+              "chinese": "安",
+              "pinyin": "",
+              "translation": "ān quiet",
+              "question": "Что означает '安'?",
+              "options": [
+                "ànshí on time",
+                "ǎi short",
+                "ànshì suggest secretly",
+                "ān quiet"
+              ],
+              "correct_answer": 3,
+              "explanation": "'安' () означает 'ān quiet'",
+              "audio_text": "安",
+              "image_description": "Изображение, связанное с: ān quiet"
+            },
+            {
+              "id": "Q8",
+              "type": "multiple_choice",
+              "chinese": "安置",
+              "pinyin": "",
+              "translation": "ānzhì put",
+              "question": "Что означает '安置'?",
+              "options": [
+                "ānzhì put",
+                "ǎi short",
+                "ài guó love one's country",
+                "bǎi pendulum"
+              ],
+              "correct_answer": 0,
+              "explanation": "'安置' () означает 'ānzhì put'",
+              "audio_text": "安置",
+              "image_description": "Изображение, связанное с: ānzhì put"
+            },
+            {
+              "id": "Q9",
+              "type": "multiple_choice",
+              "chinese": "按时",
+              "pinyin": "",
+              "translation": "ànshí on time",
+              "question": "Что означает '按时'?",
+              "options": [
+                "ànshí on time",
+                "ǎi xiǎo short and small",
+                "bǎi pendulum",
+                "bǎi huò department store"
+              ],
+              "correct_answer": 0,
+              "explanation": "'按时' () означает 'ànshí on time'",
+              "audio_text": "按时",
+              "image_description": "Изображение, связанное с: ànshí on time"
+            },
+            {
+              "id": "Q10",
+              "type": "multiple_choice",
+              "chinese": "暗",
+              "pinyin": "",
+              "translation": "àn dark",
+              "question": "Что означает '暗'?",
+              "options": [
+                "bǎi huò department store",
+                "àn dark",
+                "a ah",
+                "ānzhì put"
+              ],
+              "correct_answer": 1,
+              "explanation": "'暗' () означает 'àn dark'",
+              "audio_text": "暗",
+              "image_description": "Изображение, связанное с: àn dark"
+            },
+            {
+              "id": "Q11",
+              "type": "multiple_choice",
+              "chinese": "暗示",
+              "pinyin": "",
+              "translation": "ànshì suggest secretly",
+              "question": "Что означает '暗示'?",
+              "options": [
+                "ànshì suggest secretly",
+                "ǎi xiǎo short and small",
+                "ànshí on time",
+                "ǎi short"
+              ],
+              "correct_answer": 0,
+              "explanation": "'暗示' () означает 'ànshì suggest secretly'",
+              "audio_text": "暗示",
+              "image_description": "Изображение, связанное с: ànshì suggest secretly"
+            },
+            {
+              "id": "Q12",
+              "type": "multiple_choice",
+              "chinese": "巴士",
+              "pinyin": "",
+              "translation": "bā shì bus",
+              "question": "Что означает '巴士'?",
+              "options": [
+                "àn dark",
+                "āyí aunt",
+                "àihù Care",
+                "bā shì bus"
+              ],
+              "correct_answer": 3,
+              "explanation": "'巴士' () означает 'bā shì bus'",
+              "audio_text": "巴士",
+              "image_description": "Изображение, связанное с: bā shì bus"
+            },
+            {
+              "id": "Q13",
+              "type": "multiple_choice",
+              "chinese": "百货",
+              "pinyin": "",
+              "translation": "bǎi huò department store",
+              "question": "Что означает '百货'?",
+              "options": [
+                "bǎi huò department store",
+                "ān quiet",
+                "ǎi xiǎo short and small",
+                "bā shì bus"
+              ],
+              "correct_answer": 0,
+              "explanation": "'百货' () означает 'bǎi huò department store'",
+              "audio_text": "百货",
+              "image_description": "Изображение, связанное с: bǎi huò department store"
+            },
+            {
+              "id": "Q14",
+              "type": "multiple_choice",
+              "chinese": "摆",
+              "pinyin": "",
+              "translation": "bǎi pendulum",
+              "question": "Что означает '摆'?",
+              "options": [
+                "ǎi short",
+                "àn dark",
+                "ānzhì put",
+                "bǎi pendulum"
+              ],
+              "correct_answer": 3,
+              "explanation": "'摆' () означает 'bǎi pendulum'",
+              "audio_text": "摆",
+              "image_description": "Изображение, связанное с: bǎi pendulum"
+            },
+            {
+              "id": "Q15",
+              "type": "multiple_choice",
+              "chinese": "摆动",
+              "pinyin": "",
+              "translation": "bǎi dòng swing",
+              "question": "Что означает '摆动'?",
+              "options": [
+                "ān quiet",
+                "bǎi dòng swing",
+                "ànshì suggest secretly",
+                "ànshí on time"
+              ],
+              "correct_answer": 1,
+              "explanation": "'摆动' () означает 'bǎi dòng swing'",
+              "audio_text": "摆动",
+              "image_description": "Изображение, связанное с: bǎi dòng swing"
+            }
+          ],
+          "time_limit": 7
+        },
+        "part3": {
+          "part": "part3",
+          "format": "mini_audio_texts",
+          "description": "Аудиотексты 80–120字 → вопросы",
+          "questions": [
+            {
+              "id": "Q1",
+              "type": "multiple_choice",
+              "chinese": "阿姨",
+              "pinyin": "",
+              "translation": "āyí aunt",
+              "question": "Что означает '阿姨'?",
+              "options": [
+                "bǎi huò department store",
+                "a ah",
+                "ānzhì put",
+                "āyí aunt"
+              ],
+              "correct_answer": 3,
+              "explanation": "'阿姨' () означает 'āyí aunt'",
+              "audio_text": "阿姨",
+              "image_description": "Изображение, связанное с: āyí aunt"
+            },
+            {
+              "id": "Q2",
+              "type": "multiple_choice",
+              "chinese": "啊",
+              "pinyin": "",
+              "translation": "a ah",
+              "question": "Что означает '啊'?",
+              "options": [
+                "ān quiet",
+                "a ah",
+                "ǎi xiǎo short and small",
+                "ài guó love one's country"
+              ],
+              "correct_answer": 1,
+              "explanation": "'啊' () означает 'a ah'",
+              "audio_text": "啊",
+              "image_description": "Изображение, связанное с: a ah"
+            },
+            {
+              "id": "Q3",
+              "type": "multiple_choice",
+              "chinese": "矮",
+              "pinyin": "",
+              "translation": "ǎi short",
+              "question": "Что означает '矮'?",
+              "options": [
+                "ānzhì put",
+                "ài guó love one's country",
+                "ǎi short",
+                "ǎi xiǎo short and small"
+              ],
+              "correct_answer": 2,
+              "explanation": "'矮' () означает 'ǎi short'",
+              "audio_text": "矮",
+              "image_description": "Изображение, связанное с: ǎi short"
+            },
+            {
+              "id": "Q4",
+              "type": "multiple_choice",
+              "chinese": "矮小",
+              "pinyin": "",
+              "translation": "ǎi xiǎo short and small",
+              "question": "Что означает '矮小'?",
+              "options": [
+                "ǎi xiǎo short and small",
+                "àihù Care",
+                "bǎituō cast off",
+                "bǎi huò department store"
+              ],
+              "correct_answer": 0,
+              "explanation": "'矮小' () означает 'ǎi xiǎo short and small'",
+              "audio_text": "矮小",
+              "image_description": "Изображение, связанное с: ǎi xiǎo short and small"
+            },
+            {
+              "id": "Q5",
+              "type": "multiple_choice",
+              "chinese": "爱国",
+              "pinyin": "",
+              "translation": "ài guó love one's country",
+              "question": "Что означает '爱国'?",
+              "options": [
+                "bǎi dòng swing",
+                "bǎi huò department store",
+                "ǎi xiǎo short and small",
+                "ài guó love one's country"
+              ],
+              "correct_answer": 3,
+              "explanation": "'爱国' () означает 'ài guó love one's country'",
+              "audio_text": "爱国",
+              "image_description": "Изображение, связанное с: ài guó love one's country"
+            },
+            {
+              "id": "Q6",
+              "type": "multiple_choice",
+              "chinese": "爱护",
+              "pinyin": "",
+              "translation": "àihù Care",
+              "question": "Что означает '爱护'?",
+              "options": [
+                "bài defeat",
+                "àihù Care",
+                "ài guó love one's country",
+                "bāohán Contain"
+              ],
+              "correct_answer": 1,
+              "explanation": "'爱护' () означает 'àihù Care'",
+              "audio_text": "爱护",
+              "image_description": "Изображение, связанное с: àihù Care"
+            },
+            {
+              "id": "Q7",
+              "type": "multiple_choice",
+              "chinese": "安",
+              "pinyin": "",
+              "translation": "ān quiet",
+              "question": "Что означает '安'?",
+              "options": [
+                "ān quiet",
+                "bāohán Contain",
+                "bàn shì handle affairs",
+                "a ah"
+              ],
+              "correct_answer": 0,
+              "explanation": "'安' () означает 'ān quiet'",
+              "audio_text": "安",
+              "image_description": "Изображение, связанное с: ān quiet"
+            },
+            {
+              "id": "Q8",
+              "type": "multiple_choice",
+              "chinese": "安置",
+              "pinyin": "",
+              "translation": "ānzhì put",
+              "question": "Что означает '安置'?",
+              "options": [
+                "ānzhì put",
+                "ǎi short",
+                "bā shì bus",
+                "a ah"
+              ],
+              "correct_answer": 0,
+              "explanation": "'安置' () означает 'ānzhì put'",
+              "audio_text": "安置",
+              "image_description": "Изображение, связанное с: ānzhì put"
+            },
+            {
+              "id": "Q9",
+              "type": "multiple_choice",
+              "chinese": "按时",
+              "pinyin": "",
+              "translation": "ànshí on time",
+              "question": "Что означает '按时'?",
+              "options": [
+                "a ah",
+                "ànshí on time",
+                "àihù Care",
+                "bāohán Contain"
+              ],
+              "correct_answer": 1,
+              "explanation": "'按时' () означает 'ànshí on time'",
+              "audio_text": "按时",
+              "image_description": "Изображение, связанное с: ànshí on time"
+            },
+            {
+              "id": "Q10",
+              "type": "multiple_choice",
+              "chinese": "暗",
+              "pinyin": "",
+              "translation": "àn dark",
+              "question": "Что означает '暗'?",
+              "options": [
+                "bǎi pendulum",
+                "ànshí on time",
+                "àihù Care",
+                "àn dark"
+              ],
+              "correct_answer": 3,
+              "explanation": "'暗' () означает 'àn dark'",
+              "audio_text": "暗",
+              "image_description": "Изображение, связанное с: àn dark"
+            },
+            {
+              "id": "Q11",
+              "type": "multiple_choice",
+              "chinese": "暗示",
+              "pinyin": "",
+              "translation": "ànshì suggest secretly",
+              "question": "Что означает '暗示'?",
+              "options": [
+                "ān quiet",
+                "bǎi dòng swing",
+                "bài defeat",
+                "ànshì suggest secretly"
+              ],
+              "correct_answer": 3,
+              "explanation": "'暗示' () означает 'ànshì suggest secretly'",
+              "audio_text": "暗示",
+              "image_description": "Изображение, связанное с: ànshì suggest secretly"
+            },
+            {
+              "id": "Q12",
+              "type": "multiple_choice",
+              "chinese": "巴士",
+              "pinyin": "",
+              "translation": "bā shì bus",
+              "question": "Что означает '巴士'?",
+              "options": [
+                "bā shì bus",
+                "ànshí on time",
+                "āyí aunt",
+                "àihù Care"
+              ],
+              "correct_answer": 0,
+              "explanation": "'巴士' () означает 'bā shì bus'",
+              "audio_text": "巴士",
+              "image_description": "Изображение, связанное с: bā shì bus"
+            },
+            {
+              "id": "Q13",
+              "type": "multiple_choice",
+              "chinese": "百货",
+              "pinyin": "",
+              "translation": "bǎi huò department store",
+              "question": "Что означает '百货'?",
+              "options": [
+                "āyí aunt",
+                "ànshì suggest secretly",
+                "bǎi huò department store",
+                "bā shì bus"
+              ],
+              "correct_answer": 2,
+              "explanation": "'百货' () означает 'bǎi huò department store'",
+              "audio_text": "百货",
+              "image_description": "Изображение, связанное с: bǎi huò department store"
+            },
+            {
+              "id": "Q14",
+              "type": "multiple_choice",
+              "chinese": "摆",
+              "pinyin": "",
+              "translation": "bǎi pendulum",
+              "question": "Что означает '摆'?",
+              "options": [
+                "àihù Care",
+                "bǎi pendulum",
+                "ānzhì put",
+                "bǎituō cast off"
+              ],
+              "correct_answer": 1,
+              "explanation": "'摆' () означает 'bǎi pendulum'",
+              "audio_text": "摆",
+              "image_description": "Изображение, связанное с: bǎi pendulum"
+            },
+            {
+              "id": "Q15",
+              "type": "multiple_choice",
+              "chinese": "摆动",
+              "pinyin": "",
+              "translation": "bǎi dòng swing",
+              "question": "Что означает '摆动'?",
+              "options": [
+                "āyí aunt",
+                "àihù Care",
+                "bǎi dòng swing",
+                "bǎituō cast off"
+              ],
+              "correct_answer": 2,
+              "explanation": "'摆动' () означает 'bǎi dòng swing'",
+              "audio_text": "摆动",
+              "image_description": "Изображение, связанное с: bǎi dòng swing"
+            },
+            {
+              "id": "Q16",
+              "type": "multiple_choice",
+              "chinese": "摆脱",
+              "pinyin": "",
+              "translation": "bǎituō cast off",
+              "question": "Что означает '摆脱'?",
+              "options": [
+                "bǎi huò department store",
+                "bǎi pendulum",
+                "àihù Care",
+                "bǎituō cast off"
+              ],
+              "correct_answer": 3,
+              "explanation": "'摆脱' () означает 'bǎituō cast off'",
+              "audio_text": "摆脱",
+              "image_description": "Изображение, связанное с: bǎituō cast off"
+            },
+            {
+              "id": "Q17",
+              "type": "multiple_choice",
+              "chinese": "败",
+              "pinyin": "",
+              "translation": "bài defeat",
+              "question": "Что означает '败'?",
+              "options": [
+                "a ah",
+                "ǎi short",
+                "bài defeat",
+                "ǎi xiǎo short and small"
+              ],
+              "correct_answer": 2,
+              "explanation": "'败' () означает 'bài defeat'",
+              "audio_text": "败",
+              "image_description": "Изображение, связанное с: bài defeat"
+            },
+            {
+              "id": "Q18",
+              "type": "multiple_choice",
+              "chinese": "办事",
+              "pinyin": "",
+              "translation": "bàn shì handle affairs",
+              "question": "Что означает '办事'?",
+              "options": [
+                "ānzhì put",
+                "bǎi dòng swing",
+                "bàn shì handle affairs",
+                "ànshí on time"
+              ],
+              "correct_answer": 2,
+              "explanation": "'办事' () означает 'bàn shì handle affairs'",
+              "audio_text": "办事",
+              "image_description": "Изображение, связанное с: bàn shì handle affairs"
+            },
+            {
+              "id": "Q19",
+              "type": "multiple_choice",
+              "chinese": "包裹",
+              "pinyin": "",
+              "translation": "bāoguǒ package",
+              "question": "Что означает '包裹'?",
+              "options": [
+                "bǎituō cast off",
+                "bāoguǒ package",
+                "bǎi dòng swing",
+                "ān quiet"
+              ],
+              "correct_answer": 1,
+              "explanation": "'包裹' () означает 'bāoguǒ package'",
+              "audio_text": "包裹",
+              "image_description": "Изображение, связанное с: bāoguǒ package"
+            },
+            {
+              "id": "Q20",
+              "type": "multiple_choice",
+              "chinese": "包含",
+              "pinyin": "",
+              "translation": "bāohán Contain",
+              "question": "Что означает '包含'?",
+              "options": [
+                "ān quiet",
+                "àn dark",
+                "bāohán Contain",
+                "ànshì suggest secretly"
+              ],
+              "correct_answer": 2,
+              "explanation": "'包含' () означает 'bāohán Contain'",
+              "audio_text": "包含",
+              "image_description": "Изображение, связанное с: bāohán Contain"
+            }
+          ],
+          "time_limit": 7
+        }
+      },
+      "total_questions": 45,
+      "description": "Секция listening HSK 4"
+    },
+    "reading": {
+      "section": "reading",
+      "parts": {
+        "part1": {
+          "part": "part1",
+          "format": "fill_in_blank",
+          "description": "Пропуски → выбрать слово",
+          "questions": [
+            {
+              "id": "FB1",
+              "type": "fill_in_blank",
+              "chinese": "阿姨",
+              "pinyin": "",
+              "translation": "āyí aunt",
+              "question": "Выберите слово для заполнения пропуска:",
+              "sentence": "我每天______。",
+              "complete_sentence": "我每天阿姨。",
+              "complete_translation": "Я каждый день āyí aunt。",
+              "options": [
+                "āyí aunt",
+                "делаю что-то другое",
+                "ничего не делаю",
+                "отдыхаю"
+              ],
+              "correct_answer": 0,
+              "explanation": "Пропущенное слово: 阿姨 (āyí aunt)"
+            },
+            {
+              "id": "FB2",
+              "type": "fill_in_blank",
+              "chinese": "啊",
+              "pinyin": "",
+              "translation": "a ah",
+              "question": "Выберите слово для заполнения пропуска:",
+              "sentence": "我每天______。",
+              "complete_sentence": "我每天啊。",
+              "complete_translation": "Я каждый день a ah。",
+              "options": [
+                "a ah",
+                "делаю что-то другое",
+                "ничего не делаю",
+                "отдыхаю"
+              ],
+              "correct_answer": 0,
+              "explanation": "Пропущенное слово: 啊 (a ah)"
+            },
+            {
+              "id": "FB3",
+              "type": "fill_in_blank",
+              "chinese": "矮",
+              "pinyin": "",
+              "translation": "ǎi short",
+              "question": "Выберите слово для заполнения пропуска:",
+              "sentence": "我每天______。",
+              "complete_sentence": "我每天矮。",
+              "complete_translation": "Я каждый день ǎi short。",
+              "options": [
+                "ǎi short",
+                "делаю что-то другое",
+                "ничего не делаю",
+                "отдыхаю"
+              ],
+              "correct_answer": 0,
+              "explanation": "Пропущенное слово: 矮 (ǎi short)"
+            },
+            {
+              "id": "FB4",
+              "type": "fill_in_blank",
+              "chinese": "矮小",
+              "pinyin": "",
+              "translation": "ǎi xiǎo short and small",
+              "question": "Выберите слово для заполнения пропуска:",
+              "sentence": "我每天______。",
+              "complete_sentence": "我每天矮小。",
+              "complete_translation": "Я каждый день ǎi xiǎo short and small。",
+              "options": [
+                "ǎi xiǎo short and small",
+                "делаю что-то другое",
+                "ничего не делаю",
+                "отдыхаю"
+              ],
+              "correct_answer": 0,
+              "explanation": "Пропущенное слово: 矮小 (ǎi xiǎo short and small)"
+            },
+            {
+              "id": "FB5",
+              "type": "fill_in_blank",
+              "chinese": "爱国",
+              "pinyin": "",
+              "translation": "ài guó love one's country",
+              "question": "Выберите слово для заполнения пропуска:",
+              "sentence": "我每天______。",
+              "complete_sentence": "我每天爱国。",
+              "complete_translation": "Я каждый день ài guó love one's country。",
+              "options": [
+                "ài guó love one's country",
+                "делаю что-то другое",
+                "ничего не делаю",
+                "отдыхаю"
+              ],
+              "correct_answer": 0,
+              "explanation": "Пропущенное слово: 爱国 (ài guó love one's country)"
+            },
+            {
+              "id": "FB6",
+              "type": "fill_in_blank",
+              "chinese": "爱护",
+              "pinyin": "",
+              "translation": "àihù Care",
+              "question": "Выберите слово для заполнения пропуска:",
+              "sentence": "我每天______。",
+              "complete_sentence": "我每天爱护。",
+              "complete_translation": "Я каждый день àihù Care。",
+              "options": [
+                "àihù Care",
+                "делаю что-то другое",
+                "ничего не делаю",
+                "отдыхаю"
+              ],
+              "correct_answer": 0,
+              "explanation": "Пропущенное слово: 爱护 (àihù Care)"
+            },
+            {
+              "id": "FB7",
+              "type": "fill_in_blank",
+              "chinese": "安",
+              "pinyin": "",
+              "translation": "ān quiet",
+              "question": "Выберите слово для заполнения пропуска:",
+              "sentence": "我每天______。",
+              "complete_sentence": "我每天安。",
+              "complete_translation": "Я каждый день ān quiet。",
+              "options": [
+                "ān quiet",
+                "делаю что-то другое",
+                "ничего не делаю",
+                "отдыхаю"
+              ],
+              "correct_answer": 0,
+              "explanation": "Пропущенное слово: 安 (ān quiet)"
+            },
+            {
+              "id": "FB8",
+              "type": "fill_in_blank",
+              "chinese": "安置",
+              "pinyin": "",
+              "translation": "ānzhì put",
+              "question": "Выберите слово для заполнения пропуска:",
+              "sentence": "我每天______。",
+              "complete_sentence": "我每天安置。",
+              "complete_translation": "Я каждый день ānzhì put。",
+              "options": [
+                "ānzhì put",
+                "делаю что-то другое",
+                "ничего не делаю",
+                "отдыхаю"
+              ],
+              "correct_answer": 0,
+              "explanation": "Пропущенное слово: 安置 (ānzhì put)"
+            },
+            {
+              "id": "FB9",
+              "type": "fill_in_blank",
+              "chinese": "按时",
+              "pinyin": "",
+              "translation": "ànshí on time",
+              "question": "Выберите слово для заполнения пропуска:",
+              "sentence": "我每天______。",
+              "complete_sentence": "我每天按时。",
+              "complete_translation": "Я каждый день ànshí on time。",
+              "options": [
+                "ànshí on time",
+                "делаю что-то другое",
+                "ничего не делаю",
+                "отдыхаю"
+              ],
+              "correct_answer": 0,
+              "explanation": "Пропущенное слово: 按时 (ànshí on time)"
+            },
+            {
+              "id": "FB10",
+              "type": "fill_in_blank",
+              "chinese": "暗",
+              "pinyin": "",
+              "translation": "àn dark",
+              "question": "Выберите слово для заполнения пропуска:",
+              "sentence": "我每天______。",
+              "complete_sentence": "我每天暗。",
+              "complete_translation": "Я каждый день àn dark。",
+              "options": [
+                "àn dark",
+                "делаю что-то другое",
+                "ничего не делаю",
+                "отдыхаю"
+              ],
+              "correct_answer": 0,
+              "explanation": "Пропущенное слово: 暗 (àn dark)"
+            }
+          ],
+          "time_limit": 10
+        },
+        "part2": {
+          "part": "part2",
+          "format": "true_false_reading",
+          "description": "Выбрать правильное утверждение",
+          "questions": [
+            {
+              "id": "Q1",
+              "type": "multiple_choice",
+              "chinese": "阿姨",
+              "pinyin": "",
+              "translation": "āyí aunt",
+              "question": "Что означает '阿姨'?",
+              "options": [
+                "àn dark",
+                "àihù Care",
+                "ān quiet",
+                "āyí aunt"
+              ],
+              "correct_answer": 3,
+              "explanation": "'阿姨' () означает 'āyí aunt'",
+              "audio_text": "阿姨",
+              "image_description": "Изображение, связанное с: āyí aunt"
+            },
+            {
+              "id": "Q2",
+              "type": "multiple_choice",
+              "chinese": "啊",
+              "pinyin": "",
+              "translation": "a ah",
+              "question": "Что означает '啊'?",
+              "options": [
+                "ànshí on time",
+                "ānzhì put",
+                "a ah",
+                "āyí aunt"
+              ],
+              "correct_answer": 2,
+              "explanation": "'啊' () означает 'a ah'",
+              "audio_text": "啊",
+              "image_description": "Изображение, связанное с: a ah"
+            },
+            {
+              "id": "Q3",
+              "type": "multiple_choice",
+              "chinese": "矮",
+              "pinyin": "",
+              "translation": "ǎi short",
+              "question": "Что означает '矮'?",
+              "options": [
+                "ǎi short",
+                "a ah",
+                "ǎi xiǎo short and small",
+                "àn dark"
+              ],
+              "correct_answer": 0,
+              "explanation": "'矮' () означает 'ǎi short'",
+              "audio_text": "矮",
+              "image_description": "Изображение, связанное с: ǎi short"
+            },
+            {
+              "id": "Q4",
+              "type": "multiple_choice",
+              "chinese": "矮小",
+              "pinyin": "",
+              "translation": "ǎi xiǎo short and small",
+              "question": "Что означает '矮小'?",
+              "options": [
+                "ànshí on time",
+                "ǎi xiǎo short and small",
+                "ǎi short",
+                "àihù Care"
+              ],
+              "correct_answer": 1,
+              "explanation": "'矮小' () означает 'ǎi xiǎo short and small'",
+              "audio_text": "矮小",
+              "image_description": "Изображение, связанное с: ǎi xiǎo short and small"
+            },
+            {
+              "id": "Q5",
+              "type": "multiple_choice",
+              "chinese": "爱国",
+              "pinyin": "",
+              "translation": "ài guó love one's country",
+              "question": "Что означает '爱国'?",
+              "options": [
+                "ǎi short",
+                "ān quiet",
+                "ài guó love one's country",
+                "ānzhì put"
+              ],
+              "correct_answer": 2,
+              "explanation": "'爱国' () означает 'ài guó love one's country'",
+              "audio_text": "爱国",
+              "image_description": "Изображение, связанное с: ài guó love one's country"
+            },
+            {
+              "id": "Q6",
+              "type": "multiple_choice",
+              "chinese": "爱护",
+              "pinyin": "",
+              "translation": "àihù Care",
+              "question": "Что означает '爱护'?",
+              "options": [
+                "àihù Care",
+                "àn dark",
+                "ānzhì put",
+                "a ah"
+              ],
+              "correct_answer": 0,
+              "explanation": "'爱护' () означает 'àihù Care'",
+              "audio_text": "爱护",
+              "image_description": "Изображение, связанное с: àihù Care"
+            },
+            {
+              "id": "Q7",
+              "type": "multiple_choice",
+              "chinese": "安",
+              "pinyin": "",
+              "translation": "ān quiet",
+              "question": "Что означает '安'?",
+              "options": [
+                "ǎi xiǎo short and small",
+                "ài guó love one's country",
+                "ān quiet",
+                "āyí aunt"
+              ],
+              "correct_answer": 2,
+              "explanation": "'安' () означает 'ān quiet'",
+              "audio_text": "安",
+              "image_description": "Изображение, связанное с: ān quiet"
+            },
+            {
+              "id": "Q8",
+              "type": "multiple_choice",
+              "chinese": "安置",
+              "pinyin": "",
+              "translation": "ānzhì put",
+              "question": "Что означает '安置'?",
+              "options": [
+                "ānzhì put",
+                "ànshí on time",
+                "ài guó love one's country",
+                "ǎi xiǎo short and small"
+              ],
+              "correct_answer": 0,
+              "explanation": "'安置' () означает 'ānzhì put'",
+              "audio_text": "安置",
+              "image_description": "Изображение, связанное с: ānzhì put"
+            },
+            {
+              "id": "Q9",
+              "type": "multiple_choice",
+              "chinese": "按时",
+              "pinyin": "",
+              "translation": "ànshí on time",
+              "question": "Что означает '按时'?",
+              "options": [
+                "àn dark",
+                "a ah",
+                "ài guó love one's country",
+                "ànshí on time"
+              ],
+              "correct_answer": 3,
+              "explanation": "'按时' () означает 'ànshí on time'",
+              "audio_text": "按时",
+              "image_description": "Изображение, связанное с: ànshí on time"
+            },
+            {
+              "id": "Q10",
+              "type": "multiple_choice",
+              "chinese": "暗",
+              "pinyin": "",
+              "translation": "àn dark",
+              "question": "Что означает '暗'?",
+              "options": [
+                "àn dark",
+                "ǎi short",
+                "āyí aunt",
+                "ǎi xiǎo short and small"
+              ],
+              "correct_answer": 0,
+              "explanation": "'暗' () означает 'àn dark'",
+              "audio_text": "暗",
+              "image_description": "Изображение, связанное с: àn dark"
+            }
+          ],
+          "time_limit": 10
+        },
+        "part3": {
+          "part": "part3",
+          "format": "long_text_questions",
+          "description": "Длинные тексты → вопросы",
+          "questions": [
+            {
+              "id": "Q1",
+              "type": "multiple_choice",
+              "chinese": "阿姨",
+              "pinyin": "",
+              "translation": "āyí aunt",
+              "question": "Что означает '阿姨'?",
+              "options": [
+                "bàn shì handle affairs",
+                "āyí aunt",
+                "ǎi short",
+                "ài guó love one's country"
+              ],
+              "correct_answer": 1,
+              "explanation": "'阿姨' () означает 'āyí aunt'",
+              "audio_text": "阿姨",
+              "image_description": "Изображение, связанное с: āyí aunt"
+            },
+            {
+              "id": "Q2",
+              "type": "multiple_choice",
+              "chinese": "啊",
+              "pinyin": "",
+              "translation": "a ah",
+              "question": "Что означает '啊'?",
+              "options": [
+                "a ah",
+                "bàn shì handle affairs",
+                "ànshí on time",
+                "ànshì suggest secretly"
+              ],
+              "correct_answer": 0,
+              "explanation": "'啊' () означает 'a ah'",
+              "audio_text": "啊",
+              "image_description": "Изображение, связанное с: a ah"
+            },
+            {
+              "id": "Q3",
+              "type": "multiple_choice",
+              "chinese": "矮",
+              "pinyin": "",
+              "translation": "ǎi short",
+              "question": "Что означает '矮'?",
+              "options": [
+                "ǎi short",
+                "ǎi xiǎo short and small",
+                "bā shì bus",
+                "ànshí on time"
+              ],
+              "correct_answer": 0,
+              "explanation": "'矮' () означает 'ǎi short'",
+              "audio_text": "矮",
+              "image_description": "Изображение, связанное с: ǎi short"
+            },
+            {
+              "id": "Q4",
+              "type": "multiple_choice",
+              "chinese": "矮小",
+              "pinyin": "",
+              "translation": "ǎi xiǎo short and small",
+              "question": "Что означает '矮小'?",
+              "options": [
+                "ǎi xiǎo short and small",
+                "a ah",
+                "ànshí on time",
+                "bàn shì handle affairs"
+              ],
+              "correct_answer": 0,
+              "explanation": "'矮小' () означает 'ǎi xiǎo short and small'",
+              "audio_text": "矮小",
+              "image_description": "Изображение, связанное с: ǎi xiǎo short and small"
+            },
+            {
+              "id": "Q5",
+              "type": "multiple_choice",
+              "chinese": "爱国",
+              "pinyin": "",
+              "translation": "ài guó love one's country",
+              "question": "Что означает '爱国'?",
+              "options": [
+                "ài guó love one's country",
+                "bàn shì handle affairs",
+                "àihù Care",
+                "bǎituō cast off"
+              ],
+              "correct_answer": 0,
+              "explanation": "'爱国' () означает 'ài guó love one's country'",
+              "audio_text": "爱国",
+              "image_description": "Изображение, связанное с: ài guó love one's country"
+            },
+            {
+              "id": "Q6",
+              "type": "multiple_choice",
+              "chinese": "爱护",
+              "pinyin": "",
+              "translation": "àihù Care",
+              "question": "Что означает '爱护'?",
+              "options": [
+                "ànshì suggest secretly",
+                "àihù Care",
+                "ài guó love one's country",
+                "ǎi xiǎo short and small"
+              ],
+              "correct_answer": 1,
+              "explanation": "'爱护' () означает 'àihù Care'",
+              "audio_text": "爱护",
+              "image_description": "Изображение, связанное с: àihù Care"
+            },
+            {
+              "id": "Q7",
+              "type": "multiple_choice",
+              "chinese": "安",
+              "pinyin": "",
+              "translation": "ān quiet",
+              "question": "Что означает '安'?",
+              "options": [
+                "bài defeat",
+                "ān quiet",
+                "àn dark",
+                "bǎi huò department store"
+              ],
+              "correct_answer": 1,
+              "explanation": "'安' () означает 'ān quiet'",
+              "audio_text": "安",
+              "image_description": "Изображение, связанное с: ān quiet"
+            },
+            {
+              "id": "Q8",
+              "type": "multiple_choice",
+              "chinese": "安置",
+              "pinyin": "",
+              "translation": "ānzhì put",
+              "question": "Что означает '安置'?",
+              "options": [
+                "ànshí on time",
+                "bài defeat",
+                "bǎi huò department store",
+                "ānzhì put"
+              ],
+              "correct_answer": 3,
+              "explanation": "'安置' () означает 'ānzhì put'",
+              "audio_text": "安置",
+              "image_description": "Изображение, связанное с: ānzhì put"
+            },
+            {
+              "id": "Q9",
+              "type": "multiple_choice",
+              "chinese": "按时",
+              "pinyin": "",
+              "translation": "ànshí on time",
+              "question": "Что означает '按时'?",
+              "options": [
+                "bǎi huò department store",
+                "ànshí on time",
+                "a ah",
+                "bǎi dòng swing"
+              ],
+              "correct_answer": 1,
+              "explanation": "'按时' () означает 'ànshí on time'",
+              "audio_text": "按时",
+              "image_description": "Изображение, связанное с: ànshí on time"
+            },
+            {
+              "id": "Q10",
+              "type": "multiple_choice",
+              "chinese": "暗",
+              "pinyin": "",
+              "translation": "àn dark",
+              "question": "Что означает '暗'?",
+              "options": [
+                "bā shì bus",
+                "àn dark",
+                "bàn shì handle affairs",
+                "ān quiet"
+              ],
+              "correct_answer": 1,
+              "explanation": "'暗' () означает 'àn dark'",
+              "audio_text": "暗",
+              "image_description": "Изображение, связанное с: àn dark"
+            },
+            {
+              "id": "Q11",
+              "type": "multiple_choice",
+              "chinese": "暗示",
+              "pinyin": "",
+              "translation": "ànshì suggest secretly",
+              "question": "Что означает '暗示'?",
+              "options": [
+                "ǎi short",
+                "bǎi huò department store",
+                "ànshì suggest secretly",
+                "bàn shì handle affairs"
+              ],
+              "correct_answer": 2,
+              "explanation": "'暗示' () означает 'ànshì suggest secretly'",
+              "audio_text": "暗示",
+              "image_description": "Изображение, связанное с: ànshì suggest secretly"
+            },
+            {
+              "id": "Q12",
+              "type": "multiple_choice",
+              "chinese": "巴士",
+              "pinyin": "",
+              "translation": "bā shì bus",
+              "question": "Что означает '巴士'?",
+              "options": [
+                "bā shì bus",
+                "ǎi short",
+                "bǎituō cast off",
+                "ànshí on time"
+              ],
+              "correct_answer": 0,
+              "explanation": "'巴士' () означает 'bā shì bus'",
+              "audio_text": "巴士",
+              "image_description": "Изображение, связанное с: bā shì bus"
+            },
+            {
+              "id": "Q13",
+              "type": "multiple_choice",
+              "chinese": "百货",
+              "pinyin": "",
+              "translation": "bǎi huò department store",
+              "question": "Что означает '百货'?",
+              "options": [
+                "ānzhì put",
+                "bǎi pendulum",
+                "ǎi xiǎo short and small",
+                "bǎi huò department store"
+              ],
+              "correct_answer": 3,
+              "explanation": "'百货' () означает 'bǎi huò department store'",
+              "audio_text": "百货",
+              "image_description": "Изображение, связанное с: bǎi huò department store"
+            },
+            {
+              "id": "Q14",
+              "type": "multiple_choice",
+              "chinese": "摆",
+              "pinyin": "",
+              "translation": "bǎi pendulum",
+              "question": "Что означает '摆'?",
+              "options": [
+                "ǎi short",
+                "ǎi xiǎo short and small",
+                "bǎi pendulum",
+                "bāoguǒ package"
+              ],
+              "correct_answer": 2,
+              "explanation": "'摆' () означает 'bǎi pendulum'",
+              "audio_text": "摆",
+              "image_description": "Изображение, связанное с: bǎi pendulum"
+            },
+            {
+              "id": "Q15",
+              "type": "multiple_choice",
+              "chinese": "摆动",
+              "pinyin": "",
+              "translation": "bǎi dòng swing",
+              "question": "Что означает '摆动'?",
+              "options": [
+                "ānzhì put",
+                "bǎi dòng swing",
+                "a ah",
+                "bāohán Contain"
+              ],
+              "correct_answer": 1,
+              "explanation": "'摆动' () означает 'bǎi dòng swing'",
+              "audio_text": "摆动",
+              "image_description": "Изображение, связанное с: bǎi dòng swing"
+            },
+            {
+              "id": "Q16",
+              "type": "multiple_choice",
+              "chinese": "摆脱",
+              "pinyin": "",
+              "translation": "bǎituō cast off",
+              "question": "Что означает '摆脱'?",
+              "options": [
+                "ǎi xiǎo short and small",
+                "ānzhì put",
+                "bǎituō cast off",
+                "bāoguǒ package"
+              ],
+              "correct_answer": 2,
+              "explanation": "'摆脱' () означает 'bǎituō cast off'",
+              "audio_text": "摆脱",
+              "image_description": "Изображение, связанное с: bǎituō cast off"
+            },
+            {
+              "id": "Q17",
+              "type": "multiple_choice",
+              "chinese": "败",
+              "pinyin": "",
+              "translation": "bài defeat",
+              "question": "Что означает '败'?",
+              "options": [
+                "bǎi dòng swing",
+                "bài defeat",
+                "ān quiet",
+                "bāohán Contain"
+              ],
+              "correct_answer": 1,
+              "explanation": "'败' () означает 'bài defeat'",
+              "audio_text": "败",
+              "image_description": "Изображение, связанное с: bài defeat"
+            },
+            {
+              "id": "Q18",
+              "type": "multiple_choice",
+              "chinese": "办事",
+              "pinyin": "",
+              "translation": "bàn shì handle affairs",
+              "question": "Что означает '办事'?",
+              "options": [
+                "ǎi short",
+                "bàn shì handle affairs",
+                "ānzhì put",
+                "bǎi dòng swing"
+              ],
+              "correct_answer": 1,
+              "explanation": "'办事' () означает 'bàn shì handle affairs'",
+              "audio_text": "办事",
+              "image_description": "Изображение, связанное с: bàn shì handle affairs"
+            },
+            {
+              "id": "Q19",
+              "type": "multiple_choice",
+              "chinese": "包裹",
+              "pinyin": "",
+              "translation": "bāoguǒ package",
+              "question": "Что означает '包裹'?",
+              "options": [
+                "ǎi short",
+                "a ah",
+                "bāoguǒ package",
+                "ànshì suggest secretly"
+              ],
+              "correct_answer": 2,
+              "explanation": "'包裹' () означает 'bāoguǒ package'",
+              "audio_text": "包裹",
+              "image_description": "Изображение, связанное с: bāoguǒ package"
+            },
+            {
+              "id": "Q20",
+              "type": "multiple_choice",
+              "chinese": "包含",
+              "pinyin": "",
+              "translation": "bāohán Contain",
+              "question": "Что означает '包含'?",
+              "options": [
+                "àihù Care",
+                "ǎi xiǎo short and small",
+                "bāohán Contain",
+                "bǎi huò department store"
+              ],
+              "correct_answer": 2,
+              "explanation": "'包含' () означает 'bāohán Contain'",
+              "audio_text": "包含",
+              "image_description": "Изображение, связанное с: bāohán Contain"
+            }
+          ],
+          "time_limit": 10
+        }
+      },
+      "total_questions": 40,
+      "description": "Секция reading HSK 4"
+    },
+    "writing": {
+      "section": "writing",
+      "parts": {
+        "part1": {
+          "part": "part1",
+          "format": "fix_sentences",
+          "description": "Исправить или переставить части предложения",
+          "questions": [
+            {
+              "id": "Q1",
+              "type": "multiple_choice",
+              "chinese": "阿姨",
+              "pinyin": "",
+              "translation": "āyí aunt",
+              "question": "Что означает '阿姨'?",
+              "options": [
+                "ān quiet",
+                "āyí aunt",
+                "ǎi xiǎo short and small",
+                "ānzhì put"
+              ],
+              "correct_answer": 1,
+              "explanation": "'阿姨' () означает 'āyí aunt'",
+              "audio_text": "阿姨",
+              "image_description": "Изображение, связанное с: āyí aunt"
+            },
+            {
+              "id": "Q2",
+              "type": "multiple_choice",
+              "chinese": "啊",
+              "pinyin": "",
+              "translation": "a ah",
+              "question": "Что означает '啊'?",
+              "options": [
+                "àihù Care",
+                "ài guó love one's country",
+                "ān quiet",
+                "a ah"
+              ],
+              "correct_answer": 3,
+              "explanation": "'啊' () означает 'a ah'",
+              "audio_text": "啊",
+              "image_description": "Изображение, связанное с: a ah"
+            },
+            {
+              "id": "Q3",
+              "type": "multiple_choice",
+              "chinese": "矮",
+              "pinyin": "",
+              "translation": "ǎi short",
+              "question": "Что означает '矮'?",
+              "options": [
+                "ànshí on time",
+                "ānzhì put",
+                "ān quiet",
+                "ǎi short"
+              ],
+              "correct_answer": 3,
+              "explanation": "'矮' () означает 'ǎi short'",
+              "audio_text": "矮",
+              "image_description": "Изображение, связанное с: ǎi short"
+            },
+            {
+              "id": "Q4",
+              "type": "multiple_choice",
+              "chinese": "矮小",
+              "pinyin": "",
+              "translation": "ǎi xiǎo short and small",
+              "question": "Что означает '矮小'?",
+              "options": [
+                "a ah",
+                "ài guó love one's country",
+                "ānzhì put",
+                "ǎi xiǎo short and small"
+              ],
+              "correct_answer": 3,
+              "explanation": "'矮小' () означает 'ǎi xiǎo short and small'",
+              "audio_text": "矮小",
+              "image_description": "Изображение, связанное с: ǎi xiǎo short and small"
+            },
+            {
+              "id": "Q5",
+              "type": "multiple_choice",
+              "chinese": "爱国",
+              "pinyin": "",
+              "translation": "ài guó love one's country",
+              "question": "Что означает '爱国'?",
+              "options": [
+                "àn dark",
+                "ài guó love one's country",
+                "ǎi xiǎo short and small",
+                "a ah"
+              ],
+              "correct_answer": 1,
+              "explanation": "'爱国' () означает 'ài guó love one's country'",
+              "audio_text": "爱国",
+              "image_description": "Изображение, связанное с: ài guó love one's country"
+            },
+            {
+              "id": "Q6",
+              "type": "multiple_choice",
+              "chinese": "爱护",
+              "pinyin": "",
+              "translation": "àihù Care",
+              "question": "Что означает '爱护'?",
+              "options": [
+                "ānzhì put",
+                "ǎi short",
+                "àihù Care",
+                "ànshí on time"
+              ],
+              "correct_answer": 2,
+              "explanation": "'爱护' () означает 'àihù Care'",
+              "audio_text": "爱护",
+              "image_description": "Изображение, связанное с: àihù Care"
+            },
+            {
+              "id": "Q7",
+              "type": "multiple_choice",
+              "chinese": "安",
+              "pinyin": "",
+              "translation": "ān quiet",
+              "question": "Что означает '安'?",
+              "options": [
+                "ǎi xiǎo short and small",
+                "ān quiet",
+                "ài guó love one's country",
+                "ǎi short"
+              ],
+              "correct_answer": 1,
+              "explanation": "'安' () означает 'ān quiet'",
+              "audio_text": "安",
+              "image_description": "Изображение, связанное с: ān quiet"
+            },
+            {
+              "id": "Q8",
+              "type": "multiple_choice",
+              "chinese": "安置",
+              "pinyin": "",
+              "translation": "ānzhì put",
+              "question": "Что означает '安置'?",
+              "options": [
+                "ǎi xiǎo short and small",
+                "ān quiet",
+                "ài guó love one's country",
+                "ānzhì put"
+              ],
+              "correct_answer": 3,
+              "explanation": "'安置' () означает 'ānzhì put'",
+              "audio_text": "安置",
+              "image_description": "Изображение, связанное с: ānzhì put"
+            },
+            {
+              "id": "Q9",
+              "type": "multiple_choice",
+              "chinese": "按时",
+              "pinyin": "",
+              "translation": "ànshí on time",
+              "question": "Что означает '按时'?",
+              "options": [
+                "ǎi xiǎo short and small",
+                "a ah",
+                "ànshí on time",
+                "àihù Care"
+              ],
+              "correct_answer": 2,
+              "explanation": "'按时' () означает 'ànshí on time'",
+              "audio_text": "按时",
+              "image_description": "Изображение, связанное с: ànshí on time"
+            },
+            {
+              "id": "Q10",
+              "type": "multiple_choice",
+              "chinese": "暗",
+              "pinyin": "",
+              "translation": "àn dark",
+              "question": "Что означает '暗'?",
+              "options": [
+                "āyí aunt",
+                "ān quiet",
+                "àn dark",
+                "ài guó love one's country"
+              ],
+              "correct_answer": 2,
+              "explanation": "'暗' () означает 'àn dark'",
+              "audio_text": "暗",
+              "image_description": "Изображение, связанное с: àn dark"
+            }
+          ],
+          "time_limit": 6
+        },
+        "part2": {
+          "part": "part2",
+          "format": "write_short_text",
+          "description": "Написать короткий текст по картинке (~80+ 字)",
+          "questions": [
+            {
+              "id": "Q1",
+              "type": "multiple_choice",
+              "chinese": "阿姨",
+              "pinyin": "",
+              "translation": "āyí aunt",
+              "question": "Что означает '阿姨'?",
+              "options": [
+                "a ah",
+                "ǎi xiǎo short and small",
+                "āyí aunt",
+                "ài guó love one's country"
+              ],
+              "correct_answer": 2,
+              "explanation": "'阿姨' () означает 'āyí aunt'",
+              "audio_text": "阿姨",
+              "image_description": "Изображение, связанное с: āyí aunt"
+            },
+            {
+              "id": "Q2",
+              "type": "multiple_choice",
+              "chinese": "啊",
+              "pinyin": "",
+              "translation": "a ah",
+              "question": "Что означает '啊'?",
+              "options": [
+                "a ah",
+                "ǎi xiǎo short and small",
+                "āyí aunt",
+                "ài guó love one's country"
+              ],
+              "correct_answer": 0,
+              "explanation": "'啊' () означает 'a ah'",
+              "audio_text": "啊",
+              "image_description": "Изображение, связанное с: a ah"
+            },
+            {
+              "id": "Q3",
+              "type": "multiple_choice",
+              "chinese": "矮",
+              "pinyin": "",
+              "translation": "ǎi short",
+              "question": "Что означает '矮'?",
+              "options": [
+                "āyí aunt",
+                "ǎi short",
+                "a ah",
+                "ǎi xiǎo short and small"
+              ],
+              "correct_answer": 1,
+              "explanation": "'矮' () означает 'ǎi short'",
+              "audio_text": "矮",
+              "image_description": "Изображение, связанное с: ǎi short"
+            },
+            {
+              "id": "Q4",
+              "type": "multiple_choice",
+              "chinese": "矮小",
+              "pinyin": "",
+              "translation": "ǎi xiǎo short and small",
+              "question": "Что означает '矮小'?",
+              "options": [
+                "a ah",
+                "ǎi xiǎo short and small",
+                "ài guó love one's country",
+                "ǎi short"
+              ],
+              "correct_answer": 1,
+              "explanation": "'矮小' () означает 'ǎi xiǎo short and small'",
+              "audio_text": "矮小",
+              "image_description": "Изображение, связанное с: ǎi xiǎo short and small"
+            },
+            {
+              "id": "Q5",
+              "type": "multiple_choice",
+              "chinese": "爱国",
+              "pinyin": "",
+              "translation": "ài guó love one's country",
+              "question": "Что означает '爱国'?",
+              "options": [
+                "a ah",
+                "ǎi short",
+                "ǎi xiǎo short and small",
+                "ài guó love one's country"
+              ],
+              "correct_answer": 3,
+              "explanation": "'爱国' () означает 'ài guó love one's country'",
+              "audio_text": "爱国",
+              "image_description": "Изображение, связанное с: ài guó love one's country"
+            }
+          ],
+          "time_limit": 6
+        }
+      },
+      "total_questions": 15,
+      "description": "Секция writing HSK 4"
+    }
+  },
+  "generated_at": "2025-12-10T05:10:33.691258",
+  "audio": {
+    "audio_texts": [
+      {
+        "id": "Q1",
+        "text": "阿姨",
+        "pinyin": "",
+        "translation": "āyí aunt"
+      },
+      {
+        "id": "Q2",
+        "text": "啊",
+        "pinyin": "",
+        "translation": "a ah"
+      },
+      {
+        "id": "Q3",
+        "text": "矮",
+        "pinyin": "",
+        "translation": "ǎi short"
+      },
+      {
+        "id": "Q4",
+        "text": "矮小",
+        "pinyin": "",
+        "translation": "ǎi xiǎo short and small"
+      },
+      {
+        "id": "Q5",
+        "text": "爱国",
+        "pinyin": "",
+        "translation": "ài guó love one's country"
+      },
+      {
+        "id": "Q6",
+        "text": "爱护",
+        "pinyin": "",
+        "translation": "àihù Care"
+      },
+      {
+        "id": "Q7",
+        "text": "安",
+        "pinyin": "",
+        "translation": "ān quiet"
+      },
+      {
+        "id": "Q8",
+        "text": "安置",
+        "pinyin": "",
+        "translation": "ānzhì put"
+      },
+      {
+        "id": "Q9",
+        "text": "按时",
+        "pinyin": "",
+        "translation": "ànshí on time"
+      },
+      {
+        "id": "Q10",
+        "text": "暗",
+        "pinyin": "",
+        "translation": "àn dark"
+      },
+      {
+        "id": "Q1",
+        "text": "阿姨",
+        "pinyin": "",
+        "translation": "āyí aunt"
+      },
+      {
+        "id": "Q2",
+        "text": "啊",
+        "pinyin": "",
+        "translation": "a ah"
+      },
+      {
+        "id": "Q3",
+        "text": "矮",
+        "pinyin": "",
+        "translation": "ǎi short"
+      },
+      {
+        "id": "Q4",
+        "text": "矮小",
+        "pinyin": "",
+        "translation": "ǎi xiǎo short and small"
+      },
+      {
+        "id": "Q5",
+        "text": "爱国",
+        "pinyin": "",
+        "translation": "ài guó love one's country"
+      },
+      {
+        "id": "Q6",
+        "text": "爱护",
+        "pinyin": "",
+        "translation": "àihù Care"
+      },
+      {
+        "id": "Q7",
+        "text": "安",
+        "pinyin": "",
+        "translation": "ān quiet"
+      },
+      {
+        "id": "Q8",
+        "text": "安置",
+        "pinyin": "",
+        "translation": "ānzhì put"
+      },
+      {
+        "id": "Q9",
+        "text": "按时",
+        "pinyin": "",
+        "translation": "ànshí on time"
+      },
+      {
+        "id": "Q10",
+        "text": "暗",
+        "pinyin": "",
+        "translation": "àn dark"
+      },
+      {
+        "id": "Q11",
+        "text": "暗示",
+        "pinyin": "",
+        "translation": "ànshì suggest secretly"
+      },
+      {
+        "id": "Q12",
+        "text": "巴士",
+        "pinyin": "",
+        "translation": "bā shì bus"
+      },
+      {
+        "id": "Q13",
+        "text": "百货",
+        "pinyin": "",
+        "translation": "bǎi huò department store"
+      },
+      {
+        "id": "Q14",
+        "text": "摆",
+        "pinyin": "",
+        "translation": "bǎi pendulum"
+      },
+      {
+        "id": "Q15",
+        "text": "摆动",
+        "pinyin": "",
+        "translation": "bǎi dòng swing"
+      },
+      {
+        "id": "Q1",
+        "text": "阿姨",
+        "pinyin": "",
+        "translation": "āyí aunt"
+      },
+      {
+        "id": "Q2",
+        "text": "啊",
+        "pinyin": "",
+        "translation": "a ah"
+      },
+      {
+        "id": "Q3",
+        "text": "矮",
+        "pinyin": "",
+        "translation": "ǎi short"
+      },
+      {
+        "id": "Q4",
+        "text": "矮小",
+        "pinyin": "",
+        "translation": "ǎi xiǎo short and small"
+      },
+      {
+        "id": "Q5",
+        "text": "爱国",
+        "pinyin": "",
+        "translation": "ài guó love one's country"
+      },
+      {
+        "id": "Q6",
+        "text": "爱护",
+        "pinyin": "",
+        "translation": "àihù Care"
+      },
+      {
+        "id": "Q7",
+        "text": "安",
+        "pinyin": "",
+        "translation": "ān quiet"
+      },
+      {
+        "id": "Q8",
+        "text": "安置",
+        "pinyin": "",
+        "translation": "ānzhì put"
+      },
+      {
+        "id": "Q9",
+        "text": "按时",
+        "pinyin": "",
+        "translation": "ànshí on time"
+      },
+      {
+        "id": "Q10",
+        "text": "暗",
+        "pinyin": "",
+        "translation": "àn dark"
+      },
+      {
+        "id": "Q11",
+        "text": "暗示",
+        "pinyin": "",
+        "translation": "ànshì suggest secretly"
+      },
+      {
+        "id": "Q12",
+        "text": "巴士",
+        "pinyin": "",
+        "translation": "bā shì bus"
+      },
+      {
+        "id": "Q13",
+        "text": "百货",
+        "pinyin": "",
+        "translation": "bǎi huò department store"
+      },
+      {
+        "id": "Q14",
+        "text": "摆",
+        "pinyin": "",
+        "translation": "bǎi pendulum"
+      },
+      {
+        "id": "Q15",
+        "text": "摆动",
+        "pinyin": "",
+        "translation": "bǎi dòng swing"
+      },
+      {
+        "id": "Q16",
+        "text": "摆脱",
+        "pinyin": "",
+        "translation": "bǎituō cast off"
+      },
+      {
+        "id": "Q17",
+        "text": "败",
+        "pinyin": "",
+        "translation": "bài defeat"
+      },
+      {
+        "id": "Q18",
+        "text": "办事",
+        "pinyin": "",
+        "translation": "bàn shì handle affairs"
+      },
+      {
+        "id": "Q19",
+        "text": "包裹",
+        "pinyin": "",
+        "translation": "bāoguǒ package"
+      },
+      {
+        "id": "Q20",
+        "text": "包含",
+        "pinyin": "",
+        "translation": "bāohán Contain"
+      }
+    ]
+  }
+}

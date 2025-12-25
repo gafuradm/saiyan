@@ -1,0 +1,316 @@
+[
+  {
+    "topic_id": "grammar_1",
+    "studied_at": "2025-12-09T02:34:28.287490",
+    "topic": {
+      "id": "grammar_1",
+      "chinese": "数字",
+      "pinyin": "shùzì",
+      "english": "Numbers",
+      "russian": "Числительные",
+      "level": "初",
+      "category": "numbers",
+      "description": "Основные числительные и их использование.",
+      "complexity": 1,
+      "tags": [
+        "numbers",
+        "basics"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_59",
+    "studied_at": "2025-12-09T02:35:57.661232",
+    "topic": {
+      "id": "grammar_59",
+      "chinese": "概数",
+      "pinyin": "gàishù",
+      "english": "Approximate number",
+      "russian": "Приблизительные числа",
+      "level": "中",
+      "category": "numbers",
+      "description": "Способы выражения приблизительного количества (几, 多, 左右, 来).",
+      "complexity": 3,
+      "tags": [
+        "numbers",
+        "approximation",
+        "quantity"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_62",
+    "studied_at": "2025-12-09T02:37:14.611500",
+    "topic": {
+      "id": "grammar_62",
+      "chinese": "忽然 vs 突然",
+      "pinyin": "hūrán vs tūrán",
+      "english": "忽然(hūrán) vs 突然(tūrán)",
+      "russian": "忽然 vs 突然 (внезапно)",
+      "level": "中",
+      "category": "adverbs",
+      "description": "忽然 (наречие, более нейтральное) vs 突然 (прилагательное/наречие, более сильное).",
+      "complexity": 3,
+      "tags": [
+        "adverb",
+        "adjective",
+        "sudden"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_59",
+    "studied_at": "2025-12-09T02:38:32.388147",
+    "topic": {
+      "id": "grammar_59",
+      "chinese": "概数",
+      "pinyin": "gàishù",
+      "english": "Approximate number",
+      "russian": "Приблизительные числа",
+      "level": "中",
+      "category": "numbers",
+      "description": "Способы выражения приблизительного количества (几, 多, 左右, 来).",
+      "complexity": 3,
+      "tags": [
+        "numbers",
+        "approximation",
+        "quantity"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_1",
+    "studied_at": "2025-12-09T02:46:02.742254",
+    "topic": {
+      "id": "grammar_1",
+      "chinese": "数字",
+      "pinyin": "shùzì",
+      "english": "Numbers",
+      "russian": "Числительные",
+      "level": "初",
+      "category": "numbers",
+      "description": "Основные числительные и их использование.",
+      "complexity": 1,
+      "tags": [
+        "numbers",
+        "basics"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_1",
+    "studied_at": "2025-12-09T02:55:26.371495",
+    "topic": {
+      "id": "grammar_1",
+      "chinese": "数字",
+      "pinyin": "shùzì",
+      "english": "Numbers",
+      "russian": "Числительные",
+      "level": "初",
+      "category": "numbers",
+      "description": "Основные числительные и их использование.",
+      "complexity": 1,
+      "tags": [
+        "numbers",
+        "basics"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_1",
+    "studied_at": "2025-12-09T02:58:22.602101",
+    "topic": {
+      "id": "grammar_1",
+      "chinese": "数字",
+      "pinyin": "shùzì",
+      "english": "Numbers",
+      "russian": "Числительные",
+      "level": "初",
+      "category": "numbers",
+      "description": "Основные числительные и их использование.",
+      "complexity": 1,
+      "tags": [
+        "numbers",
+        "basics"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_2",
+    "studied_at": "2025-12-09T03:01:14.531605",
+    "topic": {
+      "id": "grammar_2",
+      "chinese": "钱",
+      "pinyin": "qián",
+      "english": "Money",
+      "russian": "Деньги",
+      "level": "初",
+      "category": "vocabulary",
+      "description": "Выражения, связанные с деньгами, ценами и валютами.",
+      "complexity": 1,
+      "tags": [
+        "money",
+        "shopping",
+        "basics"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_4",
+    "studied_at": "2025-12-09T03:06:19.637984",
+    "topic": {
+      "id": "grammar_4",
+      "chinese": "日期与星期表达",
+      "pinyin": "rìqī yǔ xīngqī biǎodá",
+      "english": "Expressions about Dates and Week",
+      "russian": "Выражения дат и дней недели",
+      "level": "初",
+      "category": "time",
+      "description": "Названия дней недели, месяцев и формат дат.",
+      "complexity": 2,
+      "tags": [
+        "date",
+        "week",
+        "calendar"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_1",
+    "studied_at": "2025-12-09T23:22:15.317372",
+    "topic": {
+      "id": "grammar_1",
+      "chinese": "数字",
+      "pinyin": "shùzì",
+      "english": "Numbers",
+      "russian": "Числительные",
+      "level": "初",
+      "category": "numbers",
+      "description": "Основные числительные и их использование.",
+      "complexity": 1,
+      "tags": [
+        "numbers",
+        "basics"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_4",
+    "studied_at": "2025-12-09T23:25:30.383853",
+    "topic": {
+      "id": "grammar_4",
+      "chinese": "日期与星期表达",
+      "pinyin": "rìqī yǔ xīngqī biǎodá",
+      "english": "Expressions about Dates and Week",
+      "russian": "Выражения дат и дней недели",
+      "level": "初",
+      "category": "time",
+      "description": "Названия дней недели, месяцев и формат дат.",
+      "complexity": 2,
+      "tags": [
+        "date",
+        "week",
+        "calendar"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_4",
+    "studied_at": "2025-12-09T23:25:30.388860",
+    "topic": {
+      "id": "grammar_4",
+      "chinese": "日期与星期表达",
+      "pinyin": "rìqī yǔ xīngqī biǎodá",
+      "english": "Expressions about Dates and Week",
+      "russian": "Выражения дат и дней недели",
+      "level": "初",
+      "category": "time",
+      "description": "Названия дней недели, месяцев и формат дат.",
+      "complexity": 2,
+      "tags": [
+        "date",
+        "week",
+        "calendar"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_6",
+    "studied_at": "2025-12-09T23:26:08.328435",
+    "topic": {
+      "id": "grammar_6",
+      "chinese": "二 vs 两",
+      "pinyin": "èr vs liǎng",
+      "english": "二(èr) vs 两(liǎng)",
+      "russian": "二 vs 两 (оба означают 'два')",
+      "level": "初",
+      "category": "numbers",
+      "description": "Разница в употреблении двух способов сказать 'два'.",
+      "complexity": 2,
+      "tags": [
+        "numbers",
+        "confusing",
+        "grammar"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_7",
+    "studied_at": "2025-12-09T23:26:56.197523",
+    "topic": {
+      "id": "grammar_7",
+      "chinese": "几 vs 多少",
+      "pinyin": "jǐ vs duōshǎo",
+      "english": "几(jǐ) vs 多少(duō shǎo)",
+      "russian": "几 vs 多少 (вопрос о количестве)",
+      "level": "初",
+      "category": "questions",
+      "description": "Разница между вопросами 'сколько?' для малых и больших/неопределенных количеств.",
+      "complexity": 2,
+      "tags": [
+        "questions",
+        "quantity"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_6",
+    "studied_at": "2025-12-09T23:27:48.427914",
+    "topic": {
+      "id": "grammar_6",
+      "chinese": "二 vs 两",
+      "pinyin": "èr vs liǎng",
+      "english": "二(èr) vs 两(liǎng)",
+      "russian": "二 vs 两 (оба означают 'два')",
+      "level": "初",
+      "category": "numbers",
+      "description": "Разница в употреблении двух способов сказать 'два'.",
+      "complexity": 2,
+      "tags": [
+        "numbers",
+        "confusing",
+        "grammar"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_8",
+    "studied_at": "2025-12-09T23:28:37.161365",
+    "topic": {
+      "id": "grammar_8",
+      "chinese": "不 vs 没",
+      "pinyin": "bù vs méi",
+      "english": "不(bù) vs 没(méi)",
+      "russian": "不 vs 没 (оба означают отрицание)",
+      "level": "初",
+      "category": "negation",
+      "description": "Разница между отрицаниями '不' (общее/будущее) и '没' (факт/прошлое).",
+      "complexity": 3,
+      "tags": [
+        "negation",
+        "verbs",
+        "tense"
+      ]
+    }
+  }
+]

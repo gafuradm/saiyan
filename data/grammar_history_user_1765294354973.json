@@ -1,0 +1,292 @@
+[
+  {
+    "topic_id": "grammar_1",
+    "studied_at": "2025-12-09T23:35:42.340345",
+    "topic": {
+      "id": "grammar_1",
+      "chinese": "数字",
+      "pinyin": "shùzì",
+      "english": "Numbers",
+      "russian": "Числительные",
+      "level": "初",
+      "category": "numbers",
+      "description": "Основные числительные и их использование.",
+      "complexity": 1,
+      "tags": [
+        "numbers",
+        "basics"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_1",
+    "studied_at": "2025-12-10T00:47:17.101877",
+    "topic": {
+      "id": "grammar_1",
+      "chinese": "数字",
+      "pinyin": "shùzì",
+      "english": "Numbers",
+      "russian": "Числительные",
+      "level": "初",
+      "category": "numbers",
+      "description": "Основные числительные и их использование.",
+      "complexity": 1,
+      "tags": [
+        "numbers",
+        "basics"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_2",
+    "studied_at": "2025-12-10T00:49:33.404573",
+    "topic": {
+      "id": "grammar_2",
+      "chinese": "钱",
+      "pinyin": "qián",
+      "english": "Money",
+      "russian": "Деньги",
+      "level": "初",
+      "category": "vocabulary",
+      "description": "Выражения, связанные с деньгами, ценами и валютами.",
+      "complexity": 1,
+      "tags": [
+        "money",
+        "shopping",
+        "basics"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_1",
+    "studied_at": "2025-12-10T00:52:39.666846",
+    "topic": {
+      "id": "grammar_1",
+      "chinese": "数字",
+      "pinyin": "shùzì",
+      "english": "Numbers",
+      "russian": "Числительные",
+      "level": "初",
+      "category": "numbers",
+      "description": "Основные числительные и их использование.",
+      "complexity": 1,
+      "tags": [
+        "numbers",
+        "basics"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_2",
+    "studied_at": "2025-12-10T00:55:41.483827",
+    "topic": {
+      "id": "grammar_2",
+      "chinese": "钱",
+      "pinyin": "qián",
+      "english": "Money",
+      "russian": "Деньги",
+      "level": "初",
+      "category": "vocabulary",
+      "description": "Выражения, связанные с деньгами, ценами и валютами.",
+      "complexity": 1,
+      "tags": [
+        "money",
+        "shopping",
+        "basics"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_2",
+    "studied_at": "2025-12-10T00:57:55.245020",
+    "topic": {
+      "id": "grammar_2",
+      "chinese": "钱",
+      "pinyin": "qián",
+      "english": "Money",
+      "russian": "Деньги",
+      "level": "初",
+      "category": "vocabulary",
+      "description": "Выражения, связанные с деньгами, ценами и валютами.",
+      "complexity": 1,
+      "tags": [
+        "money",
+        "shopping",
+        "basics"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_1",
+    "studied_at": "2025-12-10T00:59:00.760276",
+    "topic": {
+      "id": "grammar_1",
+      "chinese": "数字",
+      "pinyin": "shùzì",
+      "english": "Numbers",
+      "russian": "Числительные",
+      "level": "初",
+      "category": "numbers",
+      "description": "Основные числительные и их использование.",
+      "complexity": 1,
+      "tags": [
+        "numbers",
+        "basics"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_1",
+    "studied_at": "2025-12-10T01:12:32.919922",
+    "topic": {
+      "id": "grammar_1",
+      "chinese": "数字",
+      "pinyin": "shùzì",
+      "english": "Numbers",
+      "russian": "Числительные",
+      "level": "初",
+      "category": "numbers",
+      "description": "Основные числительные и их использование.",
+      "complexity": 1,
+      "tags": [
+        "numbers",
+        "basics"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_1",
+    "studied_at": "2025-12-10T01:29:01.736201",
+    "topic": {
+      "id": "grammar_1",
+      "chinese": "数字",
+      "pinyin": "shùzì",
+      "english": "Numbers",
+      "russian": "Числительные",
+      "level": "初",
+      "category": "numbers",
+      "description": "Основные числительные и их использование.",
+      "complexity": 1,
+      "tags": [
+        "numbers",
+        "basics"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_1",
+    "studied_at": "2025-12-10T07:28:09.392596",
+    "topic": {
+      "id": "grammar_1",
+      "chinese": "数字",
+      "pinyin": "shùzì",
+      "english": "Numbers",
+      "russian": "Числительные",
+      "level": "初",
+      "category": "numbers",
+      "description": "Основные числительные и их использование.",
+      "complexity": 1,
+      "tags": [
+        "numbers",
+        "basics"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_1",
+    "studied_at": "2025-12-19T02:30:04.386666",
+    "topic": {
+      "id": "grammar_1",
+      "chinese": "数字",
+      "pinyin": "shùzì",
+      "english": "Numbers",
+      "russian": "Числительные",
+      "level": "初",
+      "category": "numbers",
+      "description": "Основные числительные и их использование.",
+      "complexity": 1,
+      "tags": [
+        "numbers",
+        "basics"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_10",
+    "studied_at": "2025-12-19T02:30:05.132421",
+    "topic": {
+      "id": "grammar_10",
+      "chinese": "是 vs 有 vs 在",
+      "pinyin": "shì vs yǒu vs zài",
+      "english": "是(shì) vs 有(yǒu) vs 在(zài)",
+      "russian": "是 (быть) vs 有 (иметь/находиться) vs 在 (находиться)",
+      "level": "初",
+      "category": "verbs",
+      "description": "Различие между тремя основными глаголами существования и локации.",
+      "complexity": 3,
+      "tags": [
+        "verb",
+        "existence",
+        "location"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_1",
+    "studied_at": "2025-12-19T02:31:22.184786",
+    "topic": {
+      "id": "grammar_1",
+      "chinese": "数字",
+      "pinyin": "shùzì",
+      "english": "Numbers",
+      "russian": "Числительные",
+      "level": "初",
+      "category": "numbers",
+      "description": "Основные числительные и их использование.",
+      "complexity": 1,
+      "tags": [
+        "numbers",
+        "basics"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_2",
+    "studied_at": "2025-12-19T03:53:38.603362",
+    "topic": {
+      "id": "grammar_2",
+      "chinese": "钱",
+      "pinyin": "qián",
+      "english": "Money",
+      "russian": "Деньги",
+      "level": "初",
+      "category": "vocabulary",
+      "description": "Выражения, связанные с деньгами, ценами и валютами.",
+      "complexity": 1,
+      "tags": [
+        "money",
+        "shopping",
+        "basics"
+      ]
+    }
+  },
+  {
+    "topic_id": "grammar_3",
+    "studied_at": "2025-12-22T03:34:47.779727",
+    "topic": {
+      "id": "grammar_3",
+      "chinese": "时间表达",
+      "pinyin": "shíjiān biǎodá",
+      "english": "Expressions about Time",
+      "russian": "Выражения времени",
+      "level": "初",
+      "category": "time",
+      "description": "Способы выражения времени (часы, минуты, периоды).",
+      "complexity": 2,
+      "tags": [
+        "time",
+        "daily life"
+      ]
+    }
+  }
+]

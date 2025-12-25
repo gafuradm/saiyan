@@ -1,0 +1,365 @@
+{
+  "test_id": "fast_hsk4_040725",
+  "level": "HSK 4",
+  "sections": {
+    "listening": {
+      "section": "listening",
+      "parts": {
+        "part1": {
+          "part": "part1",
+          "format": "audio_choice",
+          "description": "Прослушайте и выберите ответ",
+          "questions": [
+            {
+              "id": "L1",
+              "type": "audio_choice",
+              "chinese": "阿姨",
+              "pinyin": "",
+              "translation": "āyí aunt",
+              "question": "Прослушайте и выберите правильный перевод:",
+              "audio_text": "阿姨 ",
+              "options": [
+                "āyí aunt",
+                "неправильный вариант 1",
+                "неправильный вариант 2",
+                "неправильный вариант 3"
+              ],
+              "correct_answer": 0,
+              "explanation": "Вы услышали '阿姨' что означает 'āyí aunt'"
+            },
+            {
+              "id": "L2",
+              "type": "audio_choice",
+              "chinese": "啊",
+              "pinyin": "",
+              "translation": "a ah",
+              "question": "Прослушайте и выберите правильный перевод:",
+              "audio_text": "啊 ",
+              "options": [
+                "a ah",
+                "неправильный вариант 1",
+                "неправильный вариант 2",
+                "неправильный вариант 3"
+              ],
+              "correct_answer": 0,
+              "explanation": "Вы услышали '啊' что означает 'a ah'"
+            },
+            {
+              "id": "L3",
+              "type": "audio_choice",
+              "chinese": "矮",
+              "pinyin": "",
+              "translation": "ǎi short",
+              "question": "Прослушайте и выберите правильный перевод:",
+              "audio_text": "矮 ",
+              "options": [
+                "ǎi short",
+                "неправильный вариант 1",
+                "неправильный вариант 2",
+                "неправильный вариант 3"
+              ],
+              "correct_answer": 0,
+              "explanation": "Вы услышали '矮' что означает 'ǎi short'"
+            },
+            {
+              "id": "L4",
+              "type": "audio_choice",
+              "chinese": "矮小",
+              "pinyin": "",
+              "translation": "ǎi xiǎo short and small",
+              "question": "Прослушайте и выберите правильный перевод:",
+              "audio_text": "矮小 ",
+              "options": [
+                "ǎi xiǎo short and small",
+                "неправильный вариант 1",
+                "неправильный вариант 2",
+                "неправильный вариант 3"
+              ],
+              "correct_answer": 0,
+              "explanation": "Вы услышали '矮小' что означает 'ǎi xiǎo short and small'"
+            },
+            {
+              "id": "L5",
+              "type": "audio_choice",
+              "chinese": "爱国",
+              "pinyin": "",
+              "translation": "ài guó love one's country",
+              "question": "Прослушайте и выберите правильный перевод:",
+              "audio_text": "爱国 ",
+              "options": [
+                "ài guó love one's country",
+                "неправильный вариант 1",
+                "неправильный вариант 2",
+                "неправильный вариант 3"
+              ],
+              "correct_answer": 0,
+              "explanation": "Вы услышали '爱国' что означает 'ài guó love one's country'"
+            }
+          ],
+          "time_limit": 5
+        }
+      },
+      "total_questions": 5,
+      "time_limit": 5
+    },
+    "reading": {
+      "section": "reading",
+      "parts": {
+        "part1": {
+          "part": "part1",
+          "format": "multiple_choice",
+          "description": "Выберите правильный перевод",
+          "questions": [
+            {
+              "id": "Q1",
+              "type": "multiple_choice",
+              "chinese": "阿姨",
+              "pinyin": "",
+              "translation": "āyí aunt",
+              "question": "Что означает '阿姨'?",
+              "options": [
+                "āyí aunt",
+                "неправильный вариант 1",
+                "неправильный вариант 2",
+                "неправильный вариант 3"
+              ],
+              "correct_answer": 0,
+              "explanation": "'阿姨' означает 'āyí aunt'"
+            },
+            {
+              "id": "Q2",
+              "type": "multiple_choice",
+              "chinese": "啊",
+              "pinyin": "",
+              "translation": "a ah",
+              "question": "Что означает '啊'?",
+              "options": [
+                "a ah",
+                "неправильный вариант 1",
+                "неправильный вариант 2",
+                "неправильный вариант 3"
+              ],
+              "correct_answer": 0,
+              "explanation": "'啊' означает 'a ah'"
+            },
+            {
+              "id": "Q3",
+              "type": "multiple_choice",
+              "chinese": "矮",
+              "pinyin": "",
+              "translation": "ǎi short",
+              "question": "Что означает '矮'?",
+              "options": [
+                "ǎi short",
+                "неправильный вариант 1",
+                "неправильный вариант 2",
+                "неправильный вариант 3"
+              ],
+              "correct_answer": 0,
+              "explanation": "'矮' означает 'ǎi short'"
+            },
+            {
+              "id": "Q4",
+              "type": "multiple_choice",
+              "chinese": "矮小",
+              "pinyin": "",
+              "translation": "ǎi xiǎo short and small",
+              "question": "Что означает '矮小'?",
+              "options": [
+                "ǎi xiǎo short and small",
+                "неправильный вариант 1",
+                "неправильный вариант 2",
+                "неправильный вариант 3"
+              ],
+              "correct_answer": 0,
+              "explanation": "'矮小' означает 'ǎi xiǎo short and small'"
+            },
+            {
+              "id": "Q5",
+              "type": "multiple_choice",
+              "chinese": "爱国",
+              "pinyin": "",
+              "translation": "ài guó love one's country",
+              "question": "Что означает '爱国'?",
+              "options": [
+                "ài guó love one's country",
+                "неправильный вариант 1",
+                "неправильный вариант 2",
+                "неправильный вариант 3"
+              ],
+              "correct_answer": 0,
+              "explanation": "'爱国' означает 'ài guó love one's country'"
+            },
+            {
+              "id": "Q6",
+              "type": "multiple_choice",
+              "chinese": "爱护",
+              "pinyin": "",
+              "translation": "àihù Care",
+              "question": "Что означает '爱护'?",
+              "options": [
+                "àihù Care",
+                "неправильный вариант 1",
+                "неправильный вариант 2",
+                "неправильный вариант 3"
+              ],
+              "correct_answer": 0,
+              "explanation": "'爱护' означает 'àihù Care'"
+            },
+            {
+              "id": "Q7",
+              "type": "multiple_choice",
+              "chinese": "安",
+              "pinyin": "",
+              "translation": "ān quiet",
+              "question": "Что означает '安'?",
+              "options": [
+                "ān quiet",
+                "неправильный вариант 1",
+                "неправильный вариант 2",
+                "неправильный вариант 3"
+              ],
+              "correct_answer": 0,
+              "explanation": "'安' означает 'ān quiet'"
+            },
+            {
+              "id": "Q8",
+              "type": "multiple_choice",
+              "chinese": "安置",
+              "pinyin": "",
+              "translation": "ānzhì put",
+              "question": "Что означает '安置'?",
+              "options": [
+                "ānzhì put",
+                "неправильный вариант 1",
+                "неправильный вариант 2",
+                "неправильный вариант 3"
+              ],
+              "correct_answer": 0,
+              "explanation": "'安置' означает 'ānzhì put'"
+            },
+            {
+              "id": "Q9",
+              "type": "multiple_choice",
+              "chinese": "按时",
+              "pinyin": "",
+              "translation": "ànshí on time",
+              "question": "Что означает '按时'?",
+              "options": [
+                "ànshí on time",
+                "неправильный вариант 1",
+                "неправильный вариант 2",
+                "неправильный вариант 3"
+              ],
+              "correct_answer": 0,
+              "explanation": "'按时' означает 'ànshí on time'"
+            },
+            {
+              "id": "Q10",
+              "type": "multiple_choice",
+              "chinese": "暗",
+              "pinyin": "",
+              "translation": "àn dark",
+              "question": "Что означает '暗'?",
+              "options": [
+                "àn dark",
+                "неправильный вариант 1",
+                "неправильный вариант 2",
+                "неправильный вариант 3"
+              ],
+              "correct_answer": 0,
+              "explanation": "'暗' означает 'àn dark'"
+            }
+          ],
+          "time_limit": 10
+        }
+      },
+      "total_questions": 10,
+      "time_limit": 10
+    },
+    "writing": {
+      "section": "writing",
+      "parts": {
+        "part1": {
+          "part": "part1",
+          "format": "writing",
+          "description": "Напишите иероглифы",
+          "questions": [
+            {
+              "id": "W1",
+              "type": "writing",
+              "chinese": "阿姨",
+              "pinyin": "",
+              "translation": "āyí aunt",
+              "question": "Напишите иероглиф для слова: āyí aunt",
+              "requirements": "Напишите иероглиф '阿姨'",
+              "max_length": 10
+            },
+            {
+              "id": "W2",
+              "type": "writing",
+              "chinese": "啊",
+              "pinyin": "",
+              "translation": "a ah",
+              "question": "Напишите иероглиф для слова: a ah",
+              "requirements": "Напишите иероглиф '啊'",
+              "max_length": 10
+            },
+            {
+              "id": "W3",
+              "type": "writing",
+              "chinese": "矮",
+              "pinyin": "",
+              "translation": "ǎi short",
+              "question": "Напишите иероглиф для слова: ǎi short",
+              "requirements": "Напишите иероглиф '矮'",
+              "max_length": 10
+            }
+          ],
+          "time_limit": 10
+        }
+      },
+      "total_questions": 3,
+      "time_limit": 10
+    }
+  },
+  "generated_at": "2025-12-10T04:07:25.022701",
+  "time_limits": {
+    "total": 30
+  },
+  "passing_score": 60,
+  "audio": {
+    "audio_texts": [
+      {
+        "id": "L1",
+        "text": "阿姨 ",
+        "pinyin": "",
+        "translation": "āyí aunt"
+      },
+      {
+        "id": "L2",
+        "text": "啊 ",
+        "pinyin": "",
+        "translation": "a ah"
+      },
+      {
+        "id": "L3",
+        "text": "矮 ",
+        "pinyin": "",
+        "translation": "ǎi short"
+      },
+      {
+        "id": "L4",
+        "text": "矮小 ",
+        "pinyin": "",
+        "translation": "ǎi xiǎo short and small"
+      },
+      {
+        "id": "L5",
+        "text": "爱国 ",
+        "pinyin": "",
+        "translation": "ài guó love one's country"
+      }
+    ]
+  }
+}

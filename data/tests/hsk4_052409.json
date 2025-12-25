@@ -1,0 +1,1544 @@
+{
+  "test_id": "hsk4_052409",
+  "level": 4,
+  "test_format": "HSK 4 формат",
+  "total_questions": 66,
+  "time_limits": {
+    "listening": 30,
+    "reading": 40,
+    "writing": 25,
+    "total": 95
+  },
+  "passing_score": 180,
+  "sections": {
+    "listening": {
+      "section": "listening",
+      "parts": {
+        "part1": {
+          "part": "part1",
+          "format": "short_dialog_choice",
+          "description": "Короткий диалог → один вопрос → выбор ответа",
+          "questions": [
+            {
+              "id": "SD1",
+              "type": "short_dialog_choice",
+              "question": "Прослушайте диалог. С чем соглашается второй человек?",
+              "dialog": "A: 你觉得阿姨怎么样？\nB: 我觉得阿姨非常重要。",
+              "options": [
+                "阿姨 важен",
+                "阿姨 не важен",
+                "Они обсуждают что-то другое",
+                "Второй человек не согласен"
+              ],
+              "correct_answer": 0,
+              "chinese": "阿姨",
+              "pinyin": "",
+              "translation": "āyí aunt",
+              "audio_text": "A: 你觉得阿姨怎么样？\nB: 我觉得阿姨非常重要。",
+              "explanation": "B говорит: '我觉得阿姨非常重要。' - 'Я думаю, что āyí aunt очень важен.'"
+            },
+            {
+              "id": "SD2",
+              "type": "short_dialog_choice",
+              "question": "Прослушайте диалог. С чем соглашается второй человек?",
+              "dialog": "A: 你觉得啊怎么样？\nB: 我觉得啊非常重要。",
+              "options": [
+                "啊 важен",
+                "啊 не важен",
+                "Они обсуждают что-то другое",
+                "Второй человек не согласен"
+              ],
+              "correct_answer": 0,
+              "chinese": "啊",
+              "pinyin": "",
+              "translation": "a ah",
+              "audio_text": "A: 你觉得啊怎么样？\nB: 我觉得啊非常重要。",
+              "explanation": "B говорит: '我觉得啊非常重要。' - 'Я думаю, что a ah очень важен.'"
+            },
+            {
+              "id": "SD3",
+              "type": "short_dialog_choice",
+              "question": "Прослушайте диалог. С чем соглашается второй человек?",
+              "dialog": "A: 你觉得矮怎么样？\nB: 我觉得矮非常重要。",
+              "options": [
+                "矮 важен",
+                "矮 не важен",
+                "Они обсуждают что-то другое",
+                "Второй человек не согласен"
+              ],
+              "correct_answer": 0,
+              "chinese": "矮",
+              "pinyin": "",
+              "translation": "ǎi short",
+              "audio_text": "A: 你觉得矮怎么样？\nB: 我觉得矮非常重要。",
+              "explanation": "B говорит: '我觉得矮非常重要。' - 'Я думаю, что ǎi short очень важен.'"
+            },
+            {
+              "id": "SD4",
+              "type": "short_dialog_choice",
+              "question": "Прослушайте диалог. С чем соглашается второй человек?",
+              "dialog": "A: 你觉得矮小怎么样？\nB: 我觉得矮小非常重要。",
+              "options": [
+                "矮小 важен",
+                "矮小 не важен",
+                "Они обсуждают что-то другое",
+                "Второй человек не согласен"
+              ],
+              "correct_answer": 0,
+              "chinese": "矮小",
+              "pinyin": "",
+              "translation": "ǎi xiǎo short and small",
+              "audio_text": "A: 你觉得矮小怎么样？\nB: 我觉得矮小非常重要。",
+              "explanation": "B говорит: '我觉得矮小非常重要。' - 'Я думаю, что ǎi xiǎo short and small очень важен.'"
+            },
+            {
+              "id": "SD5",
+              "type": "short_dialog_choice",
+              "question": "Прослушайте диалог. С чем соглашается второй человек?",
+              "dialog": "A: 你觉得爱国怎么样？\nB: 我觉得爱国非常重要。",
+              "options": [
+                "爱国 важен",
+                "爱国 не важен",
+                "Они обсуждают что-то другое",
+                "Второй человек не согласен"
+              ],
+              "correct_answer": 0,
+              "chinese": "爱国",
+              "pinyin": "",
+              "translation": "ài guó love one's country",
+              "audio_text": "A: 你觉得爱国怎么样？\nB: 我觉得爱国非常重要。",
+              "explanation": "B говорит: '我觉得爱国非常重要。' - 'Я думаю, что ài guó love one's country очень важен.'"
+            },
+            {
+              "id": "SD6",
+              "type": "short_dialog_choice",
+              "question": "Прослушайте диалог. С чем соглашается второй человек?",
+              "dialog": "A: 你觉得爱护怎么样？\nB: 我觉得爱护非常重要。",
+              "options": [
+                "爱护 важен",
+                "爱护 не важен",
+                "Они обсуждают что-то другое",
+                "Второй человек не согласен"
+              ],
+              "correct_answer": 0,
+              "chinese": "爱护",
+              "pinyin": "",
+              "translation": "àihù Care",
+              "audio_text": "A: 你觉得爱护怎么样？\nB: 我觉得爱护非常重要。",
+              "explanation": "B говорит: '我觉得爱护非常重要。' - 'Я думаю, что àihù Care очень важен.'"
+            },
+            {
+              "id": "SD7",
+              "type": "short_dialog_choice",
+              "question": "Прослушайте диалог. С чем соглашается второй человек?",
+              "dialog": "A: 你觉得安怎么样？\nB: 我觉得安非常重要。",
+              "options": [
+                "安 важен",
+                "安 не важен",
+                "Они обсуждают что-то другое",
+                "Второй человек не согласен"
+              ],
+              "correct_answer": 0,
+              "chinese": "安",
+              "pinyin": "",
+              "translation": "ān quiet",
+              "audio_text": "A: 你觉得安怎么样？\nB: 我觉得安非常重要。",
+              "explanation": "B говорит: '我觉得安非常重要。' - 'Я думаю, что ān quiet очень важен.'"
+            },
+            {
+              "id": "SD8",
+              "type": "short_dialog_choice",
+              "question": "Прослушайте диалог. С чем соглашается второй человек?",
+              "dialog": "A: 你觉得安置怎么样？\nB: 我觉得安置非常重要。",
+              "options": [
+                "安置 важен",
+                "安置 не важен",
+                "Они обсуждают что-то другое",
+                "Второй человек не согласен"
+              ],
+              "correct_answer": 0,
+              "chinese": "安置",
+              "pinyin": "",
+              "translation": "ānzhì put",
+              "audio_text": "A: 你觉得安置怎么样？\nB: 我觉得安置非常重要。",
+              "explanation": "B говорит: '我觉得安置非常重要。' - 'Я думаю, что ānzhì put очень важен.'"
+            },
+            {
+              "id": "SD9",
+              "type": "short_dialog_choice",
+              "question": "Прослушайте диалог. С чем соглашается второй человек?",
+              "dialog": "A: 你觉得按时怎么样？\nB: 我觉得按时非常重要。",
+              "options": [
+                "按时 важен",
+                "按时 не важен",
+                "Они обсуждают что-то другое",
+                "Второй человек не согласен"
+              ],
+              "correct_answer": 0,
+              "chinese": "按时",
+              "pinyin": "",
+              "translation": "ànshí on time",
+              "audio_text": "A: 你觉得按时怎么样？\nB: 我觉得按时非常重要。",
+              "explanation": "B говорит: '我觉得按时非常重要。' - 'Я думаю, что ànshí on time очень важен.'"
+            },
+            {
+              "id": "SD10",
+              "type": "short_dialog_choice",
+              "question": "Прослушайте диалог. С чем соглашается второй человек?",
+              "dialog": "A: 你觉得暗怎么样？\nB: 我觉得暗非常重要。",
+              "options": [
+                "暗 важен",
+                "暗 не важен",
+                "Они обсуждают что-то другое",
+                "Второй человек не согласен"
+              ],
+              "correct_answer": 0,
+              "chinese": "暗",
+              "pinyin": "",
+              "translation": "àn dark",
+              "audio_text": "A: 你觉得暗怎么样？\nB: 我觉得暗非常重要。",
+              "explanation": "B говорит: '我觉得暗非常重要。' - 'Я думаю, что àn dark очень важен.'"
+            }
+          ],
+          "time_limit": 7
+        },
+        "part2": {
+          "part": "part2",
+          "format": "longer_dialog_choice",
+          "description": "Средний диалог → один вопрос",
+          "questions": [
+            {
+              "id": "LD1",
+              "type": "longer_dialog_choice",
+              "question": "Прослушайте диалог. Какое мнение у второго человека?",
+              "dialog": "A: 关于阿姨和啊，你有什么看法？\n    B: 我认为阿姨更重要，因为阿姨影响更大。",
+              "options": [
+                "āyí aunt важнее a ah",
+                "a ah важнее āyí aunt",
+                "Они одинаково важны",
+                "Ни один не важен"
+              ],
+              "correct_answer": 0,
+              "chinese": "阿姨",
+              "pinyin": "",
+              "translation": "āyí aunt",
+              "audio_text": "A: 关于阿姨和啊，你有什么看法？\n    B: 我认为阿姨更重要，因为阿姨影响更大。",
+              "explanation": "B говорит: '我认为阿姨更重要' - 'Я думаю, что āyí aunt важнее'"
+            },
+            {
+              "id": "LD2",
+              "type": "longer_dialog_choice",
+              "question": "Прослушайте диалог. Какое мнение у второго человека?",
+              "dialog": "A: 关于矮和矮小，你有什么看法？\n    B: 我认为矮更重要，因为矮影响更大。",
+              "options": [
+                "ǎi short важнее ǎi xiǎo short and small",
+                "ǎi xiǎo short and small важнее ǎi short",
+                "Они одинаково важны",
+                "Ни один не важен"
+              ],
+              "correct_answer": 0,
+              "chinese": "矮",
+              "pinyin": "",
+              "translation": "ǎi short",
+              "audio_text": "A: 关于矮和矮小，你有什么看法？\n    B: 我认为矮更重要，因为矮影响更大。",
+              "explanation": "B говорит: '我认为矮更重要' - 'Я думаю, что ǎi short важнее'"
+            },
+            {
+              "id": "LD3",
+              "type": "longer_dialog_choice",
+              "question": "Прослушайте диалог. Какое мнение у второго человека?",
+              "dialog": "A: 关于爱国和爱护，你有什么看法？\n    B: 我认为爱国更重要，因为爱国影响更大。",
+              "options": [
+                "ài guó love one's country важнее àihù Care",
+                "àihù Care важнее ài guó love one's country",
+                "Они одинаково важны",
+                "Ни один не важен"
+              ],
+              "correct_answer": 0,
+              "chinese": "爱国",
+              "pinyin": "",
+              "translation": "ài guó love one's country",
+              "audio_text": "A: 关于爱国和爱护，你有什么看法？\n    B: 我认为爱国更重要，因为爱国影响更大。",
+              "explanation": "B говорит: '我认为爱国更重要' - 'Я думаю, что ài guó love one's country важнее'"
+            },
+            {
+              "id": "LD4",
+              "type": "longer_dialog_choice",
+              "question": "Прослушайте диалог. Какое мнение у второго человека?",
+              "dialog": "A: 关于安和安置，你有什么看法？\n    B: 我认为安更重要，因为安影响更大。",
+              "options": [
+                "ān quiet важнее ānzhì put",
+                "ānzhì put важнее ān quiet",
+                "Они одинаково важны",
+                "Ни один не важен"
+              ],
+              "correct_answer": 0,
+              "chinese": "安",
+              "pinyin": "",
+              "translation": "ān quiet",
+              "audio_text": "A: 关于安和安置，你有什么看法？\n    B: 我认为安更重要，因为安影响更大。",
+              "explanation": "B говорит: '我认为安更重要' - 'Я думаю, что ān quiet важнее'"
+            },
+            {
+              "id": "LD5",
+              "type": "longer_dialog_choice",
+              "question": "Прослушайте диалог. Какое мнение у второго человека?",
+              "dialog": "A: 关于按时和暗，你有什么看法？\n    B: 我认为按时更重要，因为按时影响更大。",
+              "options": [
+                "ànshí on time важнее àn dark",
+                "àn dark важнее ànshí on time",
+                "Они одинаково важны",
+                "Ни один не важен"
+              ],
+              "correct_answer": 0,
+              "chinese": "按时",
+              "pinyin": "",
+              "translation": "ànshí on time",
+              "audio_text": "A: 关于按时和暗，你有什么看法？\n    B: 我认为按时更重要，因为按时影响更大。",
+              "explanation": "B говорит: '我认为按时更重要' - 'Я думаю, что ànshí on time важнее'"
+            },
+            {
+              "id": "LD6",
+              "type": "longer_dialog_choice",
+              "question": "Прослушайте диалог. Какое мнение у второго человека?",
+              "dialog": "A: 关于暗示和巴士，你有什么看法？\n    B: 我认为暗示更重要，因为暗示影响更大。",
+              "options": [
+                "ànshì suggest secretly важнее bā shì bus",
+                "bā shì bus важнее ànshì suggest secretly",
+                "Они одинаково важны",
+                "Ни один не важен"
+              ],
+              "correct_answer": 0,
+              "chinese": "暗示",
+              "pinyin": "",
+              "translation": "ànshì suggest secretly",
+              "audio_text": "A: 关于暗示和巴士，你有什么看法？\n    B: 我认为暗示更重要，因为暗示影响更大。",
+              "explanation": "B говорит: '我认为暗示更重要' - 'Я думаю, что ànshì suggest secretly важнее'"
+            },
+            {
+              "id": "LD7",
+              "type": "longer_dialog_choice",
+              "question": "Прослушайте диалог. Какое мнение у второго человека?",
+              "dialog": "A: 关于百货和摆，你有什么看法？\n    B: 我认为百货更重要，因为百货影响更大。",
+              "options": [
+                "bǎi huò department store важнее bǎi pendulum",
+                "bǎi pendulum важнее bǎi huò department store",
+                "Они одинаково важны",
+                "Ни один не важен"
+              ],
+              "correct_answer": 0,
+              "chinese": "百货",
+              "pinyin": "",
+              "translation": "bǎi huò department store",
+              "audio_text": "A: 关于百货和摆，你有什么看法？\n    B: 我认为百货更重要，因为百货影响更大。",
+              "explanation": "B говорит: '我认为百货更重要' - 'Я думаю, что bǎi huò department store важнее'"
+            }
+          ],
+          "time_limit": 7
+        },
+        "part3": {
+          "part": "part3",
+          "format": "multiple_choice",
+          "description": "Аудиотексты 80–120字 → вопросы",
+          "questions": [
+            {
+              "id": "Q1",
+              "type": "multiple_choice",
+              "chinese": "阿姨",
+              "pinyin": "",
+              "translation": "āyí aunt",
+              "question": "Что означает '阿姨'?",
+              "options": [
+                "bǎi dòng swing",
+                "ài guó love one's country",
+                "bǎi huò department store",
+                "āyí aunt"
+              ],
+              "correct_answer": 3,
+              "explanation": "'阿姨' () означает 'āyí aunt'",
+              "audio_text": "阿姨",
+              "image_description": "Изображение, связанное с: āyí aunt"
+            },
+            {
+              "id": "Q2",
+              "type": "multiple_choice",
+              "chinese": "啊",
+              "pinyin": "",
+              "translation": "a ah",
+              "question": "Что означает '啊'?",
+              "options": [
+                "bā shì bus",
+                "a ah",
+                "ǎi short",
+                "bǎi pendulum"
+              ],
+              "correct_answer": 1,
+              "explanation": "'啊' () означает 'a ah'",
+              "audio_text": "啊",
+              "image_description": "Изображение, связанное с: a ah"
+            },
+            {
+              "id": "Q3",
+              "type": "multiple_choice",
+              "chinese": "矮",
+              "pinyin": "",
+              "translation": "ǎi short",
+              "question": "Что означает '矮'?",
+              "options": [
+                "ǎi short",
+                "ànshì suggest secretly",
+                "bàn shì handle affairs",
+                "bā shì bus"
+              ],
+              "correct_answer": 0,
+              "explanation": "'矮' () означает 'ǎi short'",
+              "audio_text": "矮",
+              "image_description": "Изображение, связанное с: ǎi short"
+            },
+            {
+              "id": "Q4",
+              "type": "multiple_choice",
+              "chinese": "矮小",
+              "pinyin": "",
+              "translation": "ǎi xiǎo short and small",
+              "question": "Что означает '矮小'?",
+              "options": [
+                "ǎi short",
+                "bāohán Contain",
+                "ǎi xiǎo short and small",
+                "bàn shì handle affairs"
+              ],
+              "correct_answer": 2,
+              "explanation": "'矮小' () означает 'ǎi xiǎo short and small'",
+              "audio_text": "矮小",
+              "image_description": "Изображение, связанное с: ǎi xiǎo short and small"
+            },
+            {
+              "id": "Q5",
+              "type": "multiple_choice",
+              "chinese": "爱国",
+              "pinyin": "",
+              "translation": "ài guó love one's country",
+              "question": "Что означает '爱国'?",
+              "options": [
+                "ài guó love one's country",
+                "a ah",
+                "àihù Care",
+                "ān quiet"
+              ],
+              "correct_answer": 0,
+              "explanation": "'爱国' () означает 'ài guó love one's country'",
+              "audio_text": "爱国",
+              "image_description": "Изображение, связанное с: ài guó love one's country"
+            },
+            {
+              "id": "Q6",
+              "type": "multiple_choice",
+              "chinese": "爱护",
+              "pinyin": "",
+              "translation": "àihù Care",
+              "question": "Что означает '爱护'?",
+              "options": [
+                "bā shì bus",
+                "bǎituō cast off",
+                "ànshí on time",
+                "àihù Care"
+              ],
+              "correct_answer": 3,
+              "explanation": "'爱护' () означает 'àihù Care'",
+              "audio_text": "爱护",
+              "image_description": "Изображение, связанное с: àihù Care"
+            },
+            {
+              "id": "Q7",
+              "type": "multiple_choice",
+              "chinese": "安",
+              "pinyin": "",
+              "translation": "ān quiet",
+              "question": "Что означает '安'?",
+              "options": [
+                "ànshí on time",
+                "ǎi short",
+                "bài defeat",
+                "ān quiet"
+              ],
+              "correct_answer": 3,
+              "explanation": "'安' () означает 'ān quiet'",
+              "audio_text": "安",
+              "image_description": "Изображение, связанное с: ān quiet"
+            },
+            {
+              "id": "Q8",
+              "type": "multiple_choice",
+              "chinese": "安置",
+              "pinyin": "",
+              "translation": "ānzhì put",
+              "question": "Что означает '安置'?",
+              "options": [
+                "bài defeat",
+                "āyí aunt",
+                "àihù Care",
+                "ānzhì put"
+              ],
+              "correct_answer": 3,
+              "explanation": "'安置' () означает 'ānzhì put'",
+              "audio_text": "安置",
+              "image_description": "Изображение, связанное с: ānzhì put"
+            },
+            {
+              "id": "Q9",
+              "type": "multiple_choice",
+              "chinese": "按时",
+              "pinyin": "",
+              "translation": "ànshí on time",
+              "question": "Что означает '按时'?",
+              "options": [
+                "bǎituō cast off",
+                "ànshí on time",
+                "bàn shì handle affairs",
+                "āyí aunt"
+              ],
+              "correct_answer": 1,
+              "explanation": "'按时' () означает 'ànshí on time'",
+              "audio_text": "按时",
+              "image_description": "Изображение, связанное с: ànshí on time"
+            },
+            {
+              "id": "Q10",
+              "type": "multiple_choice",
+              "chinese": "暗",
+              "pinyin": "",
+              "translation": "àn dark",
+              "question": "Что означает '暗'?",
+              "options": [
+                "ài guó love one's country",
+                "bāohán Contain",
+                "bài defeat",
+                "àn dark"
+              ],
+              "correct_answer": 3,
+              "explanation": "'暗' () означает 'àn dark'",
+              "audio_text": "暗",
+              "image_description": "Изображение, связанное с: àn dark"
+            },
+            {
+              "id": "Q11",
+              "type": "multiple_choice",
+              "chinese": "暗示",
+              "pinyin": "",
+              "translation": "ànshì suggest secretly",
+              "question": "Что означает '暗示'?",
+              "options": [
+                "ài guó love one's country",
+                "a ah",
+                "àihù Care",
+                "ànshì suggest secretly"
+              ],
+              "correct_answer": 3,
+              "explanation": "'暗示' () означает 'ànshì suggest secretly'",
+              "audio_text": "暗示",
+              "image_description": "Изображение, связанное с: ànshì suggest secretly"
+            },
+            {
+              "id": "Q12",
+              "type": "multiple_choice",
+              "chinese": "巴士",
+              "pinyin": "",
+              "translation": "bā shì bus",
+              "question": "Что означает '巴士'?",
+              "options": [
+                "ǎi xiǎo short and small",
+                "bā shì bus",
+                "bāohán Contain",
+                "bài defeat"
+              ],
+              "correct_answer": 1,
+              "explanation": "'巴士' () означает 'bā shì bus'",
+              "audio_text": "巴士",
+              "image_description": "Изображение, связанное с: bā shì bus"
+            },
+            {
+              "id": "Q13",
+              "type": "multiple_choice",
+              "chinese": "百货",
+              "pinyin": "",
+              "translation": "bǎi huò department store",
+              "question": "Что означает '百货'?",
+              "options": [
+                "ānzhì put",
+                "bā shì bus",
+                "bǎi dòng swing",
+                "bǎi huò department store"
+              ],
+              "correct_answer": 3,
+              "explanation": "'百货' () означает 'bǎi huò department store'",
+              "audio_text": "百货",
+              "image_description": "Изображение, связанное с: bǎi huò department store"
+            },
+            {
+              "id": "Q14",
+              "type": "multiple_choice",
+              "chinese": "摆",
+              "pinyin": "",
+              "translation": "bǎi pendulum",
+              "question": "Что означает '摆'?",
+              "options": [
+                "bāoguǒ package",
+                "ài guó love one's country",
+                "bǎi pendulum",
+                "ǎi short"
+              ],
+              "correct_answer": 2,
+              "explanation": "'摆' () означает 'bǎi pendulum'",
+              "audio_text": "摆",
+              "image_description": "Изображение, связанное с: bǎi pendulum"
+            },
+            {
+              "id": "Q15",
+              "type": "multiple_choice",
+              "chinese": "摆动",
+              "pinyin": "",
+              "translation": "bǎi dòng swing",
+              "question": "Что означает '摆动'?",
+              "options": [
+                "bǎi dòng swing",
+                "bā shì bus",
+                "ǎi short",
+                "bǎi pendulum"
+              ],
+              "correct_answer": 0,
+              "explanation": "'摆动' () означает 'bǎi dòng swing'",
+              "audio_text": "摆动",
+              "image_description": "Изображение, связанное с: bǎi dòng swing"
+            },
+            {
+              "id": "Q16",
+              "type": "multiple_choice",
+              "chinese": "摆脱",
+              "pinyin": "",
+              "translation": "bǎituō cast off",
+              "question": "Что означает '摆脱'?",
+              "options": [
+                "ānzhì put",
+                "bǎi pendulum",
+                "bǎituō cast off",
+                "bā shì bus"
+              ],
+              "correct_answer": 2,
+              "explanation": "'摆脱' () означает 'bǎituō cast off'",
+              "audio_text": "摆脱",
+              "image_description": "Изображение, связанное с: bǎituō cast off"
+            },
+            {
+              "id": "Q17",
+              "type": "multiple_choice",
+              "chinese": "败",
+              "pinyin": "",
+              "translation": "bài defeat",
+              "question": "Что означает '败'?",
+              "options": [
+                "āyí aunt",
+                "ài guó love one's country",
+                "ǎi xiǎo short and small",
+                "bài defeat"
+              ],
+              "correct_answer": 3,
+              "explanation": "'败' () означает 'bài defeat'",
+              "audio_text": "败",
+              "image_description": "Изображение, связанное с: bài defeat"
+            },
+            {
+              "id": "Q18",
+              "type": "multiple_choice",
+              "chinese": "办事",
+              "pinyin": "",
+              "translation": "bàn shì handle affairs",
+              "question": "Что означает '办事'?",
+              "options": [
+                "a ah",
+                "ànshí on time",
+                "āyí aunt",
+                "bàn shì handle affairs"
+              ],
+              "correct_answer": 3,
+              "explanation": "'办事' () означает 'bàn shì handle affairs'",
+              "audio_text": "办事",
+              "image_description": "Изображение, связанное с: bàn shì handle affairs"
+            },
+            {
+              "id": "Q19",
+              "type": "multiple_choice",
+              "chinese": "包裹",
+              "pinyin": "",
+              "translation": "bāoguǒ package",
+              "question": "Что означает '包裹'?",
+              "options": [
+                "ài guó love one's country",
+                "àn dark",
+                "bāoguǒ package",
+                "āyí aunt"
+              ],
+              "correct_answer": 2,
+              "explanation": "'包裹' () означает 'bāoguǒ package'",
+              "audio_text": "包裹",
+              "image_description": "Изображение, связанное с: bāoguǒ package"
+            },
+            {
+              "id": "Q20",
+              "type": "multiple_choice",
+              "chinese": "包含",
+              "pinyin": "",
+              "translation": "bāohán Contain",
+              "question": "Что означает '包含'?",
+              "options": [
+                "ānzhì put",
+                "àihù Care",
+                "bǎi dòng swing",
+                "bāohán Contain"
+              ],
+              "correct_answer": 3,
+              "explanation": "'包含' () означает 'bāohán Contain'",
+              "audio_text": "包含",
+              "image_description": "Изображение, связанное с: bāohán Contain"
+            }
+          ],
+          "time_limit": 7
+        }
+      },
+      "total_questions": 37,
+      "description": "Секция listening HSK 4"
+    },
+    "reading": {
+      "section": "reading",
+      "parts": {
+        "part1": {
+          "part": "part1",
+          "format": "fill_in_blank",
+          "description": "Пропуски → выбрать слово",
+          "questions": [
+            {
+              "id": "FB1",
+              "type": "fill_in_blank",
+              "chinese": "阿姨",
+              "pinyin": "",
+              "translation": "āyí aunt",
+              "question": "Выберите слово для заполнения пропуска:",
+              "sentence": "我每天______。",
+              "complete_sentence": "我每天阿姨。",
+              "complete_translation": "Я каждый день āyí aunt。",
+              "options": [
+                "āyí aunt",
+                "делаю что-то другое",
+                "ничего не делаю",
+                "отдыхаю"
+              ],
+              "correct_answer": 0,
+              "explanation": "Пропущенное слово: 阿姨 (āyí aunt)"
+            },
+            {
+              "id": "FB2",
+              "type": "fill_in_blank",
+              "chinese": "啊",
+              "pinyin": "",
+              "translation": "a ah",
+              "question": "Выберите слово для заполнения пропуска:",
+              "sentence": "我每天______。",
+              "complete_sentence": "我每天啊。",
+              "complete_translation": "Я каждый день a ah。",
+              "options": [
+                "a ah",
+                "делаю что-то другое",
+                "ничего не делаю",
+                "отдыхаю"
+              ],
+              "correct_answer": 0,
+              "explanation": "Пропущенное слово: 啊 (a ah)"
+            },
+            {
+              "id": "FB3",
+              "type": "fill_in_blank",
+              "chinese": "矮",
+              "pinyin": "",
+              "translation": "ǎi short",
+              "question": "Выберите слово для заполнения пропуска:",
+              "sentence": "我每天______。",
+              "complete_sentence": "我每天矮。",
+              "complete_translation": "Я каждый день ǎi short。",
+              "options": [
+                "ǎi short",
+                "делаю что-то другое",
+                "ничего не делаю",
+                "отдыхаю"
+              ],
+              "correct_answer": 0,
+              "explanation": "Пропущенное слово: 矮 (ǎi short)"
+            },
+            {
+              "id": "FB4",
+              "type": "fill_in_blank",
+              "chinese": "矮小",
+              "pinyin": "",
+              "translation": "ǎi xiǎo short and small",
+              "question": "Выберите слово для заполнения пропуска:",
+              "sentence": "我每天______。",
+              "complete_sentence": "我每天矮小。",
+              "complete_translation": "Я каждый день ǎi xiǎo short and small。",
+              "options": [
+                "ǎi xiǎo short and small",
+                "делаю что-то другое",
+                "ничего не делаю",
+                "отдыхаю"
+              ],
+              "correct_answer": 0,
+              "explanation": "Пропущенное слово: 矮小 (ǎi xiǎo short and small)"
+            },
+            {
+              "id": "FB5",
+              "type": "fill_in_blank",
+              "chinese": "爱国",
+              "pinyin": "",
+              "translation": "ài guó love one's country",
+              "question": "Выберите слово для заполнения пропуска:",
+              "sentence": "我每天______。",
+              "complete_sentence": "我每天爱国。",
+              "complete_translation": "Я каждый день ài guó love one's country。",
+              "options": [
+                "ài guó love one's country",
+                "делаю что-то другое",
+                "ничего не делаю",
+                "отдыхаю"
+              ],
+              "correct_answer": 0,
+              "explanation": "Пропущенное слово: 爱国 (ài guó love one's country)"
+            },
+            {
+              "id": "FB6",
+              "type": "fill_in_blank",
+              "chinese": "爱护",
+              "pinyin": "",
+              "translation": "àihù Care",
+              "question": "Выберите слово для заполнения пропуска:",
+              "sentence": "我每天______。",
+              "complete_sentence": "我每天爱护。",
+              "complete_translation": "Я каждый день àihù Care。",
+              "options": [
+                "àihù Care",
+                "делаю что-то другое",
+                "ничего не делаю",
+                "отдыхаю"
+              ],
+              "correct_answer": 0,
+              "explanation": "Пропущенное слово: 爱护 (àihù Care)"
+            },
+            {
+              "id": "FB7",
+              "type": "fill_in_blank",
+              "chinese": "安",
+              "pinyin": "",
+              "translation": "ān quiet",
+              "question": "Выберите слово для заполнения пропуска:",
+              "sentence": "我每天______。",
+              "complete_sentence": "我每天安。",
+              "complete_translation": "Я каждый день ān quiet。",
+              "options": [
+                "ān quiet",
+                "делаю что-то другое",
+                "ничего не делаю",
+                "отдыхаю"
+              ],
+              "correct_answer": 0,
+              "explanation": "Пропущенное слово: 安 (ān quiet)"
+            },
+            {
+              "id": "FB8",
+              "type": "fill_in_blank",
+              "chinese": "安置",
+              "pinyin": "",
+              "translation": "ānzhì put",
+              "question": "Выберите слово для заполнения пропуска:",
+              "sentence": "我每天______。",
+              "complete_sentence": "我每天安置。",
+              "complete_translation": "Я каждый день ānzhì put。",
+              "options": [
+                "ānzhì put",
+                "делаю что-то другое",
+                "ничего не делаю",
+                "отдыхаю"
+              ],
+              "correct_answer": 0,
+              "explanation": "Пропущенное слово: 安置 (ānzhì put)"
+            },
+            {
+              "id": "FB9",
+              "type": "fill_in_blank",
+              "chinese": "按时",
+              "pinyin": "",
+              "translation": "ànshí on time",
+              "question": "Выберите слово для заполнения пропуска:",
+              "sentence": "我每天______。",
+              "complete_sentence": "我每天按时。",
+              "complete_translation": "Я каждый день ànshí on time。",
+              "options": [
+                "ànshí on time",
+                "делаю что-то другое",
+                "ничего не делаю",
+                "отдыхаю"
+              ],
+              "correct_answer": 0,
+              "explanation": "Пропущенное слово: 按时 (ànshí on time)"
+            },
+            {
+              "id": "FB10",
+              "type": "fill_in_blank",
+              "chinese": "暗",
+              "pinyin": "",
+              "translation": "àn dark",
+              "question": "Выберите слово для заполнения пропуска:",
+              "sentence": "我每天______。",
+              "complete_sentence": "我每天暗。",
+              "complete_translation": "Я каждый день àn dark。",
+              "options": [
+                "àn dark",
+                "делаю что-то другое",
+                "ничего не делаю",
+                "отдыхаю"
+              ],
+              "correct_answer": 0,
+              "explanation": "Пропущенное слово: 暗 (àn dark)"
+            }
+          ],
+          "time_limit": 10
+        },
+        "part2": {
+          "part": "part2",
+          "format": "multiple_choice",
+          "description": "Выбрать правильное утверждение",
+          "questions": [
+            {
+              "id": "Q1",
+              "type": "multiple_choice",
+              "chinese": "阿姨",
+              "pinyin": "",
+              "translation": "āyí aunt",
+              "question": "Что означает '阿姨'?",
+              "options": [
+                "ān quiet",
+                "àn dark",
+                "ānzhì put",
+                "āyí aunt"
+              ],
+              "correct_answer": 3,
+              "explanation": "'阿姨' () означает 'āyí aunt'",
+              "audio_text": "阿姨",
+              "image_description": "Изображение, связанное с: āyí aunt"
+            },
+            {
+              "id": "Q2",
+              "type": "multiple_choice",
+              "chinese": "啊",
+              "pinyin": "",
+              "translation": "a ah",
+              "question": "Что означает '啊'?",
+              "options": [
+                "ànshí on time",
+                "āyí aunt",
+                "ānzhì put",
+                "a ah"
+              ],
+              "correct_answer": 3,
+              "explanation": "'啊' () означает 'a ah'",
+              "audio_text": "啊",
+              "image_description": "Изображение, связанное с: a ah"
+            },
+            {
+              "id": "Q3",
+              "type": "multiple_choice",
+              "chinese": "矮",
+              "pinyin": "",
+              "translation": "ǎi short",
+              "question": "Что означает '矮'?",
+              "options": [
+                "ànshí on time",
+                "àihù Care",
+                "ǎi short",
+                "a ah"
+              ],
+              "correct_answer": 2,
+              "explanation": "'矮' () означает 'ǎi short'",
+              "audio_text": "矮",
+              "image_description": "Изображение, связанное с: ǎi short"
+            },
+            {
+              "id": "Q4",
+              "type": "multiple_choice",
+              "chinese": "矮小",
+              "pinyin": "",
+              "translation": "ǎi xiǎo short and small",
+              "question": "Что означает '矮小'?",
+              "options": [
+                "àn dark",
+                "àihù Care",
+                "ǎi xiǎo short and small",
+                "ànshí on time"
+              ],
+              "correct_answer": 2,
+              "explanation": "'矮小' () означает 'ǎi xiǎo short and small'",
+              "audio_text": "矮小",
+              "image_description": "Изображение, связанное с: ǎi xiǎo short and small"
+            },
+            {
+              "id": "Q5",
+              "type": "multiple_choice",
+              "chinese": "爱国",
+              "pinyin": "",
+              "translation": "ài guó love one's country",
+              "question": "Что означает '爱国'?",
+              "options": [
+                "àihù Care",
+                "ài guó love one's country",
+                "ānzhì put",
+                "àn dark"
+              ],
+              "correct_answer": 1,
+              "explanation": "'爱国' () означает 'ài guó love one's country'",
+              "audio_text": "爱国",
+              "image_description": "Изображение, связанное с: ài guó love one's country"
+            },
+            {
+              "id": "Q6",
+              "type": "multiple_choice",
+              "chinese": "爱护",
+              "pinyin": "",
+              "translation": "àihù Care",
+              "question": "Что означает '爱护'?",
+              "options": [
+                "àihù Care",
+                "ànshí on time",
+                "ānzhì put",
+                "ài guó love one's country"
+              ],
+              "correct_answer": 0,
+              "explanation": "'爱护' () означает 'àihù Care'",
+              "audio_text": "爱护",
+              "image_description": "Изображение, связанное с: àihù Care"
+            },
+            {
+              "id": "Q7",
+              "type": "multiple_choice",
+              "chinese": "安",
+              "pinyin": "",
+              "translation": "ān quiet",
+              "question": "Что означает '安'?",
+              "options": [
+                "ān quiet",
+                "ài guó love one's country",
+                "āyí aunt",
+                "a ah"
+              ],
+              "correct_answer": 0,
+              "explanation": "'安' () означает 'ān quiet'",
+              "audio_text": "安",
+              "image_description": "Изображение, связанное с: ān quiet"
+            },
+            {
+              "id": "Q8",
+              "type": "multiple_choice",
+              "chinese": "安置",
+              "pinyin": "",
+              "translation": "ānzhì put",
+              "question": "Что означает '安置'?",
+              "options": [
+                "ānzhì put",
+                "ān quiet",
+                "àihù Care",
+                "ànshí on time"
+              ],
+              "correct_answer": 0,
+              "explanation": "'安置' () означает 'ānzhì put'",
+              "audio_text": "安置",
+              "image_description": "Изображение, связанное с: ānzhì put"
+            },
+            {
+              "id": "Q9",
+              "type": "multiple_choice",
+              "chinese": "按时",
+              "pinyin": "",
+              "translation": "ànshí on time",
+              "question": "Что означает '按时'?",
+              "options": [
+                "a ah",
+                "ànshí on time",
+                "ǎi xiǎo short and small",
+                "ài guó love one's country"
+              ],
+              "correct_answer": 1,
+              "explanation": "'按时' () означает 'ànshí on time'",
+              "audio_text": "按时",
+              "image_description": "Изображение, связанное с: ànshí on time"
+            },
+            {
+              "id": "Q10",
+              "type": "multiple_choice",
+              "chinese": "暗",
+              "pinyin": "",
+              "translation": "àn dark",
+              "question": "Что означает '暗'?",
+              "options": [
+                "a ah",
+                "àn dark",
+                "āyí aunt",
+                "ān quiet"
+              ],
+              "correct_answer": 1,
+              "explanation": "'暗' () означает 'àn dark'",
+              "audio_text": "暗",
+              "image_description": "Изображение, связанное с: àn dark"
+            }
+          ],
+          "time_limit": 10
+        },
+        "part3": {
+          "part": "part3",
+          "format": "reading_comprehension",
+          "description": "Длинные тексты → вопросы",
+          "questions": [
+            {
+              "id": "RC1",
+              "type": "reading_comprehension",
+              "question": "Прочитайте текст и ответьте на вопросы:",
+              "text": "阿姨和啊。矮很好。",
+              "text_pinyin": " hé 。 hěn hǎo。",
+              "text_translation": "āyí aunt и a ah。ǎi short хорошо。",
+              "questions": [
+                {
+                  "id": "RC1_Q1",
+                  "question": "О чем говорится в тексте?",
+                  "options": [
+                    "О āyí aunt и a ah",
+                    "О погоде",
+                    "О школе",
+                    "О еде"
+                  ],
+                  "correct_answer": 0
+                },
+                {
+                  "id": "RC1_Q2",
+                  "question": "Что хорошо?",
+                  "options": [
+                    "ǎi short",
+                    "āyí aunt",
+                    "a ah",
+                    "Все"
+                  ],
+                  "correct_answer": 0
+                }
+              ],
+              "explanation": "Текст говорит о āyí aunt и a ah。ǎi short хорошо。"
+            }
+          ],
+          "time_limit": 10
+        }
+      },
+      "total_questions": 21,
+      "description": "Секция reading HSK 4"
+    },
+    "writing": {
+      "section": "writing",
+      "parts": {
+        "part1": {
+          "part": "part1",
+          "format": "order_words",
+          "description": "Исправить или переставить части предложения",
+          "questions": [
+            {
+              "id": "OW1",
+              "type": "order_words",
+              "chinese": "阿姨",
+              "pinyin": "",
+              "translation": "āyí aunt",
+              "question": "Упорядочите слова, чтобы получилось предложение:",
+              "shuffled_words": [
+                "我",
+                "喜欢",
+                "阿姨"
+              ],
+              "shuffled_pinyin": [
+                "wǒ",
+                "xǐ huān",
+                ""
+              ],
+              "correct_order": [
+                "我",
+                "喜欢",
+                "阿姨"
+              ],
+              "correct_sentence": "我喜欢阿姨。",
+              "correct_translation": "Я люблю āyí aunt。",
+              "explanation": "Правильный порядок: 我 (я) + 喜欢 (люблю) + 阿姨 (āyí aunt)"
+            },
+            {
+              "id": "OW2",
+              "type": "order_words",
+              "chinese": "啊",
+              "pinyin": "",
+              "translation": "a ah",
+              "question": "Упорядочите слова, чтобы получилось предложение:",
+              "shuffled_words": [
+                "啊",
+                "喜欢",
+                "我"
+              ],
+              "shuffled_pinyin": [
+                "wǒ",
+                "xǐ huān",
+                ""
+              ],
+              "correct_order": [
+                "我",
+                "喜欢",
+                "啊"
+              ],
+              "correct_sentence": "我喜欢啊。",
+              "correct_translation": "Я люблю a ah。",
+              "explanation": "Правильный порядок: 我 (я) + 喜欢 (люблю) + 啊 (a ah)"
+            },
+            {
+              "id": "OW3",
+              "type": "order_words",
+              "chinese": "矮",
+              "pinyin": "",
+              "translation": "ǎi short",
+              "question": "Упорядочите слова, чтобы получилось предложение:",
+              "shuffled_words": [
+                "我",
+                "喜欢",
+                "矮"
+              ],
+              "shuffled_pinyin": [
+                "wǒ",
+                "xǐ huān",
+                ""
+              ],
+              "correct_order": [
+                "我",
+                "喜欢",
+                "矮"
+              ],
+              "correct_sentence": "我喜欢矮。",
+              "correct_translation": "Я люблю ǎi short。",
+              "explanation": "Правильный порядок: 我 (я) + 喜欢 (люблю) + 矮 (ǎi short)"
+            }
+          ],
+          "time_limit": 6
+        },
+        "part2": {
+          "part": "part2",
+          "format": "make_sentence",
+          "description": "Написать короткий текст",
+          "questions": [
+            {
+              "id": "MS1",
+              "type": "make_sentence",
+              "question": "Составьте предложение, используя ключевые слова: 阿姨, 重要, 对...来说",
+              "key_words": [
+                "阿姨",
+                "重要",
+                "对...来说"
+              ],
+              "example": "例如：阿姨对学习中文来说非常重要。",
+              "translation": "āyí aunt",
+              "chinese": "阿姨",
+              "pinyin": ""
+            },
+            {
+              "id": "MS2",
+              "type": "make_sentence",
+              "question": "Составьте предложение, используя ключевые слова: 啊, 重要, 对...来说",
+              "key_words": [
+                "啊",
+                "重要",
+                "对...来说"
+              ],
+              "example": "例如：啊对学习中文来说非常重要。",
+              "translation": "a ah",
+              "chinese": "啊",
+              "pinyin": ""
+            },
+            {
+              "id": "MS3",
+              "type": "make_sentence",
+              "question": "Составьте предложение, используя ключевые слова: 矮, 重要, 对...来说",
+              "key_words": [
+                "矮",
+                "重要",
+                "对...来说"
+              ],
+              "example": "例如：矮对学习中文来说非常重要。",
+              "translation": "ǎi short",
+              "chinese": "矮",
+              "pinyin": ""
+            },
+            {
+              "id": "MS4",
+              "type": "make_sentence",
+              "question": "Составьте предложение, используя ключевые слова: 矮小, 重要, 对...来说",
+              "key_words": [
+                "矮小",
+                "重要",
+                "对...来说"
+              ],
+              "example": "例如：矮小对学习中文来说非常重要。",
+              "translation": "ǎi xiǎo short and small",
+              "chinese": "矮小",
+              "pinyin": ""
+            },
+            {
+              "id": "MS5",
+              "type": "make_sentence",
+              "question": "Составьте предложение, используя ключевые слова: 爱国, 重要, 对...来说",
+              "key_words": [
+                "爱国",
+                "重要",
+                "对...来说"
+              ],
+              "example": "例如：爱国对学习中文来说非常重要。",
+              "translation": "ài guó love one's country",
+              "chinese": "爱国",
+              "pinyin": ""
+            }
+          ],
+          "time_limit": 6
+        }
+      },
+      "total_questions": 8,
+      "description": "Секция writing HSK 4"
+    }
+  },
+  "generated_at": "2025-12-10T05:24:09.001138",
+  "audio": {
+    "audio_texts": [
+      {
+        "id": "SD1",
+        "text": "A: 你觉得阿姨怎么样？\nB: 我觉得阿姨非常重要。",
+        "pinyin": "",
+        "translation": "āyí aunt"
+      },
+      {
+        "id": "SD2",
+        "text": "A: 你觉得啊怎么样？\nB: 我觉得啊非常重要。",
+        "pinyin": "",
+        "translation": "a ah"
+      },
+      {
+        "id": "SD3",
+        "text": "A: 你觉得矮怎么样？\nB: 我觉得矮非常重要。",
+        "pinyin": "",
+        "translation": "ǎi short"
+      },
+      {
+        "id": "SD4",
+        "text": "A: 你觉得矮小怎么样？\nB: 我觉得矮小非常重要。",
+        "pinyin": "",
+        "translation": "ǎi xiǎo short and small"
+      },
+      {
+        "id": "SD5",
+        "text": "A: 你觉得爱国怎么样？\nB: 我觉得爱国非常重要。",
+        "pinyin": "",
+        "translation": "ài guó love one's country"
+      },
+      {
+        "id": "SD6",
+        "text": "A: 你觉得爱护怎么样？\nB: 我觉得爱护非常重要。",
+        "pinyin": "",
+        "translation": "àihù Care"
+      },
+      {
+        "id": "SD7",
+        "text": "A: 你觉得安怎么样？\nB: 我觉得安非常重要。",
+        "pinyin": "",
+        "translation": "ān quiet"
+      },
+      {
+        "id": "SD8",
+        "text": "A: 你觉得安置怎么样？\nB: 我觉得安置非常重要。",
+        "pinyin": "",
+        "translation": "ānzhì put"
+      },
+      {
+        "id": "SD9",
+        "text": "A: 你觉得按时怎么样？\nB: 我觉得按时非常重要。",
+        "pinyin": "",
+        "translation": "ànshí on time"
+      },
+      {
+        "id": "SD10",
+        "text": "A: 你觉得暗怎么样？\nB: 我觉得暗非常重要。",
+        "pinyin": "",
+        "translation": "àn dark"
+      },
+      {
+        "id": "LD1",
+        "text": "A: 关于阿姨和啊，你有什么看法？\n    B: 我认为阿姨更重要，因为阿姨影响更大。",
+        "pinyin": "",
+        "translation": "āyí aunt"
+      },
+      {
+        "id": "LD2",
+        "text": "A: 关于矮和矮小，你有什么看法？\n    B: 我认为矮更重要，因为矮影响更大。",
+        "pinyin": "",
+        "translation": "ǎi short"
+      },
+      {
+        "id": "LD3",
+        "text": "A: 关于爱国和爱护，你有什么看法？\n    B: 我认为爱国更重要，因为爱国影响更大。",
+        "pinyin": "",
+        "translation": "ài guó love one's country"
+      },
+      {
+        "id": "LD4",
+        "text": "A: 关于安和安置，你有什么看法？\n    B: 我认为安更重要，因为安影响更大。",
+        "pinyin": "",
+        "translation": "ān quiet"
+      },
+      {
+        "id": "LD5",
+        "text": "A: 关于按时和暗，你有什么看法？\n    B: 我认为按时更重要，因为按时影响更大。",
+        "pinyin": "",
+        "translation": "ànshí on time"
+      },
+      {
+        "id": "LD6",
+        "text": "A: 关于暗示和巴士，你有什么看法？\n    B: 我认为暗示更重要，因为暗示影响更大。",
+        "pinyin": "",
+        "translation": "ànshì suggest secretly"
+      },
+      {
+        "id": "LD7",
+        "text": "A: 关于百货和摆，你有什么看法？\n    B: 我认为百货更重要，因为百货影响更大。",
+        "pinyin": "",
+        "translation": "bǎi huò department store"
+      },
+      {
+        "id": "Q1",
+        "text": "阿姨",
+        "pinyin": "",
+        "translation": "āyí aunt"
+      },
+      {
+        "id": "Q2",
+        "text": "啊",
+        "pinyin": "",
+        "translation": "a ah"
+      },
+      {
+        "id": "Q3",
+        "text": "矮",
+        "pinyin": "",
+        "translation": "ǎi short"
+      },
+      {
+        "id": "Q4",
+        "text": "矮小",
+        "pinyin": "",
+        "translation": "ǎi xiǎo short and small"
+      },
+      {
+        "id": "Q5",
+        "text": "爱国",
+        "pinyin": "",
+        "translation": "ài guó love one's country"
+      },
+      {
+        "id": "Q6",
+        "text": "爱护",
+        "pinyin": "",
+        "translation": "àihù Care"
+      },
+      {
+        "id": "Q7",
+        "text": "安",
+        "pinyin": "",
+        "translation": "ān quiet"
+      },
+      {
+        "id": "Q8",
+        "text": "安置",
+        "pinyin": "",
+        "translation": "ānzhì put"
+      },
+      {
+        "id": "Q9",
+        "text": "按时",
+        "pinyin": "",
+        "translation": "ànshí on time"
+      },
+      {
+        "id": "Q10",
+        "text": "暗",
+        "pinyin": "",
+        "translation": "àn dark"
+      },
+      {
+        "id": "Q11",
+        "text": "暗示",
+        "pinyin": "",
+        "translation": "ànshì suggest secretly"
+      },
+      {
+        "id": "Q12",
+        "text": "巴士",
+        "pinyin": "",
+        "translation": "bā shì bus"
+      },
+      {
+        "id": "Q13",
+        "text": "百货",
+        "pinyin": "",
+        "translation": "bǎi huò department store"
+      },
+      {
+        "id": "Q14",
+        "text": "摆",
+        "pinyin": "",
+        "translation": "bǎi pendulum"
+      },
+      {
+        "id": "Q15",
+        "text": "摆动",
+        "pinyin": "",
+        "translation": "bǎi dòng swing"
+      },
+      {
+        "id": "Q16",
+        "text": "摆脱",
+        "pinyin": "",
+        "translation": "bǎituō cast off"
+      },
+      {
+        "id": "Q17",
+        "text": "败",
+        "pinyin": "",
+        "translation": "bài defeat"
+      },
+      {
+        "id": "Q18",
+        "text": "办事",
+        "pinyin": "",
+        "translation": "bàn shì handle affairs"
+      },
+      {
+        "id": "Q19",
+        "text": "包裹",
+        "pinyin": "",
+        "translation": "bāoguǒ package"
+      },
+      {
+        "id": "Q20",
+        "text": "包含",
+        "pinyin": "",
+        "translation": "bāohán Contain"
+      }
+    ]
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "hsk1": {
+    "name": "HSK 1",
+    "description": "Базовый уровень, понимание простых фраз",
+    "total_words": 150,
+    "grammar_level": "初",
+    "test_duration": 40,
+    "passing_score": 120,
+    "sections": {
+      "listening": {
+        "weight": 50,
+        "parts": [
+          {
+            "name": "Часть 1",
+            "description": "Выбрать картинку по аудио",
+            "questions": 5,
+            "format": "multiple_choice_with_images"
+          },
+          {
+            "name": "Часть 2",
+            "description": "Правда/неправда по картинке",
+            "questions": 5,
+            "format": "true_false_with_image"
+          }
+        ]
+      },
+      "reading": {
+        "weight": 50,
+        "parts": [
+          {
+            "name": "Часть 1",
+            "description": "Сопоставить предложение и картинку",
+            "questions": 5,
+            "format": "match_sentence_to_image"
+          },
+          {
+            "name": "Часть 2",
+            "description": "Сопоставить предложения",
+            "questions": 5,
+            "format": "match_sentences"
+          }
+        ]
+      }
+    }
+  },
+  "hsk2": {
+    "name": "HSK 2",
+    "description": "Базовый уровень, общение на простые темы",
+    "total_words": 300,
+    "grammar_level": "初",
+    "test_duration": 55,
+    "passing_score": 120,
+    "sections": {
+      "listening": {
+        "weight": 50,
+        "parts": [
+          {
+            "name": "Часть 1",
+            "description": "Выбрать картинку по аудио",
+            "questions": 10,
+            "format": "audio_to_image"
+          },
+          {
+            "name": "Часть 2",
+            "description": "Правда/неправда",
+            "questions": 10,
+            "format": "true_false"
+          }
+        ]
+      },
+      "reading": {
+        "weight": 50,
+        "parts": [
+          {
+            "name": "Часть 1",
+            "description": "Сопоставить предложения",
+            "questions": 10,
+            "format": "match_sentences"
+          },
+          {
+            "name": "Часть 2",
+            "description": "Выбрать слово для пропуска",
+            "questions": 10,
+            "format": "fill_in_blank"
+          }
+        ]
+      }
+    }
+  },
+  "hsk3": {
+    "name": "HSK 3",
+    "description": "Средний уровень, общение в повседневной жизни",
+    "total_words": 600,
+    "grammar_level": "中",
+    "test_duration": 90,
+    "passing_score": 180,
+    "sections": {
+      "listening": {
+        "weight": 33,
+        "parts": [
+          {
+            "name": "Часть 1",
+            "description": "Диалог → картинка",
+            "questions": 10,
+            "format": "dialog_to_image"
+          },
+          {
+            "name": "Часть 2",
+            "description": "Короткий диалог → выбор",
+            "questions": 10,
+            "format": "short_dialog_choice"
+          }
+        ]
+      },
+      "reading": {
+        "weight": 33,
+        "parts": [
+          {
+            "name": "Часть 1",
+            "description": "Заполнить пропуски",
+            "questions": 10,
+            "format": "fill_in_blank"
+          },
+          {
+            "name": "Часть 2",
+            "description": "Сопоставить фразы с диалогами",
+            "questions": 10,
+            "format": "match_phrases_to_dialogs"
+          }
+        ]
+      },
+      "writing": {
+        "weight": 34,
+        "parts": [
+          {
+            "name": "Часть 1",
+            "description": "Упорядочить слова",
+            "questions": 5,
+            "format": "order_words"
+          },
+          {
+            "name": "Часть 2",
+            "description": "Составить предложение",
+            "questions": 5,
+            "format": "make_sentence_from_words"
+          }
+        ]
+      }
+    }
+  },
+  "hsk4": {
+    "name": "HSK 4",
+    "description": "Продвинутый уровень, обсуждение широкого круга тем",
+    "total_words": 1200,
+    "grammar_level": "中",
+    "test_duration": 105,
+    "passing_score": 180,
+    "sections": {
+      "listening": {
+        "weight": 33,
+        "parts": [
+          {
+            "name": "Часть 1",
+            "description": "Короткий диалог → выбор",
+            "questions": 10,
+            "format": "short_dialog_choice"
+          },
+          {
+            "name": "Часть 2",
+            "description": "Средний диалог → выбор",
+            "questions": 15,
+            "format": "longer_dialog_choice"
+          }
+        ]
+      },
+      "reading": {
+        "weight": 33,
+        "parts": [
+          {
+            "name": "Часть 1",
+            "description": "Заполнить пропуски",
+            "questions": 10,
+            "format": "fill_in_blank"
+          },
+          {
+            "name": "Часть 2",
+            "description": "Выбрать правильное утверждение",
+            "questions": 10,
+            "format": "true_false_reading"
+          }
+        ]
+      },
+      "writing": {
+        "weight": 34,
+        "parts": [
+          {
+            "name": "Часть 1",
+            "description": "Исправить предложения",
+            "questions": 10,
+            "format": "fix_sentences"
+          },
+          {
+            "name": "Часть 2",
+            "description": "Написать текст по картинке",
+            "questions": 5,
+            "format": "write_short_text"
+          }
+        ]
+      }
+    }
+  },
+  "hsk5": {
+    "name": "HSK 5",
+    "description": "Профессиональный уровень, чтение газет и журналов",
+    "total_words": 2500,
+    "grammar_level": "高",
+    "test_duration": 125,
+    "passing_score": 180,
+    "sections": {
+      "listening": {
+        "weight": 33,
+        "parts": [
+          {
+            "name": "Часть 1",
+            "description": "Короткие диалоги → выбор",
+            "questions": 20,
+            "format": "short_dialog_choice"
+          },
+          {
+            "name": "Часть 2",
+            "description": "Средние диалоги → выбор",
+            "questions": 15,
+            "format": "medium_dialog_choice"
+          }
+        ]
+      },
+      "reading": {
+        "weight": 33,
+        "parts": [
+          {
+            "name": "Часть 1",
+            "description": "Заполнить пропуски в тексте",
+            "questions": 15,
+            "format": "fill_in_long_text"
+          },
+          {
+            "name": "Часть 2",
+            "description": "Вопросы по абзацам",
+            "questions": 10,
+            "format": "paragraph_questions"
+          }
+        ]
+      },
+      "writing": {
+        "weight": 34,
+        "parts": [
+          {
+            "name": "Часть 1",
+            "description": "Составить предложения",
+            "questions": 8,
+            "format": "make_sentence"
+          },
+          {
+            "name": "Часть 2",
+            "description": "Написать эссе",
+            "questions": 2,
+            "format": "write_essay"
+          }
+        ]
+      }
+    }
+  },
+  "hsk6": {
+    "name": "HSK 6",
+    "description": "Мастерский уровень, свободное владение языком",
+    "total_words": 5000,
+    "grammar_level": "高",
+    "test_duration": 140,
+    "passing_score": 180,
+    "sections": {
+      "listening": {
+        "weight": 33,
+        "parts": [
+          {
+            "name": "Часть 1",
+            "description": "Короткие диалоги",
+            "questions": 15,
+            "format": "short_dialogs"
+          },
+          {
+            "name": "Часть 2",
+            "description": "Средние диалоги",
+            "questions": 15,
+            "format": "long_dialogs"
+          }
+        ]
+      },
+      "reading": {
+        "weight": 33,
+        "parts": [
+          {
+            "name": "Часть 1",
+            "description": "Выбрать заголовок",
+            "questions": 10,
+            "format": "choose_title"
+          },
+          {
+            "name": "Часть 2",
+            "description": "Анализ структуры",
+            "questions": 10,
+            "format": "structure_analysis"
+          }
+        ]
+      },
+      "writing": {
+        "weight": 34,
+        "parts": [
+          {
+            "name": "Часть 1",
+            "description": "Пересказ и мнение",
+            "questions": 1,
+            "format": "summary_and_opinion"
+          }
+        ]
+      }
+    }
+  }
+}

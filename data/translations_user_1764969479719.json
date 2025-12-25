@@ -1,0 +1,43 @@
+[
+  {
+    "original": "原来如此",
+    "translation": "So that's how it is! / I see!",
+    "timestamp": "2025-12-09T01:15:05.360182",
+    "characters_count": 4,
+    "difficulty": 4,
+    "key_words": [
+      {
+        "character": "原",
+        "pinyin": "yuán",
+        "translation": "original, former",
+        "explanation": "Picture a spring (泉) under a cliff (厂) - the original source of water. The top part 厂 looks like a cliff, and the bottom 泉 means spring water.",
+        "memory_tip": "Imagine a cliff with water flowing from it - the ORIGINAL source of a river. Color it blue for water.",
+        "hsk_level": 3
+      },
+      {
+        "character": "来",
+        "pinyin": "lái",
+        "translation": "come",
+        "explanation": "This character looks like a person (人) with two arms reaching out. It's one of the first characters students learn.",
+        "memory_tip": "Picture someone waving 'come here!' with both arms. Color it green for movement.",
+        "hsk_level": 1
+      },
+      {
+        "character": "如",
+        "pinyin": "rú",
+        "translation": "like, as if",
+        "explanation": "Combines woman (女) and mouth (口) - a woman speaking comparisons 'like this or that'.",
+        "memory_tip": "Imagine a woman (女) using her mouth (口) to say something is 'like' something else. Color it pink for the woman radical.",
+        "hsk_level": 4
+      },
+      {
+        "character": "此",
+        "pinyin": "cǐ",
+        "translation": "this",
+        "explanation": "Shows stopping (止) and sitting (匕) - pointing to 'this' specific spot.",
+        "memory_tip": "Picture pointing your finger to stop at 'this' exact place. Color it red for pointing/emphasis.",
+        "hsk_level": 3
+      }
+    ]
+  }
+]

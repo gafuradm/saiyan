@@ -1,0 +1,7786 @@
+[
+  {
+    "character": "爱心",
+    "pinyin": "",
+    "translation": "àixīn love",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "安排",
+    "pinyin": "",
+    "translation": "ānpái arrange",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "安装",
+    "pinyin": "",
+    "translation": "ānzhuāng install",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "按",
+    "pinyin": "",
+    "translation": "àn press",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "按照",
+    "pinyin": "",
+    "translation": "ànzhào according to",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "把",
+    "pinyin": "",
+    "translation": "（介） bǎ particle marking the following",
+    "hsk_level": 3,
+    "part_of_speech": "частица",
+    "frequency": "高频"
+  },
+  {
+    "character": "把",
+    "pinyin": "",
+    "translation": "（量） bǎ measure word",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "把握",
+    "pinyin": "",
+    "translation": "bǎwò grasp",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "白",
+    "pinyin": "",
+    "translation": "（副） bái without results",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "白菜",
+    "pinyin": "",
+    "translation": "bái cài Chinese cabbage",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "班级",
+    "pinyin": "",
+    "translation": "bān jí class",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "搬",
+    "pinyin": "",
+    "translation": "bān turn",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "搬家",
+    "pinyin": "",
+    "translation": "bān jiā move",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "板",
+    "pinyin": "",
+    "translation": "bǎn board",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "办理",
+    "pinyin": "",
+    "translation": "bànlǐ handle",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "保",
+    "pinyin": "",
+    "translation": "bǎo defend",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "保安",
+    "pinyin": "",
+    "translation": "bǎo ān security guard",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "保持",
+    "pinyin": "",
+    "translation": "bǎochí keep",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "保存",
+    "pinyin": "",
+    "translation": "bǎocún Preservation",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "保护",
+    "pinyin": "",
+    "translation": "bǎohù protect",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "保留",
+    "pinyin": "",
+    "translation": "bǎoliú Retain",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "保险",
+    "pinyin": "",
+    "translation": "bǎoxiǎn Insurance",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "保证",
+    "pinyin": "",
+    "translation": "bǎozhèng ensure",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "报",
+    "pinyin": "",
+    "translation": "（名） bào newspaper",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "报到",
+    "pinyin": "",
+    "translation": "bàodào register,check in",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "报道",
+    "pinyin": "",
+    "translation": "bàodào report",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "报告",
+    "pinyin": "",
+    "translation": "bàogào Presentation",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "背",
+    "pinyin": "",
+    "translation": "bèi Back",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "北部",
+    "pinyin": "",
+    "translation": "běi bù north",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "背",
+    "pinyin": "",
+    "translation": "（名） bèi back of the body",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "背后",
+    "pinyin": "",
+    "translation": "bèi hòu behind",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "被",
+    "pinyin": "",
+    "translation": "bèi cover",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "被子",
+    "pinyin": "",
+    "translation": "bèizi quilt",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "本来",
+    "pinyin": "",
+    "translation": "běnlái originally",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "本领",
+    "pinyin": "",
+    "translation": "běnlǐng ability",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "本事",
+    "pinyin": "",
+    "translation": "běnshi Skill",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "比较",
+    "pinyin": "",
+    "translation": "bǐjiào compare",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "比例",
+    "pinyin": "",
+    "translation": "bǐlì Proportion",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "比赛",
+    "pinyin": "",
+    "translation": "bǐsài Match",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "必然",
+    "pinyin": "",
+    "translation": "bìrán Inevitable",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "必要",
+    "pinyin": "",
+    "translation": "bìyào necessary",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "变化",
+    "pinyin": "",
+    "translation": "biànhuà change",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "变为",
+    "pinyin": "",
+    "translation": "biàn wéi become",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "标题",
+    "pinyin": "",
+    "translation": "biāotí title",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "标准",
+    "pinyin": "",
+    "translation": "biāozhǔn standard",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "表达",
+    "pinyin": "",
+    "translation": "biǎodá Expression",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "表格",
+    "pinyin": "",
+    "translation": "biǎogé form",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "表面",
+    "pinyin": "",
+    "translation": "biǎomiàn surface",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "表明",
+    "pinyin": "",
+    "translation": "biǎomíng Indicate",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "表现",
+    "pinyin": "",
+    "translation": "biǎoxiàn performance",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "表演",
+    "pinyin": "",
+    "translation": "biǎoyǎn perform",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "并",
+    "pinyin": "",
+    "translation": "（副、连） bìng and",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "并且",
+    "pinyin": "",
+    "translation": "bìngqiě also",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "播出",
+    "pinyin": "",
+    "translation": "bō chū broadcast",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "播放",
+    "pinyin": "",
+    "translation": "bōfàng play",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "不必",
+    "pinyin": "",
+    "translation": "bú bì need not",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "不断",
+    "pinyin": "",
+    "translation": "búduàn Constantly",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "不论",
+    "pinyin": "",
+    "translation": "bú lùn whether",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "补",
+    "pinyin": "",
+    "translation": "bǔ repair",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "补充",
+    "pinyin": "",
+    "translation": "bǔchōng supplement",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "不安",
+    "pinyin": "",
+    "translation": "bù'ān Uneasy",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "不得不",
+    "pinyin": "",
+    "translation": "bùdébù Cannot but",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "不光",
+    "pinyin": "",
+    "translation": "bù guāng not only",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "不仅",
+    "pinyin": "",
+    "translation": "bùjǐn not only",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "布",
+    "pinyin": "",
+    "translation": "bù cloth",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "步",
+    "pinyin": "",
+    "translation": "bù step",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "部",
+    "pinyin": "",
+    "translation": "bù unit",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "部门",
+    "pinyin": "",
+    "translation": "bùmén department",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "部长",
+    "pinyin": "",
+    "translation": "bù zhǎng minister",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "才能",
+    "pinyin": "",
+    "translation": "cái néng talent",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "采取",
+    "pinyin": "",
+    "translation": "cǎiqǔ take, adpopt",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "采用",
+    "pinyin": "",
+    "translation": "cǎi yòng put to use",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "彩色",
+    "pinyin": "",
+    "translation": "cǎi sè multicolour",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "曾经",
+    "pinyin": "",
+    "translation": "céngjīng once",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "产生",
+    "pinyin": "",
+    "translation": "chǎnshēng produce",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "长城",
+    "pinyin": "",
+    "translation": "Chángchéng The Great Wall",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "长处",
+    "pinyin": "",
+    "translation": "cháng chù strength",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "长期",
+    "pinyin": "",
+    "translation": "cháng qī over a long period of time",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "厂",
+    "pinyin": "",
+    "translation": "chǎng factory",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "场合",
+    "pinyin": "",
+    "translation": "chǎnghé occasion",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "场所",
+    "pinyin": "",
+    "translation": "chǎngsuǒ place",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "超级",
+    "pinyin": "",
+    "translation": "chāojí super",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "朝",
+    "pinyin": "",
+    "translation": "cháo towards",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "吵",
+    "pinyin": "",
+    "translation": "chǎo Noisy",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "吵架",
+    "pinyin": "",
+    "translation": "chǎojià quarrel",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "衬衫",
+    "pinyin": "",
+    "translation": "chènshān shirt",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "衬衣",
+    "pinyin": "",
+    "translation": "chèn yī shirt",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "称为",
+    "pinyin": "",
+    "translation": "chēng wéi call",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "成功",
+    "pinyin": "",
+    "translation": "chénggōng Success",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "成果",
+    "pinyin": "",
+    "translation": "chéngguǒ Achievements",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "成就",
+    "pinyin": "",
+    "translation": "chéngjiù achievement",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "成立",
+    "pinyin": "",
+    "translation": "chénglì establish",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "成熟",
+    "pinyin": "",
+    "translation": "chéngshú mature",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "成员",
+    "pinyin": "",
+    "translation": "chéngyuán member",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "成长",
+    "pinyin": "",
+    "translation": "chéngzhǎng Grow up",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "城",
+    "pinyin": "",
+    "translation": "chéng city",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "城市",
+    "pinyin": "",
+    "translation": "chéngshì City",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "程度",
+    "pinyin": "",
+    "translation": "chéngdù degree",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "持续",
+    "pinyin": "",
+    "translation": "chíxù Continued",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "充满",
+    "pinyin": "",
+    "translation": "chōngmǎn full of",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "重",
+    "pinyin": "",
+    "translation": "zhòng heavy",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "初",
+    "pinyin": "",
+    "translation": "chū beginning",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "初",
+    "pinyin": "",
+    "translation": "（初一） chū （chū yī） prefix first grade of junior high",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "初步",
+    "pinyin": "",
+    "translation": "chūbù preliminary",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "初级",
+    "pinyin": "",
+    "translation": "chūjí primary",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "初中",
+    "pinyin": "",
+    "translation": "chū zhōng junior high school",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "除了",
+    "pinyin": "",
+    "translation": "chúle except",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "处理",
+    "pinyin": "",
+    "translation": "chǔlǐ Handle",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "传",
+    "pinyin": "",
+    "translation": "chuán pass",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "传播",
+    "pinyin": "",
+    "translation": "chuánbō spread",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "传来",
+    "pinyin": "",
+    "translation": "chuán lái came",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "传说",
+    "pinyin": "",
+    "translation": "chuánshuō Legend",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "创新",
+    "pinyin": "",
+    "translation": "chuàngxīn innovate",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "创业",
+    "pinyin": "",
+    "translation": "chuàngyè carve out",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "创造",
+    "pinyin": "",
+    "translation": "chuàngzào create",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "创作",
+    "pinyin": "",
+    "translation": "chuàngzuò A literary creation",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "从来",
+    "pinyin": "",
+    "translation": "cónglái Always",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "从前",
+    "pinyin": "",
+    "translation": "cóngqián before",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "从事",
+    "pinyin": "",
+    "translation": "cóngshì Be engaged in",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "村",
+    "pinyin": "",
+    "translation": "cūn village",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "存",
+    "pinyin": "",
+    "translation": "cún Deposit",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "存在",
+    "pinyin": "",
+    "translation": "cúnzài existence",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "错误",
+    "pinyin": "",
+    "translation": "cuòwù error",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "达到",
+    "pinyin": "",
+    "translation": "dádào Achieve",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "打破",
+    "pinyin": "",
+    "translation": "dǎ pò break",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "打听",
+    "pinyin": "",
+    "translation": "dǎting Inquire",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "大概",
+    "pinyin": "",
+    "translation": "dàgài Probably",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "大使馆",
+    "pinyin": "",
+    "translation": "dàshǐguǎn Embassy",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "大约",
+    "pinyin": "",
+    "translation": "dàyuē about",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "大夫",
+    "pinyin": "",
+    "translation": "dàifu Doctor",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "代",
+    "pinyin": "",
+    "translation": "dài substitute",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "代表",
+    "pinyin": "",
+    "translation": "dàibiǎo representative",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "代表团",
+    "pinyin": "",
+    "translation": "dài biǎo tuán delegation",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "带动",
+    "pinyin": "",
+    "translation": "dài dòng drive",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "带领",
+    "pinyin": "",
+    "translation": "dàilǐng lead",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "单元",
+    "pinyin": "",
+    "translation": "dānyuán unit",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "当初",
+    "pinyin": "",
+    "translation": "dāngchū Original",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "当地",
+    "pinyin": "",
+    "translation": "dāngdì Local",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "当然",
+    "pinyin": "",
+    "translation": "dāngrán Of course",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "当中",
+    "pinyin": "",
+    "translation": "dāng zhōng among",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "刀",
+    "pinyin": "",
+    "translation": "dāo knife",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "导演",
+    "pinyin": "",
+    "translation": "dǎoyǎn director",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "到达",
+    "pinyin": "",
+    "translation": "dàodá Arrive",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "到底",
+    "pinyin": "",
+    "translation": "dàodǐ To the end",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "得分",
+    "pinyin": "",
+    "translation": "dé fēn score",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "等待",
+    "pinyin": "",
+    "translation": "děngdài wait for",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "底下",
+    "pinyin": "",
+    "translation": "dǐ xià under",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "地区",
+    "pinyin": "",
+    "translation": "dìqū region",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "电视剧",
+    "pinyin": "",
+    "translation": "diàn shì jù TV series",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "电视台",
+    "pinyin": "",
+    "translation": "diàn shì tái TV station",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "电台",
+    "pinyin": "",
+    "translation": "diàntái radio station",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "电子邮件",
+    "pinyin": "",
+    "translation": "diànzǐyóujiàn E-mail",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "调",
+    "pinyin": "",
+    "translation": "diào transfer",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "调查",
+    "pinyin": "",
+    "translation": "diàochá investigation",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "订",
+    "pinyin": "",
+    "translation": "dìng conclude",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "定期",
+    "pinyin": "",
+    "translation": "dìngqī regular",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "东部",
+    "pinyin": "",
+    "translation": "dōng bù east",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "动力",
+    "pinyin": "",
+    "translation": "dònglì power, motivation",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "动人",
+    "pinyin": "",
+    "translation": "dòng rén moving",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "读者",
+    "pinyin": "",
+    "translation": "dú zhě reader",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "短处",
+    "pinyin": "",
+    "translation": "duǎn chù shortcoming",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "短裤",
+    "pinyin": "",
+    "translation": "duǎn kù shorts",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "短期",
+    "pinyin": "",
+    "translation": "duǎn qī short term",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "断",
+    "pinyin": "",
+    "translation": "duàn break",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "队员",
+    "pinyin": "",
+    "translation": "duì yuán team member",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "对待",
+    "pinyin": "",
+    "translation": "duìdài treat",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "对方",
+    "pinyin": "",
+    "translation": "duìfāng Other party",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "对手",
+    "pinyin": "",
+    "translation": "duìshǒu Opponent",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "对象",
+    "pinyin": "",
+    "translation": "duìxiàng object",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "顿",
+    "pinyin": "",
+    "translation": "dùn Meal",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "发表",
+    "pinyin": "",
+    "translation": "fābiǎo Publish",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "发出",
+    "pinyin": "",
+    "translation": "fā chū issue",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "发达",
+    "pinyin": "",
+    "translation": "fādá developed",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "发动",
+    "pinyin": "",
+    "translation": "fādòng Launch",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "发明",
+    "pinyin": "",
+    "translation": "fāmíng Invention",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "发生",
+    "pinyin": "",
+    "translation": "fāshēng Happen",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "发送",
+    "pinyin": "",
+    "translation": "fā sòng send",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "发言",
+    "pinyin": "",
+    "translation": "fāyán speak",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "发展",
+    "pinyin": "",
+    "translation": "fāzhǎn Development",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "反对",
+    "pinyin": "",
+    "translation": "fǎnduì Opposition",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "反复",
+    "pinyin": "",
+    "translation": "fǎnfù Repeatedly",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "反应",
+    "pinyin": "",
+    "translation": "fǎnyìng reaction",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "反正",
+    "pinyin": "",
+    "translation": "fǎnzhèng anyway",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "范围",
+    "pinyin": "",
+    "translation": "fànwéi Range",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "方式",
+    "pinyin": "",
+    "translation": "fāngshì mode",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "防",
+    "pinyin": "",
+    "translation": "fáng guard against",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "防止",
+    "pinyin": "",
+    "translation": "fángzhǐ Prevent",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "房东",
+    "pinyin": "",
+    "translation": "fángdōng landlord",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "房屋",
+    "pinyin": "",
+    "translation": "fáng wū houses",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "房租",
+    "pinyin": "",
+    "translation": "fáng zū rent",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "访问",
+    "pinyin": "",
+    "translation": "fǎngwèn Visit",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "放到",
+    "pinyin": "",
+    "translation": "fàng dào put to",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "飞行",
+    "pinyin": "",
+    "translation": "fēi xíng flight",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "费",
+    "pinyin": "",
+    "translation": "fèi fee",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "费用",
+    "pinyin": "",
+    "translation": "fèi yòng cost",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "分别",
+    "pinyin": "",
+    "translation": "fēnbié part",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "分配",
+    "pinyin": "",
+    "translation": "fēnpèi distribution",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "分组",
+    "pinyin": "",
+    "translation": "fēn zǔ grouping",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "丰富",
+    "pinyin": "",
+    "translation": "fēngfù rich",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "风险",
+    "pinyin": "",
+    "translation": "fēngxiǎn risk",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "否定",
+    "pinyin": "",
+    "translation": "fǒudìng negative",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "否认",
+    "pinyin": "",
+    "translation": "fǒurèn deny",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "服装",
+    "pinyin": "",
+    "translation": "fúzhuāng costume",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "福",
+    "pinyin": "",
+    "translation": "fú blessing",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "父母",
+    "pinyin": "",
+    "translation": "fù mǔ father and mother",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "父亲",
+    "pinyin": "",
+    "translation": "fùqīn father",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "付",
+    "pinyin": "",
+    "translation": "fù pay",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "负责",
+    "pinyin": "",
+    "translation": "fùzé Be responsible for",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "复印",
+    "pinyin": "",
+    "translation": "fùyìn To copy",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "复杂",
+    "pinyin": "",
+    "translation": "fùzá complex",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "富",
+    "pinyin": "",
+    "translation": "fù rich",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "改进",
+    "pinyin": "",
+    "translation": "gǎijìn Improvement",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "改造",
+    "pinyin": "",
+    "translation": "gǎi zào transform",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "概念",
+    "pinyin": "",
+    "translation": "gàiniàn concept",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "赶",
+    "pinyin": "",
+    "translation": "gǎn catch up with",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "赶到",
+    "pinyin": "",
+    "translation": "gǎn dào arrived",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "赶紧",
+    "pinyin": "",
+    "translation": "gǎnjǐn Quickly",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "赶快",
+    "pinyin": "",
+    "translation": "gǎnkuài Come on",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "敢",
+    "pinyin": "",
+    "translation": "gǎn dare",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "感冒",
+    "pinyin": "",
+    "translation": "gǎnmào Cold",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "感情",
+    "pinyin": "",
+    "translation": "gǎnqíng feeling",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "感受",
+    "pinyin": "",
+    "translation": "gǎnshòu feel",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "干吗",
+    "pinyin": "",
+    "translation": "gàn má Why",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "高速",
+    "pinyin": "",
+    "translation": "gāo sù high speed",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "高速公路",
+    "pinyin": "",
+    "translation": "gāosùgōnglù Expressway",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "告别",
+    "pinyin": "",
+    "translation": "gàobié farewell",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "歌迷",
+    "pinyin": "",
+    "translation": "gē mí fan",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "歌声",
+    "pinyin": "",
+    "translation": "gē shēng singing",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "歌手",
+    "pinyin": "",
+    "translation": "gē shǒu singer",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "个人",
+    "pinyin": "",
+    "translation": "gèrén personal",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "个性",
+    "pinyin": "",
+    "translation": "gèxìng personality",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "各",
+    "pinyin": "",
+    "translation": "gè various",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "各地",
+    "pinyin": "",
+    "translation": "gè dì various regions",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "各位",
+    "pinyin": "",
+    "translation": "gè wèi everybody",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "各种",
+    "pinyin": "",
+    "translation": "gè zhǒng all kinds",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "各自",
+    "pinyin": "",
+    "translation": "gèzì Each",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "根本",
+    "pinyin": "",
+    "translation": "gēnběn at all",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "更加",
+    "pinyin": "",
+    "translation": "gèng jiā more",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "工厂",
+    "pinyin": "",
+    "translation": "gōngchǎng factory",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "工程师",
+    "pinyin": "",
+    "translation": "gōngchéngshī Engineer",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "工夫",
+    "pinyin": "",
+    "translation": "gōng fu time",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "工具",
+    "pinyin": "",
+    "translation": "gōngjù tool",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "工业",
+    "pinyin": "",
+    "translation": "gōngyè Industry",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "工资",
+    "pinyin": "",
+    "translation": "gōngzī wages",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "公布",
+    "pinyin": "",
+    "translation": "gōngbù Publish",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "公共",
+    "pinyin": "",
+    "translation": "gōng gòng public",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "公开",
+    "pinyin": "",
+    "translation": "gōngkāi open",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "公民",
+    "pinyin": "",
+    "translation": "gōngmín citizen",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "公务员",
+    "pinyin": "",
+    "translation": "gōng wù yuán civil servant",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "功夫",
+    "pinyin": "",
+    "translation": "gōngfu Kungfu",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "功课",
+    "pinyin": "",
+    "translation": "gōng kè homework",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "功能",
+    "pinyin": "",
+    "translation": "gōngnéng function",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "共同",
+    "pinyin": "",
+    "translation": "gòngtóng common",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "共有",
+    "pinyin": "",
+    "translation": "gòng yǒu have altogether",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "姑娘",
+    "pinyin": "",
+    "translation": "gūniang girl",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "古",
+    "pinyin": "",
+    "translation": "gǔ ancient",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "古代",
+    "pinyin": "",
+    "translation": "gǔdài Ancient",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "故乡",
+    "pinyin": "",
+    "translation": "gùxiāng Hometown",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "挂",
+    "pinyin": "",
+    "translation": "guà hang",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "关系",
+    "pinyin": "",
+    "translation": "guānxì relationship",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "关注",
+    "pinyin": "",
+    "translation": "guān zhù attention",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "观察",
+    "pinyin": "",
+    "translation": "guānchá observation",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "观看",
+    "pinyin": "",
+    "translation": "guān kàn watch",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "观念",
+    "pinyin": "",
+    "translation": "guānniàn concept",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "观众",
+    "pinyin": "",
+    "translation": "guānzhòng Audience",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "管",
+    "pinyin": "",
+    "translation": "guǎn control",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "管理",
+    "pinyin": "",
+    "translation": "guǎnlǐ Administration",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "光",
+    "pinyin": "",
+    "translation": "guāng light",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "光明",
+    "pinyin": "",
+    "translation": "guāngmíng light",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "广播",
+    "pinyin": "",
+    "translation": "guǎngbō Radio broadcast",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "广大",
+    "pinyin": "",
+    "translation": "guǎngdà Vast",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "规定",
+    "pinyin": "",
+    "translation": "guīdìng Regulations",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "规范",
+    "pinyin": "",
+    "translation": "guīfàn criterion",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "国内",
+    "pinyin": "",
+    "translation": "guó nèi domestic",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "国庆",
+    "pinyin": "",
+    "translation": "guó qìng National Day",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "果然",
+    "pinyin": "",
+    "translation": "guǒrán Sure enough",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "果汁",
+    "pinyin": "",
+    "translation": "guǒzhī fruit juice",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "过程",
+    "pinyin": "",
+    "translation": "guòchéng process",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "过去",
+    "pinyin": "",
+    "translation": "（名） guò qù past",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "哈哈",
+    "pinyin": "",
+    "translation": "hā hā ha-ha",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "海关",
+    "pinyin": "",
+    "translation": "hǎiguān Customs",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "害怕",
+    "pinyin": "",
+    "translation": "hàipà Fear",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "行",
+    "pinyin": "",
+    "translation": "háng row，line",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "好好",
+    "pinyin": "",
+    "translation": "hǎo hǎo really good, really nice",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "好奇",
+    "pinyin": "",
+    "translation": "hàoqí Be curious",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "合",
+    "pinyin": "",
+    "translation": "hé close",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "合法",
+    "pinyin": "",
+    "translation": "héfǎ legitimate",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "合格",
+    "pinyin": "",
+    "translation": "hégé qualified",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "合理",
+    "pinyin": "",
+    "translation": "hélǐ reasonable",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "合作",
+    "pinyin": "",
+    "translation": "hézuò cooperation",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "和平",
+    "pinyin": "",
+    "translation": "hépíng peace",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "红茶",
+    "pinyin": "",
+    "translation": "hóng chá black tea",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "红酒",
+    "pinyin": "",
+    "translation": "hóng jiǔ red wine",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "后果",
+    "pinyin": "",
+    "translation": "hòuguǒ Consequence",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "后面",
+    "pinyin": "",
+    "translation": "hòumiàn behind",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "后年",
+    "pinyin": "",
+    "translation": "hòu nián the year after next",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "互联网",
+    "pinyin": "",
+    "translation": "hùliánwǎng Internet",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "互相",
+    "pinyin": "",
+    "translation": "hùxiāng each other",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "划船",
+    "pinyin": "",
+    "translation": "huá chuán row",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "华人",
+    "pinyin": "",
+    "translation": "huá rén Chinese",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "化",
+    "pinyin": "",
+    "translation": "（现代化） huà （xiàn suffix modernize",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "话剧",
+    "pinyin": "",
+    "translation": "huà jù drama",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "话题",
+    "pinyin": "",
+    "translation": "huàtí Topic of conversation",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "欢乐",
+    "pinyin": "",
+    "translation": "huānlè Happy",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "环",
+    "pinyin": "",
+    "translation": "huán ring",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "环保",
+    "pinyin": "",
+    "translation": "huán bǎo environmental protection",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "环境",
+    "pinyin": "",
+    "translation": "huánjìng Environment",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "会议",
+    "pinyin": "",
+    "translation": "huìyì Meeting",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "会员",
+    "pinyin": "",
+    "translation": "huì yuán membership",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "活",
+    "pinyin": "",
+    "translation": "huó live",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "火",
+    "pinyin": "",
+    "translation": "（名） huǒ fire",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "机器",
+    "pinyin": "",
+    "translation": "jīqì machine",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "积极",
+    "pinyin": "",
+    "translation": "jījí positive",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "基本",
+    "pinyin": "",
+    "translation": "jīběn basic",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "基本上",
+    "pinyin": "",
+    "translation": "jī běn shàng basically",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "基础",
+    "pinyin": "",
+    "translation": "jīchǔ Basics",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "及时",
+    "pinyin": "",
+    "translation": "jíshí timely",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "极了",
+    "pinyin": "",
+    "translation": "… jí le extremely",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "集体",
+    "pinyin": "",
+    "translation": "jítǐ collective",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "集中",
+    "pinyin": "",
+    "translation": "jízhōng focus",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "计算",
+    "pinyin": "",
+    "translation": "jìsuàn Calculation",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "记录",
+    "pinyin": "",
+    "translation": "jìlù Record",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "记者",
+    "pinyin": "",
+    "translation": "jìzhě Reporter",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "纪录",
+    "pinyin": "",
+    "translation": "jìlù Record",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "纪念",
+    "pinyin": "",
+    "translation": "jìniàn Anniversary",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "技术",
+    "pinyin": "",
+    "translation": "jìshù technology",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "继续",
+    "pinyin": "",
+    "translation": "jìxù Continue",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "加工",
+    "pinyin": "",
+    "translation": "jiāgōng machining",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "加快",
+    "pinyin": "",
+    "translation": "jiā kuài speed up",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "加强",
+    "pinyin": "",
+    "translation": "jiā qiáng strengthen",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "家具",
+    "pinyin": "",
+    "translation": "jiājù furniture",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "家属",
+    "pinyin": "",
+    "translation": "jiāshǔ family members",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "家乡",
+    "pinyin": "",
+    "translation": "jiāxiāng Hometown",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "价格",
+    "pinyin": "",
+    "translation": "jiàgé Price",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "价钱",
+    "pinyin": "",
+    "translation": "jià qián price",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "价值",
+    "pinyin": "",
+    "translation": "jiàzhí value",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "架",
+    "pinyin": "",
+    "translation": "jià frame",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "坚持",
+    "pinyin": "",
+    "translation": "jiānchí Insist",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "坚决",
+    "pinyin": "",
+    "translation": "jiānjué firm",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "坚强",
+    "pinyin": "",
+    "translation": "jiānqiáng Firm",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "简单",
+    "pinyin": "",
+    "translation": "jiǎndān simple",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "简直",
+    "pinyin": "",
+    "translation": "jiǎnzhí simply",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "建",
+    "pinyin": "",
+    "translation": "jiàn build",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "建成",
+    "pinyin": "",
+    "translation": "jiàn chéng built up",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "建立",
+    "pinyin": "",
+    "translation": "jiànlì establish",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "建设",
+    "pinyin": "",
+    "translation": "jiànshè build",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "建议",
+    "pinyin": "",
+    "translation": "jiànyì proposal",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "将近",
+    "pinyin": "",
+    "translation": "jiāngjìn nearly",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "将来",
+    "pinyin": "",
+    "translation": "jiānglái future",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "交费",
+    "pinyin": "",
+    "translation": "jiāo fèi pay",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "交警",
+    "pinyin": "",
+    "translation": "jiāo jǐng traffic police",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "交流",
+    "pinyin": "",
+    "translation": "jiāoliú Communication",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "交往",
+    "pinyin": "",
+    "translation": "jiāowǎng affiliate with",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "交易",
+    "pinyin": "",
+    "translation": "jiāoyì transaction",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "叫",
+    "pinyin": "",
+    "translation": "（介） jiào preposition",
+    "hsk_level": 3,
+    "part_of_speech": "предлог",
+    "frequency": "高频"
+  },
+  {
+    "character": "较",
+    "pinyin": "",
+    "translation": "jiào compare",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "教材",
+    "pinyin": "",
+    "translation": "jiàocái teaching material",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "教练",
+    "pinyin": "",
+    "translation": "jiàoliàn coach",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "结实",
+    "pinyin": "",
+    "translation": "jiēshi strong",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "接待",
+    "pinyin": "",
+    "translation": "jiēdài Reception",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "接近",
+    "pinyin": "",
+    "translation": "jiējìn near",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "节约",
+    "pinyin": "",
+    "translation": "jiéyuē save",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "结合",
+    "pinyin": "",
+    "translation": "jiéhé Combination",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "结婚",
+    "pinyin": "",
+    "translation": "jiéhūn marry",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "结束",
+    "pinyin": "",
+    "translation": "jiéshù End",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "解决",
+    "pinyin": "",
+    "translation": "jiějué Solve",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "解开",
+    "pinyin": "",
+    "translation": "jiě kāi undo",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "金",
+    "pinyin": "",
+    "translation": "jīn gold",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "金牌",
+    "pinyin": "",
+    "translation": "jīn pái gold medal",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "仅",
+    "pinyin": "",
+    "translation": "jǐn only",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "仅仅",
+    "pinyin": "",
+    "translation": "jǐn jǐn only",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "尽量",
+    "pinyin": "",
+    "translation": "jǐnliàng as far as possible",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "紧",
+    "pinyin": "",
+    "translation": "jǐn tight",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "紧急",
+    "pinyin": "",
+    "translation": "jǐnjí urgent",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "紧张",
+    "pinyin": "",
+    "translation": "jǐnzhāng Nervous",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "进步",
+    "pinyin": "",
+    "translation": "jìnbù progress",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "进一步",
+    "pinyin": "",
+    "translation": "jìn yí bù go a step further",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "进展",
+    "pinyin": "",
+    "translation": "jìnzhǎn evolve",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "近期",
+    "pinyin": "",
+    "translation": "jìn qī recent",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "京剧",
+    "pinyin": "",
+    "translation": "jīngjù Beijing opera",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "经济",
+    "pinyin": "",
+    "translation": "jīngjì Economics",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "经历",
+    "pinyin": "",
+    "translation": "jīnglì experience",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "经验",
+    "pinyin": "",
+    "translation": "jīngyàn experience",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "经营",
+    "pinyin": "",
+    "translation": "jīngyíng Management",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "精彩",
+    "pinyin": "",
+    "translation": "jīngcǎi Marvellous",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "精神",
+    "pinyin": "",
+    "translation": "jīngshén spirit, mind",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "精神",
+    "pinyin": "",
+    "translation": "jīngshen lively, vigour",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "景色",
+    "pinyin": "",
+    "translation": "jǐngsè scenery",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "警察",
+    "pinyin": "",
+    "translation": "jǐngchá Police",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "静",
+    "pinyin": "",
+    "translation": "jìng silent",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "久",
+    "pinyin": "",
+    "translation": "jiǔ long",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "旧",
+    "pinyin": "",
+    "translation": "jiù used",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "救",
+    "pinyin": "",
+    "translation": "jiù save",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "就是",
+    "pinyin": "",
+    "translation": "jiù shì precisely",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "就业",
+    "pinyin": "",
+    "translation": "jiùyè take up an occupation",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "举办",
+    "pinyin": "",
+    "translation": "jǔbàn hold",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "具体",
+    "pinyin": "",
+    "translation": "jùtǐ specific",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "具有",
+    "pinyin": "",
+    "translation": "jù yǒu possess",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "剧场",
+    "pinyin": "",
+    "translation": "jù chǎng theater",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "据说",
+    "pinyin": "",
+    "translation": "jùshuō allegedly",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "决定",
+    "pinyin": "",
+    "translation": "juédìng Decision",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "决赛",
+    "pinyin": "",
+    "translation": "juésài Finals",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "决心",
+    "pinyin": "",
+    "translation": "juéxīn Determination",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "绝对",
+    "pinyin": "",
+    "translation": "juéduì Absolutely",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "咖啡",
+    "pinyin": "",
+    "translation": "kāfēi Coffee",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "开发",
+    "pinyin": "",
+    "translation": "kāifā Development",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "开放",
+    "pinyin": "",
+    "translation": "kāifàng To open up",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "开始",
+    "pinyin": "",
+    "translation": "kāishǐ start",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "开业",
+    "pinyin": "",
+    "translation": "kāi yè start business",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "开展",
+    "pinyin": "",
+    "translation": "kāizhǎn Develop",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "看起来",
+    "pinyin": "",
+    "translation": "kàn qǐ lái look like",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "看上去",
+    "pinyin": "",
+    "translation": "kàn shàng qù seem",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "考验",
+    "pinyin": "",
+    "translation": "kǎoyàn test",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "科技",
+    "pinyin": "",
+    "translation": "kē jì science and technology",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "可靠",
+    "pinyin": "",
+    "translation": "kěkào reliable",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "可乐",
+    "pinyin": "",
+    "translation": "kě lè coke",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "克服",
+    "pinyin": "",
+    "translation": "kèfú Overcome",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "客观",
+    "pinyin": "",
+    "translation": "kèguān objective",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "课程",
+    "pinyin": "",
+    "translation": "kèchéng curriculum",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "空",
+    "pinyin": "",
+    "translation": "kōng empty",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "空调",
+    "pinyin": "",
+    "translation": "kōngtiáo Air conditioner",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "恐怕",
+    "pinyin": "",
+    "translation": "kǒngpà I'm afraid",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "空儿",
+    "pinyin": "",
+    "translation": "kòngr free time",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "裤子",
+    "pinyin": "",
+    "translation": "kùzi trousers",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "快速",
+    "pinyin": "",
+    "translation": "kuài sù fast",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "困",
+    "pinyin": "",
+    "translation": "kùn sleepy",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "困难",
+    "pinyin": "",
+    "translation": "kùnnán difficulty",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "浪费",
+    "pinyin": "",
+    "translation": "làngfèi Waste",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "老百姓",
+    "pinyin": "",
+    "translation": "lǎobǎixìng Ordinary people",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "老板",
+    "pinyin": "",
+    "translation": "lǎobǎn Boss",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "老太太",
+    "pinyin": "",
+    "translation": "lǎo tài tai old lady",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "老头儿",
+    "pinyin": "",
+    "translation": "lǎo tóur old man",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "乐",
+    "pinyin": "",
+    "translation": "lè happy",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "乐观",
+    "pinyin": "",
+    "translation": "lèguān optimistic",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "类",
+    "pinyin": "",
+    "translation": "lèi class",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "类似",
+    "pinyin": "",
+    "translation": "lèisì Similar",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "离婚",
+    "pinyin": "",
+    "translation": "líhūn divorce",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "里面",
+    "pinyin": "",
+    "translation": "lǐ miàn inside",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "理发",
+    "pinyin": "",
+    "translation": "lǐfà Haircut",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "理解",
+    "pinyin": "",
+    "translation": "lǐjiě Understand",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "理论",
+    "pinyin": "",
+    "translation": "lǐlùn theory",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "理由",
+    "pinyin": "",
+    "translation": "lǐyóu Reason",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "力",
+    "pinyin": "",
+    "translation": "lì power",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "力量",
+    "pinyin": "",
+    "translation": "lìliàng Power",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "立刻",
+    "pinyin": "",
+    "translation": "lìkè immediately",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "利用",
+    "pinyin": "",
+    "translation": "lìyòng utilize",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "连",
+    "pinyin": "",
+    "translation": "lián even",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "连忙",
+    "pinyin": "",
+    "translation": "liánmáng Hurriedly",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "连续",
+    "pinyin": "",
+    "translation": "liánxù serial",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "连续剧",
+    "pinyin": "",
+    "translation": "lián xù jù series",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "联合",
+    "pinyin": "",
+    "translation": "liánhé union",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "联合国",
+    "pinyin": "",
+    "translation": "lián hé guó United Nations",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "联系",
+    "pinyin": "",
+    "translation": "liánxì contact",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "凉水",
+    "pinyin": "",
+    "translation": "liáng shuǐ cold water",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "了",
+    "pinyin": "",
+    "translation": "le past tense marker",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "领",
+    "pinyin": "",
+    "translation": "lǐng lead",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "领导",
+    "pinyin": "",
+    "translation": "lǐngdǎo Leader",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "领先",
+    "pinyin": "",
+    "translation": "lǐngxiān keep ahead",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "另外",
+    "pinyin": "",
+    "translation": "lìngwài in addition",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "另一方面",
+    "pinyin": "",
+    "translation": "lìng yì fāng miàn on the other hand",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "留学",
+    "pinyin": "",
+    "translation": "liúxué Overseas Study",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "龙",
+    "pinyin": "",
+    "translation": "lóng dragon",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "录",
+    "pinyin": "",
+    "translation": "lù record",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "录音",
+    "pinyin": "",
+    "translation": "lùyīn Sound recording",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "路线",
+    "pinyin": "",
+    "translation": "lù xiàn path",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "旅馆",
+    "pinyin": "",
+    "translation": "lǚ guǎn hotel",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "旅行社",
+    "pinyin": "",
+    "translation": "lǚ xíng shè travel agency",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "绿茶",
+    "pinyin": "",
+    "translation": "lǜ chá green tea",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "乱",
+    "pinyin": "",
+    "translation": "luàn chaos",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "落后",
+    "pinyin": "",
+    "translation": "luòhòu backward",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "麻烦",
+    "pinyin": "",
+    "translation": "máfan trouble",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "马",
+    "pinyin": "",
+    "translation": "mǎ Horse",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "满足",
+    "pinyin": "",
+    "translation": "mǎnzú satisfy",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "慢慢",
+    "pinyin": "",
+    "translation": "màn màn slowly",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "毛",
+    "pinyin": "",
+    "translation": "（名） máo a fractional unit of money in",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "毛病",
+    "pinyin": "",
+    "translation": "máobìng Trouble",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "没用",
+    "pinyin": "",
+    "translation": "méi yòng useless",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "媒体",
+    "pinyin": "",
+    "translation": "méitǐ media",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "每",
+    "pinyin": "",
+    "translation": "měi each",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "美",
+    "pinyin": "",
+    "translation": "měi beautiful",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "美好",
+    "pinyin": "",
+    "translation": "měi hǎo fine",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "美丽",
+    "pinyin": "",
+    "translation": "měilì beautiful",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "美食",
+    "pinyin": "",
+    "translation": "měi shí delicious food",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "美术",
+    "pinyin": "",
+    "translation": "měishù Fine Arts",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "美元",
+    "pinyin": "",
+    "translation": "měi yuán U",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "迷",
+    "pinyin": "",
+    "translation": "mí fan",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "米",
+    "pinyin": "",
+    "translation": "（名） mǐ meter",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "面对",
+    "pinyin": "",
+    "translation": "miànduì Face",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "面积",
+    "pinyin": "",
+    "translation": "miànjī The measure of area",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "民间",
+    "pinyin": "",
+    "translation": "mínjiān nongovernmental",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "民族",
+    "pinyin": "",
+    "translation": "mínzú Nation",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "明确",
+    "pinyin": "",
+    "translation": "míngquè To make clear",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "明显",
+    "pinyin": "",
+    "translation": "míngxiǎn obvious",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "命运",
+    "pinyin": "",
+    "translation": "mìngyùn fate",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "某",
+    "pinyin": "",
+    "translation": "mǒu some",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "母亲",
+    "pinyin": "",
+    "translation": "mǔqīn mother",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "木头",
+    "pinyin": "",
+    "translation": "mùtou wood",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "目标",
+    "pinyin": "",
+    "translation": "mùbiāo target",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "目前",
+    "pinyin": "",
+    "translation": "mùqián at present",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "奶茶",
+    "pinyin": "",
+    "translation": "nǎi chá milk tea",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "男子",
+    "pinyin": "",
+    "translation": "nán zǐ man",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "南部",
+    "pinyin": "",
+    "translation": "nán bù south",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "难道",
+    "pinyin": "",
+    "translation": "nándào could it be said that …",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "难度",
+    "pinyin": "",
+    "translation": "nán dù difficulty",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "内",
+    "pinyin": "",
+    "translation": "nèi within",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "内容",
+    "pinyin": "",
+    "translation": "nèiróng content",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "内心",
+    "pinyin": "",
+    "translation": "nèi xīn heart",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "能不能",
+    "pinyin": "",
+    "translation": "néng bù néng can or not",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "能力",
+    "pinyin": "",
+    "translation": "nénglì ability",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "年初",
+    "pinyin": "",
+    "translation": "nián chū beginning of the year",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "年代",
+    "pinyin": "",
+    "translation": "niándài years",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "年底",
+    "pinyin": "",
+    "translation": "nián dǐ end of the year",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "年纪",
+    "pinyin": "",
+    "translation": "niánjì Age",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "念",
+    "pinyin": "",
+    "translation": "niàn Read",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "牛",
+    "pinyin": "",
+    "translation": "（名） niú cattle",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "农村",
+    "pinyin": "",
+    "translation": "nóngcūn countryside",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "农民",
+    "pinyin": "",
+    "translation": "nóngmín farmer",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "农业",
+    "pinyin": "",
+    "translation": "nóngyè Agriculture",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "女子",
+    "pinyin": "",
+    "translation": "nǚ zǐ woman",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "暖和",
+    "pinyin": "",
+    "translation": "nuǎnhuo warm",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "怕",
+    "pinyin": "",
+    "translation": "（副） pà perhaps",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "拍",
+    "pinyin": "",
+    "translation": "pāi beat",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "排",
+    "pinyin": "",
+    "translation": "（动） pái arrange",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "排名",
+    "pinyin": "",
+    "translation": "pái míng rank",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "牌子",
+    "pinyin": "",
+    "translation": "pái zi brand",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "派",
+    "pinyin": "",
+    "translation": "pài send",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "判断",
+    "pinyin": "",
+    "translation": "pànduàn judge",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "胖",
+    "pinyin": "",
+    "translation": "pàng fat",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "跑步",
+    "pinyin": "",
+    "translation": "pǎobù Run",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "配",
+    "pinyin": "",
+    "translation": "pèi match",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "配合",
+    "pinyin": "",
+    "translation": "pèihé Coordination",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "批评",
+    "pinyin": "",
+    "translation": "pīpíng criticism",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "批准",
+    "pinyin": "",
+    "translation": "pīzhǔn Approval",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "皮",
+    "pinyin": "",
+    "translation": "pí skin",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "皮包",
+    "pinyin": "",
+    "translation": "pí bāo purse",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "啤酒",
+    "pinyin": "",
+    "translation": "píjiǔ Beer",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "票价",
+    "pinyin": "",
+    "translation": "piào jià ticket price",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "评价",
+    "pinyin": "",
+    "translation": "píngjià evaluation",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "苹果",
+    "pinyin": "",
+    "translation": "píngguǒ Apple",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "破",
+    "pinyin": "",
+    "translation": "pò broken",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "破坏",
+    "pinyin": "",
+    "translation": "pòhuài Destruction",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "普遍",
+    "pinyin": "",
+    "translation": "pǔbiàn universal",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "普及",
+    "pinyin": "",
+    "translation": "pǔjí Universal",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "期",
+    "pinyin": "",
+    "translation": "qī period",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "齐",
+    "pinyin": "",
+    "translation": "qí together",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "其次",
+    "pinyin": "",
+    "translation": "qícì Secondly",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "其实",
+    "pinyin": "",
+    "translation": "qíshí actually",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "奇怪",
+    "pinyin": "",
+    "translation": "qíguài strange",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "气候",
+    "pinyin": "",
+    "translation": "qìhòu climate",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "千万",
+    "pinyin": "",
+    "translation": "qiānwàn Must",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "前后",
+    "pinyin": "",
+    "translation": "qián hòu front and back",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "前进",
+    "pinyin": "",
+    "translation": "qián jìn advance",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "前面",
+    "pinyin": "",
+    "translation": "qiánmiàn Front",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "前往",
+    "pinyin": "",
+    "translation": "qián wǎng go to",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "强",
+    "pinyin": "",
+    "translation": "qiáng strong",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "强大",
+    "pinyin": "",
+    "translation": "qiáng dà powerful",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "强调",
+    "pinyin": "",
+    "translation": "qiángdiào Emphasize",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "强烈",
+    "pinyin": "",
+    "translation": "qiángliè strong",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "桥",
+    "pinyin": "",
+    "translation": "qiáo Bridge",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "巧",
+    "pinyin": "",
+    "translation": "qiǎo opportunely",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "亲",
+    "pinyin": "",
+    "translation": "qīn dear",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "亲切",
+    "pinyin": "",
+    "translation": "qīnqiè kind",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "亲人",
+    "pinyin": "",
+    "translation": "qīn rén relative",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "亲自",
+    "pinyin": "",
+    "translation": "qīnzì personally",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "情感",
+    "pinyin": "",
+    "translation": "qíng gǎn feeling",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "情况",
+    "pinyin": "",
+    "translation": "qíngkuàng Situation",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "请教",
+    "pinyin": "",
+    "translation": "qǐngjiào Consult",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "庆祝",
+    "pinyin": "",
+    "translation": "qìngzhù Celebrate",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "球迷",
+    "pinyin": "",
+    "translation": "qiúmí fans ball game",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "区",
+    "pinyin": "",
+    "translation": "qū area",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "区别",
+    "pinyin": "",
+    "translation": "qūbié Difference",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "取消",
+    "pinyin": "",
+    "translation": "qǔxiāo cancel",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "去世",
+    "pinyin": "",
+    "translation": "qùshì Death",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "全场",
+    "pinyin": "",
+    "translation": "quán chǎng the whole audience",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "全面",
+    "pinyin": "",
+    "translation": "quánmiàn comprehensive",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "全球",
+    "pinyin": "",
+    "translation": "quán qiú global",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "缺",
+    "pinyin": "",
+    "translation": "quē be short of",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "缺点",
+    "pinyin": "",
+    "translation": "quēdiǎn shortcoming",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "缺少",
+    "pinyin": "",
+    "translation": "quēshǎo Lack",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "确保",
+    "pinyin": "",
+    "translation": "quèbǎo ensure",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "确定",
+    "pinyin": "",
+    "translation": "quèdìng Determine",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "确实",
+    "pinyin": "",
+    "translation": "quèshí Exactly",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "裙子",
+    "pinyin": "",
+    "translation": "qúnzi skirt",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "群",
+    "pinyin": "",
+    "translation": "qún group",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "热爱",
+    "pinyin": "",
+    "translation": "rè'ài Ardently love",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "热烈",
+    "pinyin": "",
+    "translation": "rèliè warm",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "人才",
+    "pinyin": "",
+    "translation": "réncái talented person",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "人工",
+    "pinyin": "",
+    "translation": "réngōng artificial",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "人类",
+    "pinyin": "",
+    "translation": "rénlèi Human beings",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "人民",
+    "pinyin": "",
+    "translation": "rén mín people",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "人民币",
+    "pinyin": "",
+    "translation": "rénmínbì RMB",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "人群",
+    "pinyin": "",
+    "translation": "rén qún crowd",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "人生",
+    "pinyin": "",
+    "translation": "rénshēng Life",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "人员",
+    "pinyin": "",
+    "translation": "rényuán personnel",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "认出",
+    "pinyin": "",
+    "translation": "rèn chū recognize",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "认得",
+    "pinyin": "",
+    "translation": "rèn dé know",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "认可",
+    "pinyin": "",
+    "translation": "rènkě certificate",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "任",
+    "pinyin": "",
+    "translation": "（动） rèn appoint",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "任",
+    "pinyin": "",
+    "translation": "（连） rèn no matter how, what, etc",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "任何",
+    "pinyin": "",
+    "translation": "rènhé whatever, any",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "任务",
+    "pinyin": "",
+    "translation": "rènwu task",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "仍",
+    "pinyin": "",
+    "translation": "réng still",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "仍然",
+    "pinyin": "",
+    "translation": "réngrán still",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "日常",
+    "pinyin": "",
+    "translation": "rìcháng daily",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "容易",
+    "pinyin": "",
+    "translation": "róngyì easily",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "如何",
+    "pinyin": "",
+    "translation": "rúhé How",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "散步",
+    "pinyin": "",
+    "translation": "sànbù Take a walk",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "沙发",
+    "pinyin": "",
+    "translation": "shāfā Sofa",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "沙子",
+    "pinyin": "",
+    "translation": "shā zi sand",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "伤",
+    "pinyin": "",
+    "translation": "shāng hurt",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "伤心",
+    "pinyin": "",
+    "translation": "shāngxīn Sad",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "商品",
+    "pinyin": "",
+    "translation": "shāngpǐn commodity",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "商业",
+    "pinyin": "",
+    "translation": "shāngyè business",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "上来",
+    "pinyin": "",
+    "translation": "shàng lái come up",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "上面",
+    "pinyin": "",
+    "translation": "shàng miàn above",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "上去",
+    "pinyin": "",
+    "translation": "shàng qù go up",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "上升",
+    "pinyin": "",
+    "translation": "shàng shēng rise",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "上衣",
+    "pinyin": "",
+    "translation": "shàng yī upper outer garment",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "设备",
+    "pinyin": "",
+    "translation": "shèbèi equipment",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "设计",
+    "pinyin": "",
+    "translation": "shèjì Design",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "设立",
+    "pinyin": "",
+    "translation": "shèlì Establish",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "社会",
+    "pinyin": "",
+    "translation": "shèhuì Socioty",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "身份证",
+    "pinyin": "",
+    "translation": "shēn fèn zhèng ID card",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "深",
+    "pinyin": "",
+    "translation": "shēn deep",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "深刻",
+    "pinyin": "",
+    "translation": "shēnkè profound",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "深入",
+    "pinyin": "",
+    "translation": "shēn rù go deep into",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "升",
+    "pinyin": "",
+    "translation": "shēng rise",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "生",
+    "pinyin": "",
+    "translation": "（形） shēng unripe",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "生产",
+    "pinyin": "",
+    "translation": "shēngchǎn production",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "生存",
+    "pinyin": "",
+    "translation": "shēngcún Existence",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "生动",
+    "pinyin": "",
+    "translation": "shēngdòng vivid",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "生命",
+    "pinyin": "",
+    "translation": "shēngmìng life",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "生意",
+    "pinyin": "",
+    "translation": "shēngyi business",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "生长",
+    "pinyin": "",
+    "translation": "shēngzhǎng grow",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "声明",
+    "pinyin": "",
+    "translation": "shēngmíng statement",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "胜",
+    "pinyin": "",
+    "translation": "shèng win",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "胜利",
+    "pinyin": "",
+    "translation": "shènglì victory",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "失去",
+    "pinyin": "",
+    "translation": "shīqù Lose",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "石头",
+    "pinyin": "",
+    "translation": "shítou stone",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "石油",
+    "pinyin": "",
+    "translation": "shíyóu petroleum",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "时",
+    "pinyin": "",
+    "translation": "shí time",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "时代",
+    "pinyin": "",
+    "translation": "shídài times",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "时刻",
+    "pinyin": "",
+    "translation": "shíkè time",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "实际上",
+    "pinyin": "",
+    "translation": "shí jì shàng actually",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "实力",
+    "pinyin": "",
+    "translation": "shílì Strength",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "实行",
+    "pinyin": "",
+    "translation": "shíxíng Implement",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "实验",
+    "pinyin": "",
+    "translation": "shíyàn Experiment",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "实验室",
+    "pinyin": "",
+    "translation": "shí yàn shì laboratory",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "食品",
+    "pinyin": "",
+    "translation": "shí pǐn food",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "使",
+    "pinyin": "",
+    "translation": "shǐ make",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "始终",
+    "pinyin": "",
+    "translation": "shǐzhōng Throughout",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "世纪",
+    "pinyin": "",
+    "translation": "shìjì century",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "世界",
+    "pinyin": "",
+    "translation": "shìjiè world",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "世界杯",
+    "pinyin": "",
+    "translation": "shì jiè bēi World Cup",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "市场",
+    "pinyin": "",
+    "translation": "shìchǎng market",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "事故",
+    "pinyin": "",
+    "translation": "shìgù Accident",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "事件",
+    "pinyin": "",
+    "translation": "shìjiàn Event",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "事实",
+    "pinyin": "",
+    "translation": "shìshí Fact",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "事实上",
+    "pinyin": "",
+    "translation": "shì shí shàng in fact",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "事业",
+    "pinyin": "",
+    "translation": "shìyè career",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "试题",
+    "pinyin": "",
+    "translation": "shì tí test questions",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "试验",
+    "pinyin": "",
+    "translation": "shìyàn test",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "适合",
+    "pinyin": "",
+    "translation": "shìhé Fit",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "适应",
+    "pinyin": "",
+    "translation": "shìyìng Adapt",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "适用",
+    "pinyin": "",
+    "translation": "shì yòng be applicable",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "室",
+    "pinyin": "",
+    "translation": "shì room",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "收费",
+    "pinyin": "",
+    "translation": "shōu fèi collect fees",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "收看",
+    "pinyin": "",
+    "translation": "shōu kàn watch",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "收听",
+    "pinyin": "",
+    "translation": "shōu tīng listen to",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "收音机",
+    "pinyin": "",
+    "translation": "shōuyīnjī radio",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "手续",
+    "pinyin": "",
+    "translation": "shǒuxù procedures",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "手指",
+    "pinyin": "",
+    "translation": "shǒuzhǐ finger",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "首都",
+    "pinyin": "",
+    "translation": "shǒudū capital",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "首先",
+    "pinyin": "",
+    "translation": "shǒuxiān First",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "受",
+    "pinyin": "",
+    "translation": "shòu be subjecte",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "受伤",
+    "pinyin": "",
+    "translation": "shòushāng Injured",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "书架",
+    "pinyin": "",
+    "translation": "shūjià bookshelf",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "输",
+    "pinyin": "",
+    "translation": "shū lose",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "输入",
+    "pinyin": "",
+    "translation": "shūrù import",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "熟人",
+    "pinyin": "",
+    "translation": "shú rén acquaintance",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "属",
+    "pinyin": "",
+    "translation": "shǔ be born in the year of one of the",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "属于",
+    "pinyin": "",
+    "translation": "shǔyú belong to",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "束",
+    "pinyin": "",
+    "translation": "shù beam",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "数量",
+    "pinyin": "",
+    "translation": "shùliàng quantity",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "双",
+    "pinyin": "",
+    "translation": "shuāng double",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "双方",
+    "pinyin": "",
+    "translation": "shuāngfāng both sides",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "思想",
+    "pinyin": "",
+    "translation": "sīxiǎng thought",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "死",
+    "pinyin": "",
+    "translation": "sǐ die",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "速度",
+    "pinyin": "",
+    "translation": "sùdù speed",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "随",
+    "pinyin": "",
+    "translation": "suí follow",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "所",
+    "pinyin": "",
+    "translation": "（名、量） suǒ place",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "所长",
+    "pinyin": "",
+    "translation": "suǒ zhǎng superintendent",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "台",
+    "pinyin": "",
+    "translation": "tái platform",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "谈",
+    "pinyin": "",
+    "translation": "tán talk",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "谈话",
+    "pinyin": "",
+    "translation": "tán huà conversation",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "谈判",
+    "pinyin": "",
+    "translation": "tánpàn negotiation",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "汤",
+    "pinyin": "",
+    "translation": "tāng soup",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "糖",
+    "pinyin": "",
+    "translation": "táng sugar",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "特色",
+    "pinyin": "",
+    "translation": "tèsè characteristic",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "提前",
+    "pinyin": "",
+    "translation": "tíqián Advance",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "提问",
+    "pinyin": "",
+    "translation": "tíwèn Put questions to",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "题目",
+    "pinyin": "",
+    "translation": "tímù subject",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "体会",
+    "pinyin": "",
+    "translation": "tǐhuì Experience",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "体现",
+    "pinyin": "",
+    "translation": "tǐxiàn Reflect",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "体验",
+    "pinyin": "",
+    "translation": "tǐyàn experience",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "天空",
+    "pinyin": "",
+    "translation": "tiānkōng sky",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "甜",
+    "pinyin": "",
+    "translation": "tián sweet",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "调",
+    "pinyin": "",
+    "translation": "tiáo suit well",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "调整",
+    "pinyin": "",
+    "translation": "tiáozhěng adjustment",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "跳",
+    "pinyin": "",
+    "translation": "tiào jump",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "跳高",
+    "pinyin": "",
+    "translation": "tiào gāo high jump",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "跳舞",
+    "pinyin": "",
+    "translation": "tiàowǔ dance",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "跳远",
+    "pinyin": "",
+    "translation": "tiào yuǎn long jump",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "铁",
+    "pinyin": "",
+    "translation": "tiě iron",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "铁路",
+    "pinyin": "",
+    "translation": "tiě lù railway",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "听力",
+    "pinyin": "",
+    "translation": "tīng lì hearing",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "听众",
+    "pinyin": "",
+    "translation": "tīng zhòng audience",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "停止",
+    "pinyin": "",
+    "translation": "tíng zhǐ stop",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "通常",
+    "pinyin": "",
+    "translation": "tōngcháng usually",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "通信",
+    "pinyin": "",
+    "translation": "tōng xìn communicate",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "同意",
+    "pinyin": "",
+    "translation": "tóngyì Agree",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "痛",
+    "pinyin": "",
+    "translation": "（形） tòng sore",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "痛苦",
+    "pinyin": "",
+    "translation": "tòngkǔ Pain",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "头",
+    "pinyin": "",
+    "translation": "（形） tóu lead",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "头脑",
+    "pinyin": "",
+    "translation": "tóu nǎo mind",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "突出",
+    "pinyin": "",
+    "translation": "tūchū prominent",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "突然",
+    "pinyin": "",
+    "translation": "tūrán suddenly",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "图",
+    "pinyin": "",
+    "translation": "tú picture",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "图画",
+    "pinyin": "",
+    "translation": "tú huà drawing",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "土",
+    "pinyin": "",
+    "translation": "（名） tǔ soil",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "团",
+    "pinyin": "",
+    "translation": "tuán group",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "团结",
+    "pinyin": "",
+    "translation": "tuánjié Unite",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "团体",
+    "pinyin": "",
+    "translation": "tuántǐ group",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "推动",
+    "pinyin": "",
+    "translation": "tuī dòng promote",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "推广",
+    "pinyin": "",
+    "translation": "tuīguǎng Extension",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "推进",
+    "pinyin": "",
+    "translation": "tuī jìn advance",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "推开",
+    "pinyin": "",
+    "translation": "tuī kāi push away",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "退",
+    "pinyin": "",
+    "translation": "tuì retreat",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "退出",
+    "pinyin": "",
+    "translation": "tuì chū drop out",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "退休",
+    "pinyin": "",
+    "translation": "tuìxiū retire",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "外交",
+    "pinyin": "",
+    "translation": "wàijiāo diplomacy",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "外面",
+    "pinyin": "",
+    "translation": "wài miàn outside",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "外文",
+    "pinyin": "",
+    "translation": "wài wén foreign language",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "完美",
+    "pinyin": "",
+    "translation": "wánměi perfect",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "完善",
+    "pinyin": "",
+    "translation": "wánshàn perfect, consummate",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "完整",
+    "pinyin": "",
+    "translation": "wánzhěng complete",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "玩具",
+    "pinyin": "",
+    "translation": "wánjù Toys",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "往往",
+    "pinyin": "",
+    "translation": "wǎngwǎng Often",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "危害",
+    "pinyin": "",
+    "translation": "wēihài Harm",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "危险",
+    "pinyin": "",
+    "translation": "wēixiǎn danger",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "为",
+    "pinyin": "",
+    "translation": "（动） wéi act as",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "为",
+    "pinyin": "",
+    "translation": "（介） wèi preposition",
+    "hsk_level": 3,
+    "part_of_speech": "предлог",
+    "frequency": "高频"
+  },
+  {
+    "character": "围",
+    "pinyin": "",
+    "translation": "wéi enclose",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "伟大",
+    "pinyin": "",
+    "translation": "wěidà great",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "卫生",
+    "pinyin": "",
+    "translation": "wèi shēng hygiene",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "卫生间",
+    "pinyin": "",
+    "translation": "wèishēngjiān toilet",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "为了",
+    "pinyin": "",
+    "translation": "wèile in order to",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "温暖",
+    "pinyin": "",
+    "translation": "wēnnuǎn warm",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "文化",
+    "pinyin": "",
+    "translation": "wénhuà Culture",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "文件",
+    "pinyin": "",
+    "translation": "wénjiàn file",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "文明",
+    "pinyin": "",
+    "translation": "wénmíng civilization",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "文学",
+    "pinyin": "",
+    "translation": "wénxué literature",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "文章",
+    "pinyin": "",
+    "translation": "wénzhāng Article",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "文字",
+    "pinyin": "",
+    "translation": "wénzì writing, character",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "握手",
+    "pinyin": "",
+    "translation": "wòshǒu Handshake",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "屋子",
+    "pinyin": "",
+    "translation": "wūzi House",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "武器",
+    "pinyin": "",
+    "translation": "wǔqì arms",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "武术",
+    "pinyin": "",
+    "translation": "wǔshù A martial art",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "舞台",
+    "pinyin": "",
+    "translation": "wǔ tái stage",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "西部",
+    "pinyin": "",
+    "translation": "xī bù west",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "希望",
+    "pinyin": "",
+    "translation": "xīwàng hope",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "系",
+    "pinyin": "",
+    "translation": "xì department",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "下来",
+    "pinyin": "",
+    "translation": "xià lái come down",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "下面",
+    "pinyin": "",
+    "translation": "xià miàn below",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "下去",
+    "pinyin": "",
+    "translation": "xià qù go down",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "先进",
+    "pinyin": "",
+    "translation": "xiānjìn advanced",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "显得",
+    "pinyin": "",
+    "translation": "xiǎnde Appear",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "显然",
+    "pinyin": "",
+    "translation": "xiǎnrán Obviously",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "显示",
+    "pinyin": "",
+    "translation": "xiǎnshì display",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "现场",
+    "pinyin": "",
+    "translation": "xiànchǎng scene",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "现代",
+    "pinyin": "",
+    "translation": "xiàndài modern",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "现金",
+    "pinyin": "",
+    "translation": "xiànjīn cash",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "现实",
+    "pinyin": "",
+    "translation": "xiànshí reality",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "现象",
+    "pinyin": "",
+    "translation": "xiànxiàng phenomenon",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "线",
+    "pinyin": "",
+    "translation": "xiàn thread",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "相比",
+    "pinyin": "",
+    "translation": "xiāng bǐ compare",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "相当",
+    "pinyin": "",
+    "translation": "xiāngdāng Quite",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "相关",
+    "pinyin": "",
+    "translation": "xiāngguān correlate",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "相互",
+    "pinyin": "",
+    "translation": "xiāng hù mutual",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "相似",
+    "pinyin": "",
+    "translation": "xiāngsì Be similar",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "香",
+    "pinyin": "",
+    "translation": "xiāng fragrant",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "香蕉",
+    "pinyin": "",
+    "translation": "xiāngjiāo Banana",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "消费",
+    "pinyin": "",
+    "translation": "xiāofèi consumption",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "消失",
+    "pinyin": "",
+    "translation": "xiāoshī disappear",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "消息",
+    "pinyin": "",
+    "translation": "xiāoxi message",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "效果",
+    "pinyin": "",
+    "translation": "xiàoguǒ Effect",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "写作",
+    "pinyin": "",
+    "translation": "xiězuò writing",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "血",
+    "pinyin": "",
+    "translation": "xuè blood",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "心",
+    "pinyin": "",
+    "translation": "xīn heart",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "信",
+    "pinyin": "",
+    "translation": "（动） xìn believe",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "信封",
+    "pinyin": "",
+    "translation": "xìnfēng envelope",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "信任",
+    "pinyin": "",
+    "translation": "xìnrèn trust",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "行李",
+    "pinyin": "",
+    "translation": "xíng lǐ luggage",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "形成",
+    "pinyin": "",
+    "translation": "xíngchéng formation",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "形式",
+    "pinyin": "",
+    "translation": "xíngshì form",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "形象",
+    "pinyin": "",
+    "translation": "xíngxiàng image",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "形状",
+    "pinyin": "",
+    "translation": "xíngzhuàng shape",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "幸福",
+    "pinyin": "",
+    "translation": "xìngfú happiness",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "幸运",
+    "pinyin": "",
+    "translation": "xìngyùn Lucky",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "性",
+    "pinyin": "",
+    "translation": "（积极性） xìng （jī jí xìng） as a suffix positivity",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "性别",
+    "pinyin": "",
+    "translation": "xìngbié Gender",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "性格",
+    "pinyin": "",
+    "translation": "xìnggé character",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "修",
+    "pinyin": "",
+    "translation": "xiū repair",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "修改",
+    "pinyin": "",
+    "translation": "xiūgǎi modify",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "需求",
+    "pinyin": "",
+    "translation": "xūqiú demand",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "需要",
+    "pinyin": "",
+    "translation": "xūyào Need",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "宣布",
+    "pinyin": "",
+    "translation": "xuānbù Announce",
+    "hsk_level": 3,
+    "part_of_speech": "существительное",
+    "frequency": "高频"
+  },
+  {
+    "character": "宣传",
+    "pinyin": "",
+    "translation": "xuānchuán Propaganda",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "选手",
+    "pinyin": "",
+    "translation": "xuǎnshǒu Player",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "学费",
+    "pinyin": "",
+    "translation": "xué fèi tuition fee",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "训练",
+    "pinyin": "",
+    "translation": "xùnliàn train",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "压",
+    "pinyin": "",
+    "translation": "yā press",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "压力",
+    "pinyin": "",
+    "translation": "yālì pressure",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "烟",
+    "pinyin": "",
+    "translation": "yān smoke",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "眼前",
+    "pinyin": "",
+    "translation": "yǎn qián now",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "演",
+    "pinyin": "",
+    "translation": "yǎn play",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "演唱",
+    "pinyin": "",
+    "translation": "yǎn chàng sing",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "演唱会",
+    "pinyin": "",
+    "translation": "yǎn chàng huì concert",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "演出",
+    "pinyin": "",
+    "translation": "yǎnchū show",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "演员",
+    "pinyin": "",
+    "translation": "yǎnyuán performer, actor",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "羊",
+    "pinyin": "",
+    "translation": "yáng sheep",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "阳光",
+    "pinyin": "",
+    "translation": "yángguāng Sunshine",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "要是",
+    "pinyin": "",
+    "translation": "yàoshi If",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "衣架",
+    "pinyin": "",
+    "translation": "yī jià hanger",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "一切",
+    "pinyin": "",
+    "translation": "yíqiè everything",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "已",
+    "pinyin": "",
+    "translation": "yǐ already",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "以来",
+    "pinyin": "",
+    "translation": "yǐlái Since",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "一方面",
+    "pinyin": "",
+    "translation": "yì fāng miàn on the one hand",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "艺术",
+    "pinyin": "",
+    "translation": "yìshù Art",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "意外",
+    "pinyin": "",
+    "translation": "yìwài Accident",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "意义",
+    "pinyin": "",
+    "translation": "yìyì Significance",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "因此",
+    "pinyin": "",
+    "translation": "yīncǐ therefore",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "银",
+    "pinyin": "",
+    "translation": "yín silver",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "银牌",
+    "pinyin": "",
+    "translation": "yín pái silver medal",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "印象",
+    "pinyin": "",
+    "translation": "yìnxiàng impression",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "应当",
+    "pinyin": "",
+    "translation": "yīng dāng should",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "迎接",
+    "pinyin": "",
+    "translation": "yíngjiē meet, pick, welcome",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "营养",
+    "pinyin": "",
+    "translation": "yíngyǎng Nutrition",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "赢",
+    "pinyin": "",
+    "translation": "yíng win",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "影视",
+    "pinyin": "",
+    "translation": "yǐng shì film and television",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "应用",
+    "pinyin": "",
+    "translation": "yìngyòng application",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "优点",
+    "pinyin": "",
+    "translation": "yōudiǎn Advantage",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "优势",
+    "pinyin": "",
+    "translation": "yōushì advantage",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "由",
+    "pinyin": "",
+    "translation": "yóu from",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "由于",
+    "pinyin": "",
+    "translation": "yóuyú Because",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "邮件",
+    "pinyin": "",
+    "translation": "yóu jiàn mail",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "邮票",
+    "pinyin": "",
+    "translation": "yóu piào postage stamp",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "邮箱",
+    "pinyin": "",
+    "translation": "yóu xiāng postbox",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "游",
+    "pinyin": "",
+    "translation": "yóu swim",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "游戏",
+    "pinyin": "",
+    "translation": "yóuxì Game",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "游泳",
+    "pinyin": "",
+    "translation": "yóuyǒng Swimming",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "有的是",
+    "pinyin": "",
+    "translation": "yǒu de shì have plenty of",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "有利",
+    "pinyin": "",
+    "translation": "yǒulì favourable",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "有效",
+    "pinyin": "",
+    "translation": "yǒu xiào effective",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "预报",
+    "pinyin": "",
+    "translation": "yùbào prediction",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "预防",
+    "pinyin": "",
+    "translation": "yùfáng Prevention",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "预计",
+    "pinyin": "",
+    "translation": "yù jì expected",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "预习",
+    "pinyin": "",
+    "translation": "yùxí Preview",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "员",
+    "pinyin": "",
+    "translation": "（服务员） yuán （fú wù yuá a person engaged in some field of",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "员工",
+    "pinyin": "",
+    "translation": "yuángōng employee",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "愿望",
+    "pinyin": "",
+    "translation": "yuànwàng desire",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "约",
+    "pinyin": "",
+    "translation": "yuē appointment",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "乐队",
+    "pinyin": "",
+    "translation": "yuè duì orchestra",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "运输",
+    "pinyin": "",
+    "translation": "yùnshū transport",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "杂志",
+    "pinyin": "",
+    "translation": "zázhì Magazine",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "早已",
+    "pinyin": "",
+    "translation": "zǎo yǐ long ago",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "造",
+    "pinyin": "",
+    "translation": "zào make",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "造成",
+    "pinyin": "",
+    "translation": "zàochéng cause",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "责任",
+    "pinyin": "",
+    "translation": "zérèn responsibility",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "增加",
+    "pinyin": "",
+    "translation": "zēngjiā increase",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "增长",
+    "pinyin": "",
+    "translation": "zēng zhǎng increase",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "展开",
+    "pinyin": "",
+    "translation": "zhǎnkāi Open",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "张",
+    "pinyin": "",
+    "translation": "zhāng Zhang",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "照",
+    "pinyin": "",
+    "translation": "zhào reflect",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "者",
+    "pinyin": "",
+    "translation": "（志愿者） zhě （zhì yuàn suffix volunteer",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "真实",
+    "pinyin": "",
+    "translation": "zhēnshí real",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "争",
+    "pinyin": "",
+    "translation": "zhēng contend",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "争取",
+    "pinyin": "",
+    "translation": "zhēngqǔ strive for",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "整",
+    "pinyin": "",
+    "translation": "zhěng whole",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "整个",
+    "pinyin": "",
+    "translation": "zhěnggè Whole",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "整理",
+    "pinyin": "",
+    "translation": "zhěnglǐ Arrangement",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "整齐",
+    "pinyin": "",
+    "translation": "zhěngqí neat",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "整体",
+    "pinyin": "",
+    "translation": "zhěngtǐ Whole",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "整天",
+    "pinyin": "",
+    "translation": "zhěng tiān all day long",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "整整",
+    "pinyin": "",
+    "translation": "zhěng zhěng whole",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "正",
+    "pinyin": "",
+    "translation": "（形） zhèng straight",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "正式",
+    "pinyin": "",
+    "translation": "zhèngshì formal",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "证",
+    "pinyin": "",
+    "translation": "zhèng certificate",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "证件",
+    "pinyin": "",
+    "translation": "zhèngjiàn Certificates",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "证据",
+    "pinyin": "",
+    "translation": "zhèngjù evidence",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "证明",
+    "pinyin": "",
+    "translation": "zhèngmíng Prove",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "支",
+    "pinyin": "",
+    "translation": "（量） zhī measure word",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "支持",
+    "pinyin": "",
+    "translation": "zhīchí Support",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "支付",
+    "pinyin": "",
+    "translation": "zhī fù pay money",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "只",
+    "pinyin": "",
+    "translation": "zhī single",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "直",
+    "pinyin": "",
+    "translation": "zhí straight",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "直播",
+    "pinyin": "",
+    "translation": "zhíbō on live",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "直到",
+    "pinyin": "",
+    "translation": "zhí dào until",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "值",
+    "pinyin": "",
+    "translation": "zhí value",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "值得",
+    "pinyin": "",
+    "translation": "zhíde Worth",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "职工",
+    "pinyin": "",
+    "translation": "zhí gōng staff",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "职业",
+    "pinyin": "",
+    "translation": "zhíyè Occupation",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "只好",
+    "pinyin": "",
+    "translation": "zhǐhǎo have to",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "只是",
+    "pinyin": "",
+    "translation": "zhǐ shì merely",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "只有",
+    "pinyin": "",
+    "translation": "zhǐ yǒu only",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "指",
+    "pinyin": "",
+    "translation": "zhǐ finger",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "指出",
+    "pinyin": "",
+    "translation": "zhǐ chū point out",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "指导",
+    "pinyin": "",
+    "translation": "zhǐdǎo guidance",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "至今",
+    "pinyin": "",
+    "translation": "zhìjīn so far",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "至少",
+    "pinyin": "",
+    "translation": "zhìshǎo at least",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "志愿",
+    "pinyin": "",
+    "translation": "zhì yuàn volunteer",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "志愿者",
+    "pinyin": "",
+    "translation": "zhìyuànzhě Volunteer",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "制定",
+    "pinyin": "",
+    "translation": "zhìdìng Formulate",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "制度",
+    "pinyin": "",
+    "translation": "zhìdù system",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "制造",
+    "pinyin": "",
+    "translation": "zhìzào Manufacture",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "制作",
+    "pinyin": "",
+    "translation": "zhìzuò Make",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "中部",
+    "pinyin": "",
+    "translation": "zhōng bù central section",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "中华民族",
+    "pinyin": "",
+    "translation": "zhōng huá mín Chinese nation",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "终于",
+    "pinyin": "",
+    "translation": "zhōngyú finally",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "钟",
+    "pinyin": "",
+    "translation": "zhōng bell",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "种",
+    "pinyin": "",
+    "translation": "zhǒng species",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "种子",
+    "pinyin": "",
+    "translation": "zhǒngzi seed",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "重大",
+    "pinyin": "",
+    "translation": "zhòngdà significant",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "周围",
+    "pinyin": "",
+    "translation": "zhōuwéi around",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "猪",
+    "pinyin": "",
+    "translation": "zhū pig",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "主持",
+    "pinyin": "",
+    "translation": "zhǔchí Host",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "主动",
+    "pinyin": "",
+    "translation": "zhǔdòng active",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "主任",
+    "pinyin": "",
+    "translation": "zhǔrèn Headmaster",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "主意",
+    "pinyin": "",
+    "translation": "zhǔyi idea",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "主张",
+    "pinyin": "",
+    "translation": "zhǔzhāng opinion",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "注意",
+    "pinyin": "",
+    "translation": "zhùyì Be careful",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "祝",
+    "pinyin": "",
+    "translation": "zhù express good wishes",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "抓",
+    "pinyin": "",
+    "translation": "zhuā grab",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "抓住",
+    "pinyin": "",
+    "translation": "zhuā zhù catch",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "专家",
+    "pinyin": "",
+    "translation": "zhuānjiā expert",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "专门",
+    "pinyin": "",
+    "translation": "zhuānmén specialized",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "专题",
+    "pinyin": "",
+    "translation": "zhuāntí special collection",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "专业",
+    "pinyin": "",
+    "translation": "zhuānyè major",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "转",
+    "pinyin": "",
+    "translation": "zhuàn turn",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "转变",
+    "pinyin": "",
+    "translation": "zhuǎnbiàn change",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "状况",
+    "pinyin": "",
+    "translation": "zhuàngkuàng status",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "状态",
+    "pinyin": "",
+    "translation": "zhuàngtài state",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "追",
+    "pinyin": "",
+    "translation": "zhuī run after",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "准",
+    "pinyin": "",
+    "translation": "zhǔn follow",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "资格",
+    "pinyin": "",
+    "translation": "zīgé Qualifications",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "资金",
+    "pinyin": "",
+    "translation": "zījīn capital",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "子女",
+    "pinyin": "",
+    "translation": "zǐ nǚ child",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "自从",
+    "pinyin": "",
+    "translation": "zìcóng Since",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "自动",
+    "pinyin": "",
+    "translation": "zìdòng automatic",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "自觉",
+    "pinyin": "",
+    "translation": "zìjué Conscious",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "自然",
+    "pinyin": "",
+    "translation": "zìrán natural",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "自身",
+    "pinyin": "",
+    "translation": "zì shēn oneself",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "自主",
+    "pinyin": "",
+    "translation": "zìzhǔ Autonomy",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "总",
+    "pinyin": "",
+    "translation": "zǒng always",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "总结",
+    "pinyin": "",
+    "translation": "zǒngjié summary",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "总是",
+    "pinyin": "",
+    "translation": "zǒngshì always",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "足够",
+    "pinyin": "",
+    "translation": "zú gòu enough",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "足球",
+    "pinyin": "",
+    "translation": "zú qiú soccer",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "组合",
+    "pinyin": "",
+    "translation": "zǔhé combination",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "左右",
+    "pinyin": "",
+    "translation": "zuǒyòu About",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "作品",
+    "pinyin": "",
+    "translation": "zuòpǐn works",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "作者",
+    "pinyin": "",
+    "translation": "zuòzhě author",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  },
+  {
+    "character": "做客",
+    "pinyin": "",
+    "translation": "zuò kè be a guest",
+    "hsk_level": 3,
+    "part_of_speech": "не указано",
+    "frequency": "高频"
+  }
+]
