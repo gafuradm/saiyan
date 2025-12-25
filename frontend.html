@@ -13532,6 +13532,25 @@ document.getElementById('clearVoiceBtn').addEventListener('click', function() {
 });
 
 };
+// Отладка модалок
+console.log("loginModal:", document.getElementById('loginModal'));
+console.log("registerModal:", document.getElementById('registerModal'));
+
+// Переместим модалки в body, чтобы они были поверх всех вкладок
+document.addEventListener('DOMContentLoaded', function() {
+    const loginModal = document.getElementById('loginModal');
+    const registerModal = document.getElementById('registerModal');
+    
+    if (loginModal && loginModal.parentElement !== document.body) {
+        document.body.appendChild(loginModal);
+        console.log("loginModal перемещён в <body>");
+    }
+    
+    if (registerModal && registerModal.parentElement !== document.body) {
+        document.body.appendChild(registerModal);
+        console.log("registerModal перемещён в <body>");
+    }
+});
     </script>
 </body>
 </html>
