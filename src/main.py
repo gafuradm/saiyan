@@ -48,15 +48,15 @@ app.add_middleware(
 
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
-import os
+from pathlib import Path
 
-# Отдаём статические файлы (css, js, images и т.д.)
-app.mount("/static", StaticFiles(directory="."), name="static")
+# Корень репозитория (на один уровень выше src)
+BASE_DIR = Path(__file__).parent.parent
 
-# Главная страница — frontend.html
+# Главная страница
 @app.get("/")
 async def root():
-    return FileResponse("frontend.html")
+    return FileResponse(BASE_DIR / "frontend.html")
 
 # В начале main.py
 class ChatThread(BaseModel):
