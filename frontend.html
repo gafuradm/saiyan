@@ -9933,7 +9933,6 @@ async function createNewChat() {
     }
     
     try {
-        // Send as QUERY PARAMETERS (not JSON!)
         const url = `${API_BASE}/chat/threads/create?user_id=${encodeURIComponent(currentUser.user_id)}&title=${encodeURIComponent("New Chat")}&category=general`;
         
         const response = await fetch(url, {
@@ -9941,23 +9940,47 @@ async function createNewChat() {
             headers: {
                 'Content-Type': 'application/json'
             }
-            // Do NOT send body!
         });
         
-        if (response.ok) {
-            const data = await response.json();
-            userChats.push(data.thread);
-            currentChatId = data.thread.thread_id;
-            renderChatList();
-            clearChatBox();
-            saveChatsLocally();
-        } else {
-            // Fallback: local creation
-            createLocalChat();
+        if (!response.ok) {
+            throw new Error(`Server error: ${response.status}`);
         }
+        
+        const data = await response.json();
+        console.log("Server response:", data);  // ← Добавь это для отладки
+        
+        // Правильный доступ к thread_id
+        const threadId = data.thread_id;
+        if (!threadId) {
+            throw new Error("No thread_id in server response");
+        }
+        
+        // Создаём объект чата в формате, который ожидает renderChatList
+        const newChat = {
+            thread_id: threadId,
+            user_id: currentUser.user_id,
+            title: "New Chat",
+            category: "general",
+            created_at: new Date().toISOString(),
+            messages: [],
+            updated_at: new Date().toISOString()
+        };
+        
+        userChats.push(newChat);
+        currentChatId = threadId;
+        
+        renderChatList();
+        clearChatBox();
+        saveChatsLocally();
+        
+        console.log('Created new chat:', threadId);
+        return threadId;
     } catch (error) {
         console.error('Error creating chat:', error);
+        
+        // Fallback: local chat
         createLocalChat();
+        return currentChatId;
     }
 }
 

@@ -361,17 +361,20 @@ class CreateThreadRequest(BaseModel):
     category: str = "general"
 
 # Создание нового треда
-from fastapi import Query  # ← ОБЯЗАТЕЛЬНО добавить в начало файла!
+from fastapi import Query, Body  # ← добавь Body, если ещё нет
 
 @app.post("/chat/threads/create")
 async def create_chat_thread(
-    user_id: str = Query(..., description="User ID (required)"),
+    user_id: str = Query(..., description="User ID"),
     title: str = Query("New Chat", description="Chat title"),
-    category: str = Query("general", description="Chat category")
+    category: str = Query("general", description="Chat category"),
+    _ : None = Body(None)  # ← КЛЮЧЕВОЕ: говорит "body не нужен"
 ):
-    """Create new chat thread using QUERY parameters"""
-    print(f"CREATE THREAD REQUEST RECEIVED: user_id={user_id}, title={title}, category={category}")
-    print(f"Full query params: {user_id=}, {title=}, {category=}")  # ← Для отладки
+    print("!!! CREATE THREAD CALLED !!!")
+    print(f"user_id: {user_id}")
+    print(f"title: {title}")
+    print(f"category: {category}")
+    print("!!! SUCCESS: PARAMS FROM QUERY RECEIVED !!!")
 
     if user_id not in chat_threads:
         chat_threads[user_id] = []
