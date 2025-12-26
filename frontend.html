@@ -1277,7 +1277,125 @@
         flex-basis: 100%; /* 1 кнопка в ряд для максимальной читаемости */
     }
 }
+/* --- НОВЫЙ БЛОК АДАПТАЦИИ (Полная поддержка Mobile & Tablet) --- */
 
+/* Общие правила для планшетов и мобильных устройств (до 1024px) */
+@media (max-width: 1024px) {
+    /* Схлопывание основных двухколоночных макетов */
+    .content {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    /* Схлопывание любых внутренних гридов (Генератор, Переводчик, Профиль) */
+    .section > div[style*="grid-template-columns: 1fr 1fr"],
+    /* Фикс для секции Грамматики (200px 1fr) */
+    #grammar-tab .section > div[style*="grid-template-columns: 200px 1fr"] {
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+    }
+
+    /* Убрать минимальную высоту в грамматике на мобильных */
+    #grammar-tab .section > div[style*="min-height: 500px"] {
+        min-height: auto !important;
+    }
+
+    /* Уменьшаем высоту списка тем в грамматике */
+    #grammarTopicsList {
+        max-height: 300px !important;
+        padding-right: 0 !important;
+        border-right: none !important;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #dee2e6;
+    }
+}
+
+/* Адаптация для телефонов (ширина до 768px) */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .header h1 {
+        font-size: 2em;
+    }
+    
+    /* Сетка статистики (теперь 3-4 элемента в ряд) */
+    .stats-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 10px;
+    }
+    
+    .chat-box {
+        height: 350px;
+    }
+    
+    /* Группа ввода чата */
+    .input-group {
+        flex-direction: column;
+    }
+
+    .input-group input,
+    .input-group button {
+        width: 100%;
+        padding: 12px;
+        justify-content: center;
+    }
+    
+    /* --- ФИКС ЛИСТА СЛОВ (Words Tab) --- */
+    #words-tab .section {
+        overflow-x: auto; /* Включаем горизонтальный скролл для листа слов */
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    /* Принудительно задаем ширину для строк, чтобы вызвать горизонтальный скролл */
+    .word-item-header, .word-item {
+        /* Эти классы не были в оригинале, но если они есть, то: */
+        width: 750px; /* Ширина достаточна для 6 колонок */
+        grid-template-columns: 1.5fr 2fr 2fr 0.8fr 1.5fr 2fr !important; /* Настройка ширины колонок */
+        padding: 10px 10px;
+        font-size: 0.9em;
+    }
+
+    /* Если в Word Tab используется actual table (Snippet 15), она будет скроллиться благодаря overflow-x: auto на .section */
+
+    /* Модальные окна */
+    .modal {
+        padding: 10px; 
+    }
+    .modal-content {
+        width: 95% !important; /* Модалка на 95% ширины экрана */
+        max-width: none !important;
+        margin: 5vh auto; /* Чуть выше */
+        padding: 20px !important;
+    }
+    
+    /* Кнопки HSK/Difficulty (2 в ряд) */
+    .essay-hsk-btn,
+    .trans-difficulty-btn {
+        flex-basis: calc(50% - 4px); /* 2 кнопки в ряд */
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+}
+
+/* Адаптация для очень маленьких телефонов (до 480px) */
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 1.6em;
+    }
+    
+    /* Кнопки HSK/Difficulty (1 в ряд) */
+    .essay-hsk-btn,
+    .trans-difficulty-btn {
+        flex-basis: 100%; 
+    }
+
+    .word-item-header, .word-item {
+        width: 600px; /* Чуть уже для мелких телефонов */
+        font-size: 0.85em;
+    }
+}
     </style>
 </head>
 <body>
