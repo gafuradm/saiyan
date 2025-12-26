@@ -1137,6 +1137,147 @@
     transform: translateY(-1px);
 }
 
+/* --- НОВЫЕ СТИЛИ ДЛЯ АДАПТАЦИИ (Mobile & Tablet) --- */
+
+/* Адаптация для планшетов и мобильных устройств (ширина до 1024px) */
+@media (max-width: 1024px) {
+    /* Если секция Content была двухколоночной, она уже схлопнется до 1fr благодаря существующему правилу */
+    .content {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Убеждаемся, что внутренние сетки (например, в Генераторе Текстов или Профиле) тоже схлопываются */
+    .section > div[style*="grid-template-columns: 1fr 1fr"] {
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+    }
+    /* Исправление для секции Grammar, где была фиксированная ширина 200px */
+    #grammar-tab .section > div[style*="grid-template-columns: 200px 1fr"] {
+        grid-template-columns: 1fr !important;
+    }
+    
+    /* Схлопывание грида в профиле */
+    #progress-tab .section > div[style*="grid-template-columns: 1fr 1fr"] {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+/* Адаптация для телефонов (ширина до 768px) */
+@media (max-width: 768px) {
+    body {
+        padding: 10px; /* Уменьшаем внешний отступ */
+    }
+
+    .container {
+        border-radius: 10px;
+    }
+
+    .header {
+        padding: 20px 15px; /* Уменьшаем отступ заголовка */
+    }
+    
+    .header h1 {
+        font-size: 2em; /* Уменьшаем размер основного заголовка */
+    }
+    
+    .header .subtitle, .header .tagline {
+        font-size: 1em;
+    }
+
+    .stats-grid {
+        padding: 15px;
+        gap: 10px;
+    }
+    
+    .stat-card {
+        padding: 15px;
+    }
+
+    .content {
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .section {
+        padding: 15px;
+    }
+    
+    /* Чат: высота и группа ввода */
+    .chat-box {
+        height: 350px; /* Уменьшаем высоту чата */
+    }
+    
+    .input-group {
+        flex-direction: column;
+    }
+
+    .input-group input,
+    .input-group button {
+        width: 100%;
+        padding: 12px;
+        justify-content: center;
+    }
+
+    /* Навигация в грамматике: убираем вертикальную линию и добавляем нижний отступ */
+    #grammar-tab .section > div[style*="min-height: 500px"] > div:first-child {
+        border-right: none !important;
+        padding-right: 0 !important;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    /* Футер */
+    .footer {
+        padding: 20px 15px;
+    }
+    
+    .api-links {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    /* Кнопки HSK/Difficulty в одну колонку, если их слишком много */
+    .essay-hsk-btn-group,
+    .trans-difficulty-group {
+        flex-wrap: wrap;
+        gap: 8px !important;
+    }
+    
+    .essay-hsk-btn,
+    .trans-difficulty-btn {
+        flex-basis: 48%; /* 2 кнопки в ряд */
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+
+}
+
+/* Адаптация для очень маленьких телефонов (ширина до 480px) */
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 1.6em;
+    }
+    .header .subtitle, .header .tagline {
+        font-size: 0.85em;
+    }
+    .chat-box {
+        height: 250px;
+    }
+    .message {
+        max-width: 95%; /* Даем сообщениям больше места */
+        padding: 10px 12px;
+        font-size: 0.9em;
+    }
+    .tabs-scroll {
+        padding-bottom: 0; /* Удаляем лишний отступ под горизонтальной прокруткой */
+    }
+
+    .essay-hsk-btn,
+    .trans-difficulty-btn {
+        flex-basis: 100%; /* 1 кнопка в ряд для максимальной читаемости */
+    }
+}
+
     </style>
 </head>
 <body>
