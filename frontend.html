@@ -2308,6 +2308,79 @@
         flex-basis: 100% !important; 
     }
 }
+/* ---------------------------------------------------------------------- */
+/* --- ОКОНЧАТЕЛЬНОЕ АДАПТИВНОЕ ИСПРАВЛЕНИЕ --- */
+/* ---------------------------------------------------------------------- */
+
+/* 1. Общее исправление для верхней панели (Header) */
+.header {
+    /* Обеспечиваем Flexbox для распределения элементов */
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-wrap: wrap !important; /* Разрешаем перенос на маленьких экранах */
+    padding: 30px !important; 
+    text-align: left !important;
+}
+
+/* 2. Адаптация для мобильных устройств (max-width: 768px) */
+@media (max-width: 768px) {
+
+    /* --- ИСПРАВЛЕНИЕ: Верхняя панель --- */
+    .header {
+        flex-direction: column !important; /* Элементы вертикально */
+        padding: 20px 15px !important;
+        text-align: center !important;
+        gap: 15px; /* Добавляем расстояние между элементами */
+    }
+    
+    /* Убедимся, что все элементы внутри шапки занимают полную ширину */
+    .header > * {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+
+    /* --- ИСПРАВЛЕНИЕ: Раздел Grammar (Грамматика) --- */
+    
+    /* Переопределяем инлайн-стиль grid-template-columns: 300px 1fr */
+    #grammar-tab .section > div[style*="grid-template-columns: 300px 1fr"] {
+        grid-template-columns: 1fr !important; /* Схлопываем до одной колонки */
+        min-height: auto !important; /* Убираем жесткую высоту */
+        gap: 20px !important;
+    }
+    
+    /* Стили для боковой навигации (чтобы не занимала весь экран) */
+    #grammar-tab .section > div[style*="min-height: 500px"] > div:first-child {
+        border-right: none !important;
+        padding-right: 0 !important;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #dee2e6;
+        max-height: 300px !important; /* Ограничиваем высоту для скролла */
+        overflow-y: auto !important;
+    }
+
+    /* --- ИСПРАВЛЕНИЕ: Кнопки в Translation Check, Voice, Essay Analysis --- */
+    
+    /* Нацеливаемся на все инлайн-Flex-контейнеры с кнопками и делаем их вертикальными */
+    .section > div[style*="display: flex;"],
+    .input-group {
+        flex-direction: column !important;
+        gap: 10px !important;
+        width: 100% !important;
+    }
+    
+    /* Делаем все кнопки внутри этих групп полноширинными */
+    .section > div[style*="display: flex;"] button,
+    .input-group button,
+    /* Отдельно нацеливаемся на кнопки HSK/Difficulty, у которых инлайн width */
+    .essay-hsk-btn[style*="width: 25%"],
+    .trans-difficulty-btn[style*="width: 25%"] {
+        width: 100% !important;
+        flex-basis: 100% !important;
+    }
+    
+}
     </style>
 </head>
 <body>
