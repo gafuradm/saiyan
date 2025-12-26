@@ -2211,6 +2211,103 @@
     
     /* ... (остальные правила для 768px) ... */
 }
+/* ---------------------------------------------------------------------- */
+/* --- НОВЫЙ ИСПРАВЛЕННЫЙ БЛОК АДАПТАЦИИ ДЛЯ ВСЕХ УКАЗАННЫХ ПРОБЛЕМ --- */
+/* ---------------------------------------------------------------------- */
+
+/* 1. Исправление верхней панели (Header) */
+.header {
+    /* Добавляем Flexbox для управления внутренними элементами */
+    display: flex; 
+    justify-content: space-between; /* Распределение элементов по краям */
+    align-items: center; 
+    text-align: left; /* Переопределяем text-align: center из основного блока */
+    flex-wrap: wrap; /* Разрешаем элементам переноситься на новую строку */
+}
+
+/* 2. Адаптация для планшетов (max-width: 1024px) */
+@media (max-width: 1024px) {
+    
+    /* *** КОРРЕКТИРУЮЩЕЕ ИСПРАВЛЕНИЕ ДЛЯ РАЗДЕЛА GRAMMAR *** */
+    /* Теперь нацеливаемся на правильное значение 300px 1fr */
+    #grammar-tab .section > div[style*="grid-template-columns: 300px 1fr"] {
+        grid-template-columns: 1fr !important; /* Схлопываем до одной колонки */
+        gap: 20px !important;
+    }
+    
+    /* Убираем фиксированную высоту 500px в Grammar */
+    #grammar-tab .section > div[style*="min-height: 500px"] {
+        min-height: auto !important;
+    }
+    
+    /* Убеждаемся, что остальные внутренние 2-колоночные гриды также схлопываются */
+    .section > div[style*="grid-template-columns: 1fr 1fr"] {
+        grid-template-columns: 1fr !important;
+    }
+    
+}
+
+/* 3. Адаптация для мобильных телефонов (max-width: 768px) */
+@media (max-width: 768px) {
+    
+    /* Делаем верхнюю панель вертикальной на мобильных */
+    .header {
+        flex-direction: column; 
+        text-align: center;
+        padding: 20px 15px; 
+    }
+    
+    /* Чат (AI Assistant) - делаем группу ввода вертикальной */
+    .input-group {
+        flex-direction: column !important; 
+    }
+
+    /* *** КОРРЕКТИРУЮЩЕЕ ИСПРАВЛЕНИЕ ДЛЯ ГРУПП КНОПОК *** */
+    /* Нацеливаемся на инлайн-Flex-контейнеры в Essay/Translation Check/Voice */
+    /* (например, Submit/Cancel кнопки) и делаем их вертикальными */
+    
+    /* Essay Analysis (см. строку ~400) */
+    #essay-analysis-tab .section > div:first-child > div[style*="display: flex;"] {
+        flex-direction: column !important; 
+        gap: 10px !important; 
+    }
+    
+    /* Translation Check (Кнопки Submit/Cancel) */
+    #translationArea > div:last-child > div[style*="display: flex;"],
+    /* Добавляем универсальный селектор для flex-групп кнопок */
+    .section > div[style*="display: flex; gap: 10px;"] {
+        flex-direction: column !important; 
+        gap: 10px !important; 
+        width: 100%; 
+    }
+    
+    /* Делаем все кнопки внутри этих групп полноширинными */
+    #essay-analysis-tab .section > div:first-child > div[style*="display: flex;"] button,
+    #translationArea > div:last-child > div[style*="display: flex;"] button,
+    .section > div[style*="display: flex; gap: 10px;"] button {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    /* Навигация в грамматике: убираем вертикальную линию */
+    #grammar-tab .section > div[style*="min-height: 500px"] > div:first-child {
+        border-right: none !important;
+        padding-right: 0 !important;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #dee2e6;
+        max-height: 300px !important; /* Ограничиваем высоту списка */
+        overflow-y: auto;
+    }
+}
+
+/* 4. Адаптация для очень маленьких телефонов (max-width: 480px) */
+@media (max-width: 480px) {
+    /* Делаем кнопки HSK/Difficulty полноширинными (1 в ряд) для максимальной читаемости */
+    .essay-hsk-btn,
+    .trans-difficulty-btn {
+        flex-basis: 100% !important; 
+    }
+}
     </style>
 </head>
 <body>
