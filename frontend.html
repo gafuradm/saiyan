@@ -2165,6 +2165,52 @@
                 flex-basis: 100%; /* 1 кнопка в ряд */
             }
         }
+    /* Header */
+.header {
+    background: linear-gradient(135deg, var(--accent) 0%, var(--danger) 100%);
+    color: white;
+    padding: 30px;
+    /* text-align: center; -- Это свойство конфликтует с Flexbox */
+    position: relative;
+    
+    /* --- FIX 1: Добавление Flexbox для верхней панели --- */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left; /* Переопределяем выравнивание текста */
+}
+@media (max-width: 768px) {
+    /* ... (существующие правила для 768px) ... */
+
+    /* --- FIX 2: Устранение фиксированной высоты в разделе Grammar --- */
+    #grammar-tab .section > div[style*="grid-template-columns: 200px 1fr"] {
+         min-height: auto !important; /* Сброс минимальной высоты для всего контейнера */
+    }
+    
+    #grammar-tab .section > div[style*="min-height: 500px"] > div:first-child { 
+        height: auto !important; /* Сброс потенциальной фиксированной высоты для списка тем */
+    }
+    
+    /* ... (остальные правила для 768px) ... */
+}
+@media (max-width: 768px) {
+    /* ... (существующие правила для 768px) ... */
+    
+    /* FIX 3: Адаптация групп кнопок в Translation Check и Essay Analysis */
+    /* Это правило сделает горизонтальные группы кнопок вертикальными на мобильных устройствах */
+    #translationArea > div > div[style*="display: flex; gap: 10px;"],
+    #essayAnalysisArea > div > div[style*="display: flex; gap: 10px;"] {
+        flex-direction: column !important; 
+        gap: 10px !important; 
+    }
+    
+    #translationArea > div > div[style*="display: flex; gap: 10px;"] button,
+    #essayAnalysisArea > div > div[style*="display: flex; gap: 10px;"] button {
+        width: 100%;
+    }
+    
+    /* ... (остальные правила для 768px) ... */
+}
     </style>
 </head>
 <body>
