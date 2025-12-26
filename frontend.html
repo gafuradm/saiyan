@@ -2502,6 +2502,96 @@
     h2, h3 { font-size: 1.4em; }
     button { padding: 10px 15px; font-size: 14px; }
 }
+/* Hamburger menu for navigation (if tabs in header) */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .hamburger { display: block; } /* Показываем hamburger */
+    
+    /* Скрываем обычные табы, показываем по клику */
+    .tabs-scroll {
+        display: none; /* Скрываем горизонтальный скролл табов */
+        flex-direction: column; /* Вертикальное меню */
+        position: absolute;
+        background: white;
+        width: 100%;
+        z-index: 10;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    
+    .tabs-scroll.active {
+        display: flex;
+    }
+    
+    .tab {
+        padding: 15px;
+        border-bottom: 1px solid #dee2e6;
+        text-align: left;
+    }
+}
+
+/* AI Tutor & Voice Chat */
+@media (max-width: 768px) {
+    .chat-box, #voiceChatBox {
+        height: 40vh; /* Адаптивная высота (40% экрана) */
+        font-size: 15px;
+    }
+    
+    .voice-controls {
+        flex-direction: column !important;
+        align-items: stretch;
+        gap: 10px;
+    }
+    
+    .message {
+        max-width: 90%; /* Больше места для сообщений */
+        font-size: 14px;
+    }
+}
+
+/* Translation Check */
+@media (max-width: 768px) {
+    #translationArea, #translationResultSection {
+        padding: 15px;
+    }
+    
+    #originalTranslationText, #translationText {
+        max-height: 200px; /* Ограничение высоты с скроллом */
+        overflow-y: auto;
+        word-break: break-word;
+        font-size: 15px;
+    }
+    
+    .stat-card {
+        min-width: 100%; /* Карточки в столбец */
+    }
+    
+    #translationDetailedAnalysis .progress-bar {
+        height: 8px; /* Уменьшаем прогресс-бары */
+    }
+}
+
+/* Верхняя панель */
+@media (max-width: 768px) {
+    .header {
+        padding: 20px 15px;
+        gap: 15px;
+    }
+    
+    .header h1 {
+        font-size: 2em;
+    }
+    
+    .header .subtitle, .header .tagline {
+        font-size: 1em;
+        text-align: center;
+    }
+}
     </style>
 </head>
 <body>
@@ -14916,6 +15006,27 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log("registerModal перемещён в <body>");
     }
 });
+function toggleMobileMenu() {
+    const tabsScroll = document.querySelector('.tabs-scroll');
+    tabsScroll.classList.toggle('active');
+}
+// Плейсхолдер для чата
+if (document.getElementById('chatBox')) {
+    document.getElementById('chatBox').innerHTML = `<div style="text-align: center; padding: 50px; color: var(--gray);">Начните чат...</div>`;
+}
+
+// Для Voice
+if (document.getElementById('voiceChatBox')) {
+    document.getElementById('voiceChatBox').innerHTML = `<div style="text-align: center; padding: 50px; color: var(--gray);">Голосовой чат готов...</div>`;
+}
+
+// Для Translation
+if (document.getElementById('originalTranslationText')) {
+    document.getElementById('originalTranslationText').textContent = 'Здесь будет оригинальный текст...';
+}
+if (document.getElementById('translationText')) {
+    document.getElementById('translationText').placeholder = 'Ваш перевод...';
+}
     </script>
 </body>
 </html>
