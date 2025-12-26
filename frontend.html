@@ -1396,6 +1396,775 @@
         font-size: 0.85em;
     }
 }
+/* --- НОВЫЙ БЛОК АДАПТАЦИИ (Полная поддержка Mobile & Tablet) --- */
+
+/* Общие правила для планшетов и мобильных устройств (до 1024px) */
+@media (max-width: 1024px) {
+    /* ... (предыдущие правила для схлопывания гридов сохранены) ... */
+    
+    /* Общее схлопывание внутренних гридов */
+    .section > div[style*="grid-template-columns: 1fr 1fr"],
+    #grammar-tab .section > div[style*="grid-template-columns: 200px 1fr"],
+    #translation-check-tab .section > div[style*="grid-template-columns: 1fr 1fr"] {
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+    }
+}
+
+/* Адаптация для телефонов (ширина до 768px) */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    /* 1. Адаптация Верхней Панели (Header) */
+    .header {
+        flex-direction: column; /* Элементы в столбец */
+        align-items: flex-start; /* Выравнивание по левому краю */
+        padding: 15px 10px;
+        gap: 10px;
+    }
+    .header h1 {
+        font-size: 1.8em; 
+    }
+    .header .subtitle, .header .tagline {
+        font-size: 0.9em;
+    }
+    .header > div:last-child {
+        width: 100%; /* Панель управления на всю ширину */
+        justify-content: space-between;
+    }
+    .user-info {
+        order: -1; /* Перемещаем информацию о пользователе вверх */
+    }
+
+    /* 2. Чат (AI Tutor и Voice) */
+    .chat-box, #voiceChatBox {
+        height: 300px; /* Уменьшаем высоту чата */
+    }
+    .input-group {
+        flex-direction: column;
+    }
+    .input-group input,
+    .input-group button {
+        width: 100%;
+        padding: 12px;
+    }
+
+    /* 2.1. Чат: Кнопки для Голосового ассистента */
+    #voice-tab .input-group-chat {
+        flex-direction: column;
+        gap: 10px;
+    }
+    #voice-tab .input-group-chat button {
+        width: 100%;
+    }
+
+
+    /* 3. Grammar (Грамматика) */
+    #grammar-tab .section > div[style*="min-height: 500px"] > div:first-child {
+        /* Список тем: убираем вертикальную линию, добавляем горизонтальную */
+        border-right: none !important;
+        padding-right: 0 !important;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #dee2e6;
+        overflow-y: auto;
+        max-height: 250px; /* Уменьшаем максимальную высоту списка тем */
+    }
+    #grammarTopicsList a {
+        padding: 8px 5px;
+        font-size: 0.9em;
+    }
+    
+    /* 4. Translation Check */
+    /* Макет уже схлопнут благодаря общему правилу, но оптимизируем кнопки */
+    #translation-check-tab .input-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+    #translation-check-tab .input-group button {
+        width: 100%;
+    }
+    
+    /* Дополнительные стили для скроллинга табов */
+    .tabs-scroll {
+        padding-bottom: 0;
+    }
+    
+    /* ... (остальные адаптивные стили сохранены) ... */
+}
+
+
+/* Адаптация для очень маленьких телефонов (ширина до 480px) */
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 1.4em;
+    }
+    .header .subtitle, .header .tagline {
+        font-size: 0.75em;
+    }
+    .tabs-scroll .tab-button {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+    .stat-card h3 {
+        font-size: 1.2em;
+    }
+    .stat-card p {
+        font-size: 0.8em;
+    }
+}
+:root {
+            --primary: #667eea;
+            --secondary: #764ba2;
+            --accent: #f093fb;
+            --danger: #f5576c;
+            --warning: #ff9a00;
+            --success: #4cd964;
+            --dark: #2d3748;
+            --light: #f8f9fa;
+            --gray: #6c757d;
+            
+            /* Добавлены переменные для улучшения стилей кнопок */
+            --primary-dark: #3a56d4;
+            --primary-light: #6c8eff;
+            --success-dark: #05c293;
+            --success-light: #5dfdcb;
+            --primary-rgb: 102, 126, 234;
+            --success-rgb: 76, 217, 100;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: var(--dark);
+        }
+
+        /* --- Общие стили (сохранены) --- */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--accent) 0%, var(--danger) 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            position: relative;
+            display: flex; /* Сделаем Header flex, чтобы управлять им на мобильных */
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .header h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .header .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+        
+        .header .tagline {
+            background: rgba(255,255,255,0.2);
+            display: inline-block;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        
+        /* Stats */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            background: var(--light);
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .stat-card h3 {
+            color: var(--primary);
+            margin-bottom: 10px;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .stat-number {
+            font-size: 2.2em;
+            font-weight: bold;
+            color: var(--danger);
+            margin-bottom: 5px;
+        }
+        
+        .stat-desc {
+            color: var(--gray);
+            font-size: 0.9em;
+        }
+        
+        /* Main Content */
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            padding: 30px;
+        }
+        
+        @media (max-width: 1024px) {
+            .content {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .section {
+            background: var(--light);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid var(--primary);
+        }
+        
+        .section-header h2 {
+            color: var(--dark);
+            font-size: 1.5em;
+        }
+        
+        .section-header .icon {
+            font-size: 1.5em;
+            color: var(--primary);
+        }
+        
+        /* Chat */
+        .chat-box {
+            height: 400px;
+            overflow-y: auto;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 15px;
+            background: white;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .message {
+            padding: 12px 16px;
+            border-radius: 15px;
+            max-width: 85%;
+            word-wrap: break-word;
+            animation: fadeIn 0.3s;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .user-message {
+            background: var(--primary);
+            color: white;
+            margin-left: auto;
+            border-bottom-right-radius: 5px;
+        }
+        
+        .ai-message {
+            background: #f1f3f5;
+            color: var(--dark);
+            border-bottom-left-radius: 5px;
+        }
+        
+        .ai-message .ai-label {
+            font-weight: bold;
+            color: var(--danger);
+            margin-bottom: 5px;
+            font-size: 0.9em;
+        }
+        
+        .input-group {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .input-group input {
+            flex: 1;
+            padding: 14px 20px;
+            border: 2px solid #dee2e6;
+            border-radius: 12px;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+        
+        .input-group input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+        }
+        
+        .input-group button {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            border: none;
+            padding: 0 30px;
+            border-radius: 12px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .input-group button:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+        }
+        
+        /* Words Section (Card View) */
+        .words-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .word-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            position: relative;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 2px solid transparent;
+        }
+        
+        .word-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .word-character {
+            font-size: 2.5em;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 10px;
+            font-family: 'SimSun', serif;
+        }
+        
+        .word-pinyin {
+            text-align: center;
+            color: var(--danger);
+            font-size: 1.1em;
+            margin-bottom: 5px;
+            font-style: italic;
+        }
+        
+        .word-translation {
+            text-align: center;
+            color: var(--dark);
+            font-size: 1em;
+            margin-bottom: 10px;
+        }
+        
+        .word-level {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: var(--primary);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+        
+        /* Buttons */
+        .button-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .btn {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .btn-secondary {
+            background: var(--secondary);
+            color: white;
+        }
+        
+        .btn-success {
+            background: var(--success);
+            color: white;
+        }
+        
+        .btn-warning {
+            background: var(--warning);
+            color: white;
+        }
+        
+        .btn-danger {
+            background: var(--danger);
+            color: white;
+        }
+        
+        .btn:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+        }
+        
+        /* Tabs */
+        .tabs-container {
+            position: relative;
+            overflow: hidden;
+            border-bottom: 2px solid #dee2e6;
+        }
+
+        .tabs-scroll {
+            display: flex;
+            overflow-x: auto;
+            overflow-y: hidden;
+            scrollbar-width: none; /* Firefox */
+            -ms-overflow-style: none; /* IE and Edge */
+            padding-bottom: 5px;
+            -webkit-overflow-scrolling: touch;
+        }
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        .tabs-scroll::-webkit-scrollbar {
+            display: none;
+        }
+        
+        .tab {
+            flex-shrink: 0;
+            min-width: 120px;
+            padding: 12px 15px;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            font-weight: bold;
+            color: var(--gray);
+            transition: all 0.3s;
+            text-align: center;
+            white-space: nowrap;
+        }
+        
+        .tab.active {
+            color: var(--primary);
+            border-bottom-color: var(--primary);
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--dark);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .api-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .api-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+        
+        .api-link:hover {
+            background: rgba(255,255,255,0.1);
+            border-color: white;
+        }
+        
+        /* --- СПЕЦИАЛЬНЫЕ СТИЛИ ДЛЯ ВНУТРЕННИХ КОМПОНЕНТОВ --- */
+        
+        /* Chat History Sidebar */
+        .chat-item:hover {
+            background: #e9ecef !important;
+        }
+        
+        .chat-item.active {
+            background: #e3f2fd !important;
+            border-left-color: #1976d2 !important;
+        }
+        
+        /* Voice Chat Styles */
+        #voiceChatBox {
+            height: 400px;
+            overflow-y: auto;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 15px;
+            background: white;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .ai-message.warning {
+            border-left-color: var(--warning);
+            background: #fff3cd;
+        }
+        
+        .ai-message.tip {
+            border-left-color: var(--primary);
+            background: #e3f2fd;
+        }
+        
+        /* Recording Animation */
+        @keyframes pulse {
+            0% { opacity: 0.5; }
+            50% { opacity: 1; }
+            100% { opacity: 0.5; }
+        }
+        
+        .recording-pulse {
+            animation: pulse 1s infinite;
+        }
+
+        /* --- АДАПТИВНЫЙ ДИЗАЙН (ФИНАЛЬНЫЙ БЛОК) --- */
+
+        /* Адаптация для планшетов и экранов до 1024px */
+        @media (max-width: 1024px) {
+            /* Схлопывание основных двухколоночных макетов */
+            .content {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            /* Схлопывание любых внутренних гридов (Генератор, Переводчик, Профиль, Translation Check) */
+            .section > div[style*="grid-template-columns: 1fr 1fr"],
+            #translation-check-tab .section > div[style*="grid-template-columns: 1fr 1fr"] {
+                grid-template-columns: 1fr !important;
+                gap: 20px !important;
+            }
+            
+            /* Фикс для секции Grammar (200px 1fr -> 1fr) */
+            #grammar-tab .section > div[style*="grid-template-columns: 200px 1fr"] {
+                grid-template-columns: 1fr !important;
+            }
+
+            /* Убрать минимальную высоту в грамматике */
+            #grammar-tab .section > div[style*="min-height: 500px"] {
+                min-height: auto !important;
+            }
+        }
+
+        /* Адаптация для телефонов (ширина до 768px) */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px; 
+            }
+            
+            /* 1. Адаптация Верхней Панели (Header) */
+            .header {
+                flex-direction: column; 
+                align-items: flex-start;
+                padding: 15px 10px;
+                gap: 10px;
+                text-align: left;
+            }
+            .header > div:last-child {
+                width: 100%; /* Панель управления на всю ширину */
+                justify-content: space-between;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+            .header h1 {
+                font-size: 1.8em; 
+                margin-bottom: 0;
+            }
+            .header .subtitle, .header .tagline {
+                font-size: 0.9em;
+                margin-bottom: 0;
+            }
+            .header .tagline {
+                order: -1; /* Переносим теглайн вверх, чтобы он был перед h1/subtitle */
+            }
+
+            /* Сетка статистики: 3-4 элемента в ряд */
+            .stats-grid {
+                grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+                gap: 10px;
+                padding: 15px;
+            }
+            
+            .content {
+                padding: 15px;
+                gap: 15px;
+            }
+            
+            .section {
+                padding: 15px;
+            }
+            
+            /* 2. Чат (AI Tutor) */
+            .chat-box {
+                height: 300px; /* Уменьшаем высоту чата */
+            }
+            .input-group {
+                flex-direction: column;
+            }
+            .input-group input,
+            .input-group button {
+                width: 100%;
+                padding: 12px;
+                justify-content: center;
+            }
+
+            /* 3. Grammar (Грамматика) */
+            #grammarTopicsList {
+                /* Список тем: убираем вертикальную линию, добавляем горизонтальную */
+                max-height: 250px !important;
+                padding-right: 0 !important;
+                border-right: none !important;
+                padding-bottom: 15px;
+                border-bottom: 1px solid #dee2e6;
+                overflow-y: auto;
+            }
+            #grammar-tab .section > div[style*="min-height: 500px"] > div:first-child {
+                padding-right: 0 !important;
+                padding-bottom: 15px;
+                border-right: none !important;
+                border-bottom: 1px solid #dee2e6 !important;
+            }
+
+            /* 4. Voice (Голосовой ассистент) */
+            #voice-tab .input-group-chat {
+                display: flex;
+                flex-direction: column; /* Схлопывание кнопок голосового чата */
+                gap: 10px;
+            }
+            #voice-tab .input-group-chat button {
+                width: 100%;
+            }
+
+            /* 5. Translation Check */
+            #translation-check-tab .input-group {
+                flex-direction: column;
+                gap: 10px;
+            }
+            #translation-check-tab .input-group button {
+                width: 100%;
+            }
+
+            /* Word List Table (для горизонтального скролла) */
+            #words-tab .section {
+                overflow-x: auto; /* Включаем горизонтальный скролл для листа слов */
+                -webkit-overflow-scrolling: touch;
+            }
+            
+            /* Кнопки HSK/Difficulty (2 в ряд) */
+            .essay-hsk-btn-group,
+            .trans-difficulty-group {
+                flex-wrap: wrap;
+                gap: 8px !important;
+            }
+            .essay-hsk-btn,
+            .trans-difficulty-btn {
+                flex-basis: calc(50% - 4px); /* 2 кнопки в ряд */
+                font-size: 13px;
+                padding: 8px 10px;
+            }
+        }
+
+        /* Адаптация для очень маленьких телефонов (ширина до 480px) */
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 1.6em;
+            }
+            .header .subtitle, .header .tagline {
+                font-size: 0.85em;
+            }
+            .chat-box, #voiceChatBox {
+                height: 250px;
+            }
+            .message {
+                max-width: 95%; /* Даем сообщениям больше места */
+                padding: 10px 12px;
+                font-size: 0.9em;
+            }
+            
+            /* Кнопки HSK/Difficulty (1 в ряд) */
+            .essay-hsk-btn,
+            .trans-difficulty-btn {
+                flex-basis: 100%; /* 1 кнопка в ряд */
+            }
+        }
     </style>
 </head>
 <body>
