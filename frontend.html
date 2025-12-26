@@ -2450,7 +2450,58 @@
         font-size: 14px;
     }
 }
+/* Мобильные устройства (≤ 768px) */
+@media (max-width: 768px) {
+    /* Общие отступы */
+    body, .container { padding: 10px; }
 
+    /* Верхняя панель */
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .nav-links {
+        display: none; /* скрыть обычное меню */
+        flex-direction: column;
+        width: 100%;
+    }
+    /* Показываем гамбургер-меню */
+    .hamburger { display: block; }
+
+    /* Чат */
+    #chatBox, #voiceChatBox {
+        max-height: 60vh;
+        font-size: 15px;
+    }
+    #messageInput, #translationText {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    /* Translation check */
+    #originalTranslationText, #translationText {
+        font-size: 16px;
+        line-height: 1.5;
+        word-break: break-word;
+    }
+    .translation-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Voice controls */
+    .voice-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+/* Очень маленькие экраны (≤ 480px) */
+@media (max-width: 480px) {
+    h2, h3 { font-size: 1.4em; }
+    button { padding: 10px 15px; font-size: 14px; }
+}
     </style>
 </head>
 <body>
