@@ -141,50 +141,6 @@
             font-weight: bold;
             margin-top: 10px;
         }
-        
-        /* Stats */
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            padding: 20px;
-            background: var(--light);
-            border-bottom: 1px solid #dee2e6;
-        }
-        
-        .stat-card {
-            background: white;
-            padding: 20px;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-            text-align: center;
-            transition: transform 0.3s;
-        }
-        
-        .stat-card:hover {
-            transform: translateY(-5px);
-        }
-        
-        .stat-card h3 {
-            color: var(--primary);
-            margin-bottom: 10px;
-            font-size: 0.9em;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        
-        .stat-number {
-            font-size: 2.2em;
-            font-weight: bold;
-            color: var(--danger);
-            margin-bottom: 5px;
-        }
-        
-        .stat-desc {
-            color: var(--gray);
-            font-size: 0.9em;
-        }
-        
         /* Main Content */
         .content {
             display: grid;
@@ -507,14 +463,6 @@
             transition: width 0.5s;
         }
         
-        /* Footer */
-        .footer {
-            background: var(--dark);
-            color: white;
-            padding: 30px;
-            text-align: center;
-        }
-        
         .api-links {
             display: flex;
             flex-wrap: wrap;
@@ -685,11 +633,27 @@
 .tabs-scroll {
     display: flex;
     overflow-x: auto;
-    overflow-y: hidden;
     scrollbar-width: thin;
     scrollbar-color: var(--primary) #f1f1f1;
-    padding-bottom: 5px;
     -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 5px;
+}
+
+.tab {
+    flex: 0 0 auto;
+    min-width: 100px; /* Уменьшил для лучшего скролла */
+    padding: 12px 15px;
+    white-space: nowrap;
+    scroll-snap-align: start;
+}
+
+@media (max-width: 768px) {
+    .tab {
+        min-width: 90px;
+        padding: 10px 12px;
+        font-size: 0.9em;
+    }
 }
 
 .tabs-scroll::-webkit-scrollbar {
@@ -1148,7 +1112,7 @@
     }
     
     /* Скрываем обычные табы/меню */
-    .tabs, .tabs-scroll, .nav-links {
+    .nav-links {
         display: none !important;
     }
     
@@ -1160,7 +1124,6 @@
         top: 100%;
         left: 0;
         width: 100%;
-        background: var(--primary);
         z-index: 1000;
         padding: 10px 0;
         box-shadow: 0 10px 20px rgba(0,0,0,0.3);
@@ -1171,6 +1134,129 @@
         color: white;
         border-bottom: 1px solid rgba(255,255,255,0.2);
         font-size: 1.1em;
+    }
+}
+
+@media (max-width: 768px) {
+    .tabs-container {
+        display: block !important;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        padding: 0 15px;
+        background: white;
+        border-top: 1px solid #dee2e6;
+        border-bottom: 1px solid #dee2e6;
+        margin: 0;
+        position: relative;
+        z-index: 100;
+    }
+    
+    .tabs-scroll {
+        display: inline-flex;
+        min-width: min-content;
+        padding: 0;
+        height: 50px;
+        align-items: center;
+    }
+    
+    .tab {
+        padding: 12px 15px;
+        font-size: 0.9em;
+        min-width: auto;
+        flex: 0 0 auto;
+        white-space: nowrap;
+        border-bottom: 3px solid transparent;
+        color: var(--dark) !important; /* Чёрный текст */
+        font-weight: 600;
+        background: transparent !important;
+        opacity: 1 !important;
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .tab i {
+        color: var(--primary);
+        font-size: 1.1em;
+        min-width: 20px;
+    }
+    
+    /* Активная вкладка */
+    .tab.active {
+        color: var(--primary) !important;
+        border-bottom-color: var(--primary);
+        background: transparent !important;
+    }
+    
+    .tab.active i {
+        color: var(--primary) !important;
+    }
+    
+    /* Эффект при наведении */
+    .tab:hover {
+        color: var(--primary) !important;
+        background: rgba(102, 126, 234, 0.1) !important;
+        border-radius: 8px;
+    }
+    
+    /* Индикатор скролла */
+    .tabs-container::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: linear-gradient(90deg, 
+            transparent 0%, 
+            var(--primary) 50%, 
+            transparent 100%);
+        opacity: 0.3;
+    }
+    
+    /* Полоса прокрутки */
+    .tabs-container::-webkit-scrollbar {
+        height: 0px;
+    }
+    
+    .tabs-container::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 2px;
+    }
+    
+    .tabs-container::-webkit-scrollbar-thumb {
+        background: var(--primary);
+        border-radius: 2px;
+    }
+    
+    .tabs-container::-webkit-scrollbar-thumb:hover {
+        background: var(--primary-dark);
+    }
+    
+    /* Для очень маленьких экранов */
+    @media (max-width: 480px) {
+        .tab {
+            padding: 10px 12px;
+            font-size: 0.85em;
+        }
+        
+        .tab i {
+            font-size: 1em;
+            min-width: 18px;
+        }
+        
+        .tab span {
+            display: none; /* Скрыть текст, оставить только иконки */
+        }
+    }
+    
+    /* Для планшетов */
+    @media (min-width: 481px) and (max-width: 768px) {
+        .tab span {
+            display: inline; /* Показать текст на планшетах */
+        }
     }
 }
 
@@ -1208,17 +1294,233 @@
     }
 }
 
-/* 4. Карточки HSK (stats-grid) */
+/* ==================== СТАТИСТИКА ==================== */
 .stats-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 15px;
+    display: flex;
+    overflow-x: auto;
+    gap: 25px;
+    padding: 30px;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    background: white;
+    margin: 0;
+    min-height: 240px;
+    align-items: stretch;
+    scroll-padding: 30px;
 }
 
+/* Общие стили для карточек */
+.stat-card {
+    flex: 0 0 300px;
+    min-width: 300px;
+    max-width: 300px;
+    padding: 30px;
+    scroll-snap-align: start;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #ffffff, #fafcff);
+    box-shadow: 
+        0 10px 30px rgba(102, 126, 234, 0.1),
+        0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(102, 126, 234, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 
+        0 20px 40px rgba(102, 126, 234, 0.15),
+        0 5px 15px rgba(0, 0, 0, 0.1);
+    border-color: rgba(102, 126, 234, 0.2);
+}
+
+/* Цветные верхние полоски с градиентами */
+.stat-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    border-radius: 20px 20px 0 0;
+}
+
+/* Индивидуальные цвета градиентов */
+.stat-card:nth-child(1)::before { 
+    background: linear-gradient(90deg, #667eea, #764ba2); 
+}
+.stat-card:nth-child(2)::before { 
+    background: linear-gradient(90deg, #4CAF50, #66BB6A); 
+}
+.stat-card:nth-child(3)::before { 
+    background: linear-gradient(90deg, #2196F3, #42A5F5); 
+}
+.stat-card:nth-child(4)::before { 
+    background: linear-gradient(90deg, #FF9800, #FFB74D); 
+}
+.stat-card:nth-child(5)::before { 
+    background: linear-gradient(90deg, #E91E63, #EC407A); 
+}
+.stat-card:nth-child(6)::before { 
+    background: linear-gradient(90deg, #9C27B0, #AB47BC); 
+}
+.stat-card:nth-child(7)::before { 
+    background: linear-gradient(90deg, #607D8B, #78909C); 
+}
+
+/* Номер статистики */
+.stat-number {
+    font-size: 3.5em;
+    font-weight: 800;
+    margin: 15px 0 5px;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1;
+    font-family: 'Segoe UI', sans-serif;
+    letter-spacing: -1px;
+}
+
+/* Заголовок карточки */
+.stat-card h3 {
+    color: var(--dark);
+    font-size: 0.95em;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+/* Описание */
+.stat-desc {
+    color: var(--gray);
+    font-size: 1em;
+    line-height: 1.5;
+    margin-top: 8px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* Иконки с эффектом */
+.stat-card::after {
+    content: '';
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    background: rgba(102, 126, 234, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    opacity: 0.8;
+    transition: all 0.3s;
+    backdrop-filter: blur(5px);
+}
+
+.stat-card:hover::after {
+    transform: scale(1.1) rotate(5deg);
+    opacity: 1;
+    background: rgba(102, 126, 234, 0.1);
+}
+
+/* Иконки для каждой карточки */
+.stat-card:nth-child(1)::after { content: '📊'; background: rgba(102, 126, 234, 0.1); }
+.stat-card:nth-child(2)::after { content: '🎯'; background: rgba(76, 175, 80, 0.1); }
+.stat-card:nth-child(3)::after { content: '🚀'; background: rgba(33, 150, 243, 0.1); }
+.stat-card:nth-child(4)::after { content: '💪'; background: rgba(255, 152, 0, 0.1); }
+.stat-card:nth-child(5)::after { content: '🏆'; background: rgba(233, 30, 99, 0.1); }
+.stat-card:nth-child(6)::after { content: '👑'; background: rgba(156, 39, 176, 0.1); }
+.stat-card:nth-child(7)::after { content: '🌟'; background: rgba(96, 125, 139, 0.1); }
+
+/* Полоса прокрутки */
+.stats-grid::-webkit-scrollbar {
+    height: 8px;
+}
+
+.stats-grid::-webkit-scrollbar-track {
+    background: rgba(102, 126, 234, 0.05);
+    border-radius: 4px;
+    margin: 0 30px;
+}
+
+.stats-grid::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.stats-grid::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(90deg, var(--primary-dark), var(--secondary-dark));
+}
+
+/* Индикатор скролла */
+.stats-grid::before {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.85em;
+    color: var(--primary);
+    font-weight: 600;
+    opacity: 0.7;
+    letter-spacing: 1px;
+}
+
+/* ==================== МОБИЛЬНАЯ ВЕРСИЯ ==================== */
 @media (max-width: 768px) {
     .stats-grid {
-        grid-template-columns: 1fr; /* В столбец */
-        gap: 10px;
+        padding: 20px 15px;
+        gap: 15px;
+        margin: 0 -15px;
+        min-height: 200px;
+    }
+    
+    .stat-card {
+        flex: 0 0 280px;
+        min-width: 280px;
+        max-width: 280px;
+        padding: 25px;
+        border-radius: 16px;
+    }
+    
+    .stat-number {
+        font-size: 3em;
+    }
+    
+    .stat-card h3 {
+        font-size: 0.9em;
+    }
+    
+    .stat-desc {
+        font-size: 0.95em;
+    }
+}
+
+/* ==================== ДЕСКТОПНАЯ ВЕРСИЯ ==================== */
+@media (min-width: 769px) {
+    .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        overflow-x: hidden;
+        gap: 20px;
+    }
+    
+    .stat-card {
+        flex: auto;
+        min-width: auto;
+        max-width: none;
+        width: 100%;
     }
 }
 
@@ -1253,13 +1555,699 @@
     word-break: break-word;
 }
 
+.chat-sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 320px;
+    height: 100%;
+    background: linear-gradient(165deg, #ffffff 0%, #f8faff 100%);
+    box-shadow: 5px 0 25px rgba(102, 126, 234, 0.15);
+    transform: translateX(-100%);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1000;
+    overflow: hidden;
+    border-right: 1px solid rgba(102, 126, 234, 0.1);
+}
+
+.chat-sidebar.active {
+    transform: translateX(0);
+}
+
+@media (min-width: 769px) {
+    .chat-sidebar {
+        position: static;
+        width: 250px;
+        transform: none;
+        box-shadow: none;
+    }
+}
+/* ==================== ГАМБУРГЕР-МЕНЮ ==================== */
+/* Основной контейнер гамбургера */
+.mobile-menu-btn {
+    display: none; /* Скрыто на десктопе по умолчанию */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1001;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    padding: 8px;
+    transition: all 0.3s ease;
+}
+
+/* Иконка гамбургера (3 полоски) */
+.mobile-menu-btn i {
+    color: white;
+    font-size: 24px;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+/* Стили для активного состояния (при открытом меню) */
+.mobile-menu-btn.active i {
+    transform: rotate(90deg);
+}
+
+/* Боковая панель чата (chat-sidebar) */
+.chat-sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background: white;
+    box-shadow: -2px 0 10px rgba(0,0,0,0.2);
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.chat-sidebar.active {
+    transform: translateX(0);
+}
+
+/* Оверлей для затемнения фона */
+.chat-sidebar-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.chat-sidebar-overlay.active {
+    display: block;
+}
+
+/* Адаптация header для мобильных с кнопкой */
+@media (max-width: 768px) {
+    /* Показываем кнопку гамбургера на мобильных */
+    .mobile-menu-btn {
+        display: block;
+    }
+    
+    /* Сдвигаем заголовок header чтобы освободить место для кнопки */
+    .header {
+        padding-left: 70px; /* Отступ для кнопки */
+        padding-right: 20px;
+        position: relative;
+        text-align: center;
+    }
+    
+    /* Центрируем контент header */
+    .header h1 {
+        margin-top: 0;
+        font-size: 1.8em;
+    }
+    
+    .header .subtitle {
+        font-size: 0.95em;
+    }
+    
+    /* Кнопка становится более заметной при наведении */
+    .mobile-menu-btn:hover {
+        transform: scale(1.05);
+    }
+    
+    /* Для очень маленьких экранов */
+    @media (max-width: 480px) {
+        .mobile-menu-btn {
+            top: 15px;
+            left: 15px;
+            width: 36px;
+            height: 36px;
+            padding: 6px;
+        }
+        
+        .mobile-menu-btn i {
+            font-size: 22px;
+        }
+        
+        .header {
+            padding-left: 60px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        
+        .chat-sidebar {
+            width: 280px;
+        }
+    }
+}
+
+/* На десктопе скрываем гамбургер и показываем обычные табы */
+@media (min-width: 769px) {
+    .mobile-menu-btn {
+        display: none !important;
+    }
+    
+    .chat-sidebar {
+        position: static;
+        width: 250px;
+        transform: none !important;
+        box-shadow: none;
+        height: auto;
+    }
+    
+    .chat-sidebar-overlay {
+        display: none !important;
+    }
+}
+
+/* Для планшетов */
+@media (min-width: 481px) and (max-width: 768px) {
+    .mobile-menu-btn {
+        top: 25px;
+        left: 25px;
+        width: 44px;
+        height: 44px;
+        padding: 10px;
+    }
+    
+    .mobile-menu-btn i {
+        font-size: 26px;
+    }
+    
+    .header {
+        padding-left: 80px;
+    }
+    
+    .chat-sidebar {
+        width: 320px;
+    }
+}
+/* === УСИЛЕННАЯ МОБИЛЬНАЯ АДАПТАЦИЯ v2: Исключаем статистику === */
+@media (max-width: 768px) {
+    /* Основной контент — всегда одна колонка, кроме статистики */
+    .content {
+        grid-template-columns: 1fr !important;
+        gap: 15px !important;
+        padding: 10px !important;
+    }
+
+    /* Статистика остаётся горизонтальной (скролл) */
+    .stats-grid {
+        display: flex !important;
+        flex-direction: row !important;
+        overflow-x: auto !important;
+        gap: 15px !important;
+        padding: 15px !important;
+        scroll-snap-type: x mandatory !important;
+    }
+
+    .stat-card {
+        flex: 0 0 260px !important; /* Фиксированная ширина карточек */
+        min-width: 260px !important;
+        max-width: 280px !important;
+    }
+
+    /* ВСЕ ОСТАЛЬНЫЕ ГРИДЫ → ВЕРТИКАЛЬНО */
+    .words-container,
+    .vocabulary-item,
+    .test-options,
+    .button-group,
+    .input-group,
+    [class*="grid"]:not(.stats-grid),
+    .tab-content > div[style*="grid-template-columns"],
+    .section > div[style*="grid-template-columns"] {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 12px !important;
+        grid-template-columns: unset !important;
+        grid-template-rows: auto !important;
+    }
+
+    /* Translation Check (essay-checker) — принудительно вертикально */
+    #essay-checker-tab .section,
+    #essay-checker-tab .input-group,
+    #essay-checker-tab .button-group,
+    #essay-checker-tab .trans-difficulty-btn,
+    #essay-checker-tab textarea {
+        flex-direction: column !important;
+        align-items: stretch !important;
+    }
+
+    #essay-checker-tab .trans-difficulty-btn {
+        width: 100% !important;
+        flex: 1 1 auto !important;
+        margin: 6px 0 !important;
+        font-size: 1.05em !important;
+        padding: 14px !important;
+    }
+
+    #essay-checker-tab textarea {
+        width: 100% !important;
+        min-height: 160px !important;
+        font-size: 1.1em !important;
+    }
+
+    /* Voice AI Chat — улучшения */
+    #voice-chat-tab .chat-box,
+    #voiceChatBox {
+        height: calc(100vh - 220px) !important; /* Больше места под чат */
+        max-height: none !important;
+        overflow-y: auto !important;
+        padding: 10px !important;
+    }
+
+    #voice-chat-tab .message {
+        max-width: 95% !important;
+        font-size: 1.05em !important;
+        padding: 12px 16px !important;
+    }
+
+    #voice-chat-tab .input-group,
+    #voice-chat-tab .button-group {
+        flex-direction: column !important;
+        gap: 10px !important;
+    }
+
+    #voice-chat-tab button {
+        width: 100% !important;
+        padding: 14px !important;
+        font-size: 1.1em !important;
+        min-height: 52px !important;
+    }
+
+    /* Recording buttons — крупнее */
+    #voice-chat-tab .btn-success,
+    #voice-chat-tab .btn-danger,
+    #voice-chat-tab .btn-primary {
+        font-size: 1.1em !important;
+    }
+
+    /* Общие кнопки — крупные для тача */
+    .btn:not(.tab):not(.stat-card button) {
+        padding: 14px 16px !important;
+        font-size: 1.05em !important;
+        min-height: 52px !important;
+    }
+}
+
+/* Очень маленькие экраны */
+@media (max-width: 480px) {
+    .stat-card {
+        flex: 0 0 240px !important;
+        min-width: 240px !important;
+    }
+
+    #voice-chat-tab .chat-box,
+    #voiceChatBox {
+        height: calc(100vh - 200px) !important;
+    }
+
+    #essay-checker-tab textarea {
+        min-height: 140px !important;
+    }
+}
+/* === ТОЧЕЧНАЯ МОБИЛЬНАЯ АДАПТАЦИЯ ТОЛЬКО ДЛЯ Voice Chat и Translation Check === */
+@media (max-width: 768px) {
+    /* Voice Chat — большой чат, всё вертикально, удобно на телефоне */
+    #voice-chat-tab,
+    #voice-chat-tab .content,
+    #voice-chat-tab .section {
+        padding: 8px !important;
+    }
+
+    #voiceChatBox,
+    #voice-chat-tab .chat-box {
+        height: calc(100vh - 180px) !important; /* Почти весь экран под сообщения */
+        max-height: none !important;
+        width: 100% !important;
+        padding: 10px !important;
+        overflow-y: auto !important;
+        box-sizing: border-box !important;
+    }
+
+    #voice-chat-tab .message {
+        max-width: 100% !important;
+        width: 100% !important;
+        margin: 8px 0 !important;
+        padding: 12px 16px !important;
+        font-size: 1.05em !important;
+        border-radius: 16px !important;
+    }
+
+    #voice-chat-tab .input-group,
+    #voice-chat-tab .button-group {
+        flex-direction: column !important;
+        gap: 10px !important;
+        margin-top: 10px !important;
+    }
+
+    #voice-chat-tab button,
+    #voice-chat-tab .btn {
+        width: 100% !important;
+        padding: 14px 18px !important;
+        font-size: 1.1em !important;
+        min-height: 54px !important;
+        border-radius: 12px !important;
+        box-sizing: border-box !important;
+    }
+
+    #voice-chat-tab .recording-pulse,
+    #voice-chat-tab .progress-bar {
+        width: 100% !important;
+        height: 12px !important;
+        margin: 10px 0 !important;
+    }
+
+    /* Translation Check (essay-checker) — всё строго вертикально */
+    #essay-checker-tab,
+    #essay-checker-tab .section,
+    #essay-checker-tab .tab-content {
+        padding: 8px !important;
+    }
+
+    #essay-checker-tab .input-group,
+    #essay-checker-tab .button-group,
+    #essay-checker-tab [class*="difficulty-btn"] {
+        flex-direction: column !important;
+        gap: 10px !important;
+        align-items: stretch !important;
+    }
+
+    #essay-checker-tab .trans-difficulty-btn,
+    #essay-checker-tab .essay-difficulty-btn,
+    #essay-checker-tab .essay-hsk-btn {
+        width: 100% !important;
+        flex: 1 1 auto !important;
+        padding: 14px 16px !important;
+        font-size: 1.05em !important;
+        min-height: 54px !important;
+        margin: 6px 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    #essay-checker-tab textarea,
+    #essay-checker-tab #originalTranslationText,
+    #essay-checker-tab #translationText,
+    #essay-checker-tab #translationResultSection {
+        width: 100% !important;
+        min-height: 180px !important;
+        font-size: 1.1em !important;
+        padding: 12px !important;
+        margin: 10px 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    #essay-checker-tab .btn {
+        width: 100% !important;
+        padding: 14px !important;
+        font-size: 1.05em !important;
+        min-height: 52px !important;
+    }
+}
+
+/* Для очень маленьких экранов (≤ 480px) — чуть компактнее */
+@media (max-width: 480px) {
+    #voiceChatBox,
+    #voice-chat-tab .chat-box {
+        height: calc(100vh - 160px) !important;
+    }
+
+    #essay-checker-tab textarea {
+        min-height: 160px !important;
+    }
+
+    #voice-chat-tab .message,
+    #essay-checker-tab textarea {
+        font-size: 1em !important;
+    }
+}
+/* === ФИНАЛЬНАЯ ТОЧЕЧНАЯ ПРАВКА ДЛЯ MOBILE: Voice и Translation Check === */
+@media (max-width: 768px) {
+    /* Voice Chat: большой отступ справа + фикс вылезания за границы */
+    #voice-chat-tab .chat-box,
+    #voiceChatBox {
+        width: 100% !important;
+        box-sizing: border-box !important;
+        padding: 12px 16px !important; /* + отступ справа 16px */
+        margin: 0 !important;
+        overflow-x: hidden !important; /* Запрещаем горизонтальный скролл */
+    }
+
+    #voice-chat-tab .message {
+        max-width: calc(100% - 32px) !important; /* Учитываем padding слева+справа */
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding: 12px 16px !important;
+        border-radius: 20px !important;
+    }
+
+    #voice-chat-tab .ai-message,
+    #voice-chat-tab .user-message {
+        width: auto !important;
+        max-width: 90% !important; /* Дополнительный запас */
+    }
+
+    /* Translation Check: ВТОРАЯ КОЛОНКА СТРОГО ВНИЗ */
+    #essay-checker-tab .content,
+    #essay-checker-tab [style*="grid-template-columns"],
+    #essay-checker-tab .section > div[style*="display: grid"],
+    #essay-checker-tab .section > div[style*="grid-template-columns"] {
+        display: flex !important;
+        flex-direction: column !important;
+        grid-template-columns: none !important;
+        gap: 16px !important;
+    }
+
+    /* Если в Translation Check есть две колонки (например, input + кнопки) */
+    #essay-checker-tab .input-group:has(input, textarea),
+    #essay-checker-tab .button-group:has(.trans-difficulty-btn) {
+        flex-direction: column !important;
+        align-items: stretch !important;
+    }
+
+    #essay-checker-tab .trans-difficulty-btn,
+    #essay-checker-tab .essay-difficulty-btn,
+    #essay-checker-tab .essay-hsk-btn {
+        width: 100% !important;
+        margin: 8px 0 !important;
+        order: 2 !important; /* Принудительно ниже первой колонки */
+    }
+
+    #essay-checker-tab textarea,
+    #essay-checker-tab input {
+        order: 1 !important; /* Первая колонка сверху */
+        width: 100% !important;
+        min-height: 160px !important;
+    }
+}
+
+/* Для маленьких экранов — ещё больше запаса */
+@media (max-width: 480px) {
+    #voice-chat-tab .chat-box,
+    #voiceChatBox {
+        padding: 12px 20px !important; /* + отступ справа 20px */
+    }
+
+    #voice-chat-tab .message {
+        max-width: calc(100% - 40px) !important;
+    }
+}
+/* === Voice Chat Mobile Fix - ЕДИНЫЙ БЛОК === */
+@media (max-width: 768px) {
+    /* ОЧЕНЬ ВАЖНО: Убрать все внешние отступы */
+    #voice-chat-tab {
+        width: 85vw !important;
+        max-width: 100vw !important;
+        padding: 0 !important;
+        overflow-x: hidden !important;
+        box-sizing: border-box !important;
+    }
+    
+    /* Контейнер content - сузить */
+    #voice-chat-tab .content {
+        display: block !important;
+        grid-template-columns: none !important;
+        gap: 0 !important;
+        padding: 0 5px !important;
+        margin: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    
+    /* Section - сузить до предела */
+    #voice-chat-tab .section {
+        padding: 10px 8px !important;
+        margin: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+        background: white;
+        border-radius: 0 !important;
+        box-shadow: none !important;
+    }
+    
+    /* ГРИД-контейнер - превратить в колонку */
+    #voice-chat-tab [style*="display: grid"] {
+        display: flex !important;
+        flex-direction: column !important;
+        grid-template-columns: none !important;
+        gap: 15px !important;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    /* Часть с grid-template-columns: 2fr 1fr */
+    #voice-chat-tab > div > div:first-child {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 15px !important;
+        width: 100% !important;
+    }
+    
+    /* Левая и правая колонки - сделать 100% ширины */
+    #voice-chat-tab > div > div:first-child > div {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    /* Чат-бокс - урезать */
+    #voiceChatBox {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 10px 8px !important;
+        box-sizing: border-box !important;
+        height: 250px !important;
+        border-radius: 8px !important;
+    }
+    
+    /* Сообщения - очень узкие */
+    #voiceChatBox .message {
+        max-width: 88% !important;
+        margin: 6px auto !important;
+        padding: 10px 12px !important;
+        font-size: 0.95em !important;
+    }
+    
+    /* Кнопки голосового управления - компактные */
+    #startVoiceBtn, #stopVoiceBtn, #clearVoiceBtn {
+        padding: 10px 12px !important;
+        margin: 4px 0 !important;
+        font-size: 0.95em !important;
+        min-height: auto !important;
+    }
+    
+    /* Центр управления записью */
+    #voice-chat-tab > div > div:first-child > div:first-child > div:nth-child(3) {
+        text-align: center !important;
+        margin: 0 auto !important;
+        max-width: 100% !important;
+    }
+    
+    /* Быстрые команды - в 2 колонки */
+    #voice-chat-tab .button-group {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 6px !important;
+        margin-top: 10px !important;
+    }
+    
+    #voice-chat-tab .button-group button {
+        padding: 8px 6px !important;
+        font-size: 0.8em !important;
+        margin: 2px !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+    }
+    
+    /* Правая колонка (chengyu и история) */
+    #voice-chat-tab > div > div:last-child {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-top: 15px !important;
+        padding: 0 !important;
+    }
+    
+    /* Карточки в правой колонке */
+    #voice-chat-tab .section > div > div > div:last-child > div {
+        padding: 12px 10px !important;
+        margin: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    
+    /* Поиск в chengyu */
+    #chengyuSearch {
+        padding: 8px 10px !important;
+        font-size: 0.9em !important;
+    }
+    
+    /* Список chengyu */
+    #chengyuList {
+        max-height: 150px !important;
+        padding: 5px !important;
+        font-size: 0.9em !important;
+    }
+    
+    /* Настройки внизу - компактно */
+    #voice-chat-tab > .section > div:last-child {
+        padding: 10px !important;
+        margin-top: 10px !important;
+    }
+    
+    /* Слайдер громкости */
+    #voiceSpeed {
+        width: 150px !important;
+    }
+}
+
+/* Для очень маленьких экранов */
+@media (max-width: 480px) {
+    #voice-chat-tab .section {
+        padding: 8px 5px !important;
+    }
+    
+    #voiceChatBox {
+        height: 200px !important;
+        padding: 8px 5px !important;
+    }
+    
+    #voiceChatBox .message {
+        max-width: 92% !important;
+        padding: 8px 10px !important;
+        font-size: 0.9em !important;
+    }
+    
+    /* Быстрые команды - 3 в ряд */
+    #voice-chat-tab .button-group {
+        grid-template-columns: repeat(3, 1fr) !important;
+        gap: 4px !important;
+    }
+    
+    #voice-chat-tab .button-group button {
+        padding: 6px 4px !important;
+        font-size: 0.75em !important;
+    }
+    
+    /* Голосовые кнопки меньше */
+    #startVoiceBtn, #stopVoiceBtn, #clearVoiceBtn {
+        padding: 8px 10px !important;
+        font-size: 0.9em !important;
+    }
+}
     </style>
 </head>
 <body>
     <div class="container">
         <!-- Header -->
-        <!-- Header -->
 <div class="header">
+    <div class="mobile-menu-btn" onclick="toggleChatSidebar()">
+        <i class="fas fa-bars"></i>
+    </div>
     <h1><i class="fas fa-dragon"></i> HSK AI Tutor</h1>
     <p class="subtitle">Pragmatic Tutor for Passing HSK at Any Cost (Legally)</p>
     
@@ -2110,40 +3098,42 @@
                     <!-- Sidebar with Chats -->
                     <div style="display: grid; grid-template-columns: 250px 1fr; gap: 20px;">
                         <!-- Left Column: Chat List -->
-                        <div style="background: white; border-radius: 12px; padding: 15px; border: 1px solid #dee2e6;">
-                            <div style="margin-bottom: 15px; display: flex; justify-content: space-between; align-items: center;">
-                                <h3 style="font-size: 1.1em;">Chats</h3>
-                                <button onclick="createNewChat()" class="btn btn-primary" style="padding: 6px 12px; font-size: 0.9em;">
-                                    <i class="fas fa-plus"></i> New
-                                </button>
-                            </div>
-                            
-                            <div id="chatList" style="max-height: 350px; overflow-y: auto;">
-                                <!-- Chat list will load via JS -->
-                            </div>
-                            
-                            <div id="chatInfo" style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #dee2e6; display: none;">
-                                <h4 style="font-size: 0.9em; margin-bottom: 10px;">Chat Information</h4>
-                                <div style="margin-bottom: 10px;">
-                                    <input type="text" id="chatTitleInput" placeholder="Chat Name" 
-                                        style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 5px;">
-                                </div>
-                                <div style="margin-bottom: 10px;">
-                                    <select id="chatCategory" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 5px;">
-                                        <option value="general">General</option>
-                                        <option value="grammar">Grammar</option>
-                                        <option value="vocabulary">Vocabulary</option>
-                                        <option value="test_prep">Test Preparation</option>
-                                        <option value="strategy">Strategies</option>
-                                    </select>
-                                </div>
-                                <div>
-                                    <button onclick="updateCurrentChat()" class="btn btn-success" style="width: 100%; padding: 8px; font-size: 0.9em;">
-                                        <i class="fas fa-save"></i> Save
+                        <div class="chat-sidebar" id="chatSidebar">
+                            <div style="background: white; border-radius: 12px; padding: 15px; border: 1px solid #dee2e6; height: 100%;">
+                                <div style="margin-bottom: 15px; display: flex; justify-content: space-between; align-items: center;">
+                                    <h3 style="font-size: 1.1em;">Chats</h3>
+                                    <button onclick="createNewChat()" style="width: 100px;" class="btn btn-primary" style="padding: 6px 12px; font-size: 0.9em;">
+                                        <i class="fas fa-plus"></i> New
                                     </button>
-                                    <button onclick="deleteCurrentChat()" class="btn btn-danger" style="width: 100%; padding: 8px; margin-top: 5px; font-size: 0.9em;">
-                                        <i class="fas fa-trash"></i> Delete
-                                    </button>
+                                </div>
+                                
+                                <div id="chatList" style="max-height: 80vh; overflow-y: auto;">
+                                    <!-- Chat list will load via JS -->
+                                </div>
+                                
+                                <div id="chatInfo" style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #dee2e6; display: none;">
+                                    <h4 style="font-size: 0.9em; margin-bottom: 10px;">Chat Information</h4>
+                                    <div style="margin-bottom: 10px;">
+                                        <input type="text" id="chatTitleInput" placeholder="Chat Name" 
+                                            style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 5px;">
+                                    </div>
+                                    <div style="margin-bottom: 10px;">
+                                        <select id="chatCategory" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 5px;">
+                                            <option value="general">General</option>
+                                            <option value="grammar">Grammar</option>
+                                            <option value="vocabulary">Vocabulary</option>
+                                            <option value="test_prep">Test Preparation</option>
+                                            <option value="strategy">Strategies</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <button onclick="updateCurrentChat()" class="btn btn-success" style="width: 100%; padding: 8px; font-size: 0.9em;">
+                                            <i class="fas fa-save"></i> Save
+                                        </button>
+                                        <button onclick="deleteCurrentChat()" class="btn btn-danger" style="width: 100%; padding: 8px; margin-top: 5px; font-size: 0.9em;">
+                                            <i class="fas fa-trash"></i> Delete
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -2165,7 +3155,7 @@
                             
                             <div class="input-group">
                                 <input type="text" id="messageInput" placeholder="Ask about life hacks for HSK 4...">
-                                <button onclick="sendMessage()">
+                                <button onclick="sendMessage()" style="height: 30px; width: 130px;">
                                     <i class="fas fa-paper-plane"></i> Send
                                 </button>
                             </div>
@@ -2177,20 +3167,11 @@
                                 <button class="btn btn-secondary" onclick="quickQuestion('How to get a CIS scholarship?')">
                                     <i class="fas fa-money-bill-wave"></i> CIS Scholarship
                                 </button>
-                                <button class="btn btn-warning" onclick="quickQuestion('How to find connections in a Chinese university?')">
-                                    <i class="fas fa-handshake"></i> University Connections
-                                </button>
-                                <button class="btn btn-danger" onclick="quickQuestion('Which universities are most foreigner-friendly?')">
-                                    <i class="fas fa-star"></i> Friendly Universities
-                                </button>
                                 <button class="btn btn-success" onclick="quickQuestion('How to write a motivation letter for Tsinghua?')">
                                     <i class="fas fa-envelope"></i> Motivation Letter
                                 </button>
                                 <button class="btn btn-primary" onclick="quickQuestion('How to prepare for HSK 4 quickly?')">
                                     <i class="fas fa-bolt"></i> Quick Preparation
-                                </button>
-                                <button class="btn btn-secondary" onclick="quickQuestion('Which words to learn first?')">
-                                    <i class="fas fa-star"></i> Priority Words
                                 </button>
                                 <button class="btn btn-warning" onclick="quickQuestion('How to guess answers on tests?')">
                                     <i class="fas fa-user-secret"></i> Cheat Codes
@@ -2510,7 +3491,6 @@
     <div class="section">
         <div class="section-header">
             <h2><i class="fas fa-microphone-alt"></i> Voice AI Chat</h2>
-            <div class="icon">🎤</div>
         </div>
         
         <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px;">
@@ -2619,13 +3599,13 @@
             
             <div style="display: flex; gap: 10px;">
                 <button class="btn btn-secondary" onclick="createNewVoiceSession()" style="flex: 1;">
-                    <i class="fas fa-plus"></i> New Dialogue
+                    <i class="fas fa-plus"></i>
                 </button>
                 <button class="btn btn-secondary" onclick="exportVoiceHistory()" style="flex: 1;">
-                    <i class="fas fa-download"></i> Export
+                    <i class="fas fa-download"></i>
                 </button>
                 <button class="btn btn-secondary" onclick="document.getElementById('importHistory').click()" style="flex: 1;">
-                    <i class="fas fa-upload"></i> Import
+                    <i class="fas fa-upload"></i>
                 </button>
             </div>
             
@@ -3119,34 +4099,7 @@
     </div>
 </div>
         
-        <!-- Footer -->
-        <div class="footer">
-            <h3>🔗 Quick API Links</h3>
-            <div class="api-links">
-                <a href="https://saiyan-3s8s.onrender.com/docs" target="_blank">
-                    <i class="fas fa-book"></i> Documentation
-                </a>
-                <a href="https://saiyan-3s8s.onrender.com/stats" target="_blank">
-                    <i class="fas fa-chart-bar"></i> Statistics
-                </a>
-                <a href="https://saiyan-3s8s.onrender.com/test/1" target="_blank">
-                    <i class="fas fa-file-alt"></i> HSK 1 Test
-                </a>
-                <a href="https://saiyan-3s8s.onrender.com/word/random" target="_blank">
-                    <i class="fas fa-dice"></i> Random Word
-                </a>
-                <a href="https://saiyan-3s8s.onrender.com/words/level/3" target="_blank">
-                    <i class="fas fa-list"></i> HSK 3 Words
-                </a>
-                <a href="https://saiyan-3s8s.onrender.com/search/爱" target="_blank">
-                    <i class="fas fa-search"></i> Word Search
-                </a>
-            </div>
-            <p style="margin-top: 20px; opacity: 0.8;">
-                🎌 HSK AI Tutor v1.0 | 5462 words in database | Pragmatic learning
-            </p>
         </div>
-    </div>
 
     <!-- Login Modal -->
 <div id="loginModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1000; align-items: center; justify-content: center;">
@@ -13640,7 +14593,7 @@ window.onload = async function() {
     // Greeting
     if (!currentUser) {
         setTimeout(() => {
-            addMessage('🔐 To save progress, enter your name at top of page and click "Log in".', 'ai');
+            addMessage('🔐 To save progress, click "Log in".', 'ai');
         }, 1000);
     }
     // Add to end of window.onload or separate initialization function
@@ -13691,6 +14644,27 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log("registerModal перемещён в <body>");
     }
 });
+function toggleChatSidebar() {
+    document.getElementById('chatSidebar').classList.toggle('active');
+    
+    // Закрывать по клику вне меню
+    if (document.getElementById('chatSidebar').classList.contains('active')) {
+        setTimeout(() => {
+            document.addEventListener('click', closeChatSidebarOutside);
+        }, 0);
+    } else {
+        document.removeEventListener('click', closeChatSidebarOutside);
+    }
+}
+
+function closeChatSidebarOutside(e) {
+    const sidebar = document.getElementById('chatSidebar');
+    const btn = document.querySelector('.mobile-chat-menu-btn');
+    if (!sidebar.contains(e.target) && !btn.contains(e.target)) {
+        sidebar.classList.remove('active');
+        document.removeEventListener('click', closeChatSidebarOutside);
+    }
+}
     </script>
 </body>
 </html>
